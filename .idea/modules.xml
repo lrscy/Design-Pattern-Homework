@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Company of Heroes Simple RPG/Company of Heroes Simple RPG.iml" filepath="$PROJECT_DIR$/Company of Heroes Simple RPG/Company of Heroes Simple RPG.iml" />
       <module fileurl="file://$PROJECT_DIR$/Company of Heroes Simple SLG/Company of Heroes Simple SLG.iml" filepath="$PROJECT_DIR$/Company of Heroes Simple SLG/Company of Heroes Simple SLG.iml" />
     </modules>
   </component>
