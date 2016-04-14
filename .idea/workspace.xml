@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bb73bc5-050b-4450-bb1e-540383e1181f" name="Default" comment="1. 完成了初步的UML设计，设计用到了11个模式。&#10;2. 抽象工厂已实现。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UML类图.vsdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/AbstractFactoryOfFireUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/AttackByCannon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/AttackByGun.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/AttackByRocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/ConcreteFireUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/DefenceByArmour.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/DefenceBySoldier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/FactoryOfArmourUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/FactoryOfLongRangeUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/FactoryOfSoldierUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/MoveByVehicle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/MoveByWalk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/WayOfAttack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/WayOfDefence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/WayOfMove.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Company of Heroes Simple SLG/src/Naming Conventions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9bb73bc5-050b-4450-bb1e-540383e1181f" name="Default" comment="1. 完成了初步的UML设计，设计用到了11个模式。&#10;2. 抽象工厂已实现。" />
     <ignored path="Design-Pattern-Homework.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -96,8 +75,8 @@
         <option value="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/WayOfDefence.java" />
         <option value="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/FactoryOfArmourUnit.java" />
         <option value="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/FactoryOfLongRangeUnit.java" />
-        <option value="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/AttackByGun.java" />
         <option value="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/AbstractFactoryOfFireUnit.java" />
+        <option value="$PROJECT_DIR$/Company of Heroes Simple SLG/src/FireUnit/AttackByGun.java" />
       </list>
     </option>
   </component>
@@ -499,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1458556313345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. 完成了初步的UML设计，设计用到了11个模式。&#10;2. 抽象工厂已实现。">
+      <created>1460651040918</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1460651040918</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">

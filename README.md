@@ -1,2 +1,2 @@
-# Design-Pattern-Homework
-JAVA语言，二战即时战略游戏“英雄连”简化的SLG版本。
+﻿# Design-Pattern-Homework
+JAVA语言，GBA“大战争”简化版本。
