@@ -1,7 +1,7 @@
-package FireUnit;
+package FireUnit.BasicComponent;
 
-public class FactoryOfLongRangeUnit implements AbstractFactoryOfFireUnit {
-    private String unitName = "步兵";
+public class FactoryOfSoldierUnit implements AbstractFactoryOfFireUnit {
+    private String unitName = "装甲车";
 
     public String getName() {
         return unitName;
@@ -12,10 +12,10 @@ public class FactoryOfLongRangeUnit implements AbstractFactoryOfFireUnit {
     }
 
     public WayOfAttack CreateWayOfAttack() {
-        return new AttackByRocket();
+        return new AttackByCannon();
     }
 
     public WayOfDefence CreateWayOfDefence() {
-        return new DefenceBySoldier();
+        return new DefenceByArmour();
     }
 }

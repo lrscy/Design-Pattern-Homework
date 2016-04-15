@@ -1,6 +1,7 @@
-package FireUnit;
+package FireUnit.BasicComponent;
 
-public class AttackByRocket implements WayOfAttack {
+public class AttackByCannon implements WayOfAttack {
+    private String hashCode = "1";
     private int attackDamage = 40;
     private int attackRange = 2;
 
@@ -10,5 +11,9 @@ public class AttackByRocket implements WayOfAttack {
 
     public int attackEffect() {
         return attackDamage;
+    }
+
+    public String getHashCode() {
+        return hashCode;
     }
 }

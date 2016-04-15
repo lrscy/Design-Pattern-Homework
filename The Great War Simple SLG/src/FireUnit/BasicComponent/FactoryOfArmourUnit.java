@@ -1,4 +1,4 @@
-package FireUnit;
+package FireUnit.BasicComponent;
 
 public class FactoryOfArmourUnit implements AbstractFactoryOfFireUnit {
     private String unitName = "步兵";
