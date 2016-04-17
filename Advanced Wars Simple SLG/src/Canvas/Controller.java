@@ -1,4 +1,4 @@
-package sample;
+package Canvas;
 
 public class Controller {
 }
