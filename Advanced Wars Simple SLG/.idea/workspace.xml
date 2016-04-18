@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TODOList" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Memeto/MemetoCaretaker.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Memeto/Memeto.java" afterPath="$PROJECT_DIR$/src/Memeto/Memento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Ruosen.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ruosen.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" afterPath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/LastAction.java" afterPath="$PROJECT_DIR$/src/Memeto/LastAction.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -670,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460963853373</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1. 添加TODOList&#10;2. 完善地图模块&#10;3. 更改架构，将战斗和移动操作并入地图模块中">
+      <created>1460976169818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1460976169818</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -737,7 +737,8 @@
     <MESSAGE value="更改项目为JavaFX项目" />
     <MESSAGE value="1. 利用Tiles地图编辑器将地图生成为XML配置文件&#10;2. 调整了工程整体架构" />
     <MESSAGE value="1. 重构地图&#10;2. 取消地图上的工厂&#10;3. 更改工厂具体作用&#10;4. 完成部分TODOList" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 重构地图&#10;2. 取消地图上的工厂&#10;3. 更改工厂具体作用&#10;4. 完成部分TODOList" />
+    <MESSAGE value="1. 添加TODOList&#10;2. 完善地图模块&#10;3. 更改架构，将战斗和移动操作并入地图模块中" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 添加TODOList&#10;2. 完善地图模块&#10;3. 更改架构，将战斗和移动操作并入地图模块中" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
