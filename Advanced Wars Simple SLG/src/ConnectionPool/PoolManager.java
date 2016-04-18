@@ -11,7 +11,7 @@ public class PoolManager {
 
     private PoolManager() { list = new ArrayList<>(); }
 
-    public PoolManager getInstance() {
+    public static PoolManager getInstance() {
         if( poolManager == null ) {
             synchronized( PoolManager.class ) {
                 if( poolManager == null ) {
@@ -28,7 +28,7 @@ public class PoolManager {
             PoolItem pi = ( PoolItem )iter.next();
             if( !pi.isUsed && fireUnit.equals( pi.fireUnit ) ) {
                 pi.isUsed = true;
-                return ;
+                return;
             }
         }
         list.add( new PoolItem( fireUnit, flag ) );
@@ -55,7 +55,7 @@ public class PoolManager {
             if( pi.id.equals( id ) ) {
                 pi.isUsed = false;
                 pi.id = "0";
-                return ;
+                return;
             }
         }
     }

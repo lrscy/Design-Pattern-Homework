@@ -21,15 +21,9 @@ public class LastAction {
         this.fireUnit2 = fireUnit2;
     }
 
-    public String getState() {
-        return state;
-    }
+    public String getState() { return state; }
 
-    public FireUnit getFireUnit1() {
-        return fireUnit1;
-    }
+    public FireUnit getFireUnit1() { return fireUnit1; }
 
-    public FireUnit getFireUnit2() {
-        return fireUnit2;
-    }
+    public FireUnit getFireUnit2() { return fireUnit2; }
 }

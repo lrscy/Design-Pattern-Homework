@@ -11,7 +11,5 @@ public class Healthy implements HealthComponent {
         fireUnit.setAttackComponent( new GeneralDecorator( new AttackAttrOfFireUnit() ) );
     }
 
-    public String getHealthStatus() {
-        return healthStatus;
-    }
+    public String getHealthStatus() { return healthStatus; }
 }

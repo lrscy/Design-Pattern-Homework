@@ -6,9 +6,7 @@ public class FactoryOfBasicComponent {
     private static FactoryOfBasicComponent factoryOfBasicComponent = null;
     private HashMap<String, BasicComponent> fireUnits = null;
 
-    private FactoryOfBasicComponent() {
-        if( fireUnits == null ) fireUnits = new HashMap<>();
-    }
+    private FactoryOfBasicComponent() { if( fireUnits == null ) fireUnits = new HashMap<>(); }
 
     public static FactoryOfBasicComponent getInstance() {
         if( factoryOfBasicComponent == null ) {
@@ -29,7 +27,7 @@ public class FactoryOfBasicComponent {
             tmpB = new ConcreteBasicComponent();
             try {
                 Class c = Class.forName( unit );
-                tmpA = (AbstractFactoryOfFireUnit) c.newInstance();
+                tmpA = ( AbstractFactoryOfFireUnit )c.newInstance();
             } catch( Exception e ) {
                 System.out.println( "无法找到该类" );
             }

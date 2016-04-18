@@ -1,7 +1,8 @@
 package Battlefield;
 
 import ConnectionPool.PoolManager;
-import Factory.FactoryOfFireUnit;
+import FactoryOfFireUnit.FactoryOfFireUnit;
+import FireUnit.FireUnit;
 import Global.Position;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
@@ -12,7 +13,7 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Battlefield {
     private String fireUnits[][] = null;
@@ -21,72 +22,64 @@ public class Battlefield {
     private boolean canAction[][] = null;
     private boolean terrainStatus[][] = null;
     private static Battlefield battlefield = null;
-    private ArrayList<FactoryOfFireUnit> factoryOfFireUnits = null;
+    private PoolManager poolManager = null;
 
     private int tileWidth, tileHeight, numOfTileset;
     private Tileset tilesets[] = null;
     private int canvas[][] = null;
 
     private Battlefield( String name ) {
-        if( factoryOfFireUnits == null ) factoryOfFireUnits = new ArrayList<>();
+        poolManager = PoolManager.getInstance();
         queryXML( name );
     }
 
-    public Battlefield getInstance( String name ) {
-         if( battlefield == null ) {
-             synchronized( Battlefield.class ) {
-                 if( battlefield == null ) {
-                     battlefield = new Battlefield( name );
-                 }
-             }
-         }
-         return battlefield;
-     }
-
-   // TODO: 系统随机生成id
-    public void addFactoryOfFireUnit( String troopName, FactoryOfFireUnit factoryOfFireUnit ) {
+    public static Battlefield getInstance( String name ) {
+        if( battlefield == null ) {
+            synchronized( Battlefield.class ) {
+                if( battlefield == null ) {
+                    battlefield = new Battlefield( name );
+                }
+            }
+        }
+        return battlefield;
     }
 
-    // TODO: 依据对象池中的对象进行回合转换
+    // TODO: check依据对象池中的对象进行回合转换
     public void Round( String troopName ) {
         for( int i = 0; i < height; ++i ) {
+            Arrays.fill( canMove[i], false );
             for( int j = 0; j < width; ++j ) {
-                ;
+                if( poolManager.get( fireUnits[i][j] ) != null ) {
+                    canMove[i][j] = true;
+                }
             }
         }
     }
 
     public void move( Position from, Position to ) {
-        fireUnits[to.getX()][to.getY()] = fireUnits[from.getX()][from.getY()];
-        fireUnits[from.getX()][from.getY()] = "0";
-        // TODO: 修改图像
+        int x1 = from.getX(), y1 = from.getY(), x2 = to.getX(), y2 = to.getY();
+        fireUnits[x2][y2] = fireUnits[x1][y1];
+        fireUnits[x1][y1] = "0";
+        canvas[x2][y2] = canvas[x1][y1];
+        canvas[x1][y1] = 76;
+        setMoveStatus( x1, y1, false );
     }
 
-    public String getFireUnitID( int x, int y ) {
-        return fireUnits[x][y];
-    }
+    public String getFireUnitID( int x, int y ) { return fireUnits[x][y]; }
 
     public void setMoveStatus( int x, int y, boolean flag ) { canMove[x][y] = flag; }
 
-    public boolean canSelected( int x, int y ) {
-        return canMove[x][y];
-    }
+    public boolean canSelected( int x, int y ) { return canMove[x][y]; }
 
     public void setActionStatus( int x, int y, boolean flag ) { canAction[x][y] = flag; }
 
-    public boolean canAttack( int x, int y ) {
-        return canAction[x][y];
-    }
+    public boolean canAttack( int x, int y ) { return canAction[x][y]; }
 
-    // TODO: 和前端显示衔接
+    // TODO: check和前端显示衔接
     public void display( GraphicsContext gc ) {
         for( int x = 0; x < height; ++x ) {
             for( int y = 0; y < width; ++y ) {
-                int pos;
-                for( pos = 0; pos < numOfTileset; ++pos ) {
-                    if( tilesets[pos].getFirestgid() <= canvas[x][y] )
-                        break;
-                }
+                int pos = getLayer( canvas[x][y] );
                 int tmp = canvas[x][y] - tilesets[pos].getFirestgid();
                 int px = tmp / tilesets[pos].getColumns();
                 int py = tmp % tilesets[pos].getColumns();
@@ -96,6 +89,15 @@ public class Battlefield {
                         y * tTileWidth, x * tTileHeight, tTileWidth, tTileHeight );
             }
         }
+    }
+
+    private int getLayer( int num ) {
+        int pos = 0;
+        for( pos = 0; pos < numOfTileset; ++pos ) {
+            if( tilesets[pos].getFirestgid() <= num )
+                return pos;
+        }
+        return 0;
     }
 
     // TODO: check文件能否找到
@@ -115,17 +117,19 @@ public class Battlefield {
             tileWidth = Integer.parseInt( map.getAttribute( "tilewidth" ) );
             tileHeight = Integer.parseInt( map.getAttribute( "tileheight" ) );
             NodeList nodeListTileset = map.getElementsByTagName( "tileset" );
-            if( nodeListTileset == null ) return ;
+            if( nodeListTileset == null ) return;
             numOfTileset = nodeListTileset.getLength();
             for( int i = 0; i < numOfTileset; ++i ) {
                 Element tilesetElement = ( Element )nodeListTileset.item( i );
                 setTilesets( i, name, tilesetElement );
             }
             NodeList nodeListLayer = map.getElementsByTagName( "layer" );
-            if( nodeListLayer == null ) return ;
-            for( int i = 0; i < nodeListLayer.getLength() - 1; ++i ) {
-                Element layerElement = ( Element )nodeListLayer.item( i );
-                setCanvas( layerElement );
+            if( nodeListLayer == null ) return;
+            Element terrainElement = ( Element )nodeListLayer.item( 0 );
+            setTerrain( terrainElement );
+            for( int i = 1; i < nodeListLayer.getLength() - 1; ++i ) {
+                Element fireUnitElement = ( Element )nodeListLayer.item( i );
+                setFireUnits( i, fireUnitElement );
             }
             Element lastLayer = ( Element )nodeListLayer.item( nodeListLayer.getLength() - 1 );
             setTerrainStatus( lastLayer );
@@ -148,11 +152,27 @@ public class Battlefield {
         tilesets[i].setImage( image );
     }
 
-    private void setCanvas( Element layerElement ) {
-        String str[] = layerElement.getAttribute( "data" ).split( "," );
+    private void setTerrain( Element terrainElement ) {
+        Element data = ( Element )terrainElement.getFirstChild();
+        String str[] = data.getAttribute( "data" ).split( "," );
         for( int i = 0; i < str.length; ++i ) {
             int x = i % width, y = i / width, tmp = Integer.parseInt( str[i] );
-            if( tmp != 0 ) canvas[x][y] = tmp;
+            if( tmp != 0 ) {
+                canvas[x][y] = tmp;
+            }
+        }
+    }
+
+    private void setFireUnits( int No, Element fireUnitElement ) {
+        String troopName = fireUnitElement.getAttribute( "name" );
+        Element data = ( Element )fireUnitElement.getFirstChild();
+        String str[] = data.getNodeValue().split( "," );
+        for( int i = 0; i < str.length; ++i ) {
+            int x = i % width, y = i / width, tmp = Integer.parseInt( str[i] );
+            if( tmp != 0 ) {
+                canvas[x][y] = tmp;
+                addFireUnit( troopName, str[i], new Position( x, y ) );
+            }
         }
     }
 
@@ -162,5 +182,10 @@ public class Battlefield {
             int x = i % width, y = i / width, tmp = Integer.parseInt( str[i] );
             terrainStatus[x][y] = ( tmp != 0 );
         }
+    }
+
+    private void addFireUnit( String troopName, String category, Position position ) {
+        FireUnit fireUnit = FactoryOfFireUnit.getInstance().produceFireUnit( troopName, category, position );
+        poolManager.add( fireUnit, true );
     }
 }

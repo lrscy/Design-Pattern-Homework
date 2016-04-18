@@ -7,8 +7,6 @@ import FireUnit.HealthComponent.HealthComponent;
 import FireUnit.HealthComponent.Healthy;
 import FireUnit.HealthComponent.Injured;
 import Global.Position;
-import Observer.Observer;
-import Observer.AllyControlCenter;
 
 import java.io.*;
 
@@ -24,32 +22,28 @@ public class FireUnit {
     private HealthComponent healthComponent;
     private transient BasicComponent basicComponent;
 
-    public FireUnit( String id, String troopName, String unitName, String weaponName,
-                     Position position, int health, AttackComponent attackComponent,
-                     BasicComponent basicComponent, HealthComponent healthComponent ) {
+    public FireUnit( String id, String troopName, Position position, int health,
+                     AttackComponent attackComponent, BasicComponent basicComponent ) {
         this.id = id;
         this.troopName = troopName;
-        this.unitName = unitName;
-        this.weaponName = weaponName;
         setPosition( position );
         setHealthValue( health );
         this.attackComponent = attackComponent;
         this.basicComponent = basicComponent;
-        this.healthComponent = healthComponent;
+        unitName = basicComponent.getName();
+        weaponName = attackComponent.getName();
     }
 
     public FireUnit( AttackComponent attackComponent, BasicComponent basicComponent ) {
         this.attackComponent = attackComponent;
         this.basicComponent = basicComponent;
+        troopName = basicComponent.getName();
+        weaponName = attackComponent.getName();
     }
 
-    public String getID() {
-        return id;
-    }
+    public String getID() { return id; }
 
-    public String getTroopName() {
-        return troopName;
-    }
+    public String getTroopName() { return troopName; }
 
     public String getUnitName() {
         if( unitName == null ) unitName = basicComponent.getName();
@@ -61,9 +55,7 @@ public class FireUnit {
         return weaponName;
     }
 
-    public String getHealthStatus() {
-        return healthComponent.getHealthStatus();
-    }
+    public String getHealthStatus() { return healthComponent.getHealthStatus(); }
 
     public String getHashCode() {
         hashCode = basicComponent.getHashCode() + attackComponent.getHashCode();
@@ -75,49 +67,27 @@ public class FireUnit {
         position.setY( y );
     }
 
-    public void setPosition( Position position ) {
-        this.position = position;
-    }
+    public void setPosition( Position position ) { this.position = position; }
 
-    public Position getPosition() {
-        return position;
-    }
+    public Position getPosition() { return position; }
 
-    public void setAttackComponent( AttackComponent attackComponent ) {
-        this.attackComponent = attackComponent;
-    }
+    public void setAttackComponent( AttackComponent attackComponent ) { this.attackComponent = attackComponent; }
 
-    public AttackComponent getAttackComponent() {
-        return attackComponent;
-    }
+    public AttackComponent getAttackComponent() { return attackComponent; }
 
-    public void setBasicComponent( BasicComponent basicComponent ) {
-        this.basicComponent = basicComponent;
-    }
+    public void setBasicComponent( BasicComponent basicComponent ) { this.basicComponent = basicComponent; }
 
-    public BasicComponent getBasicComponent() {
-        return basicComponent;
-    }
+    public BasicComponent getBasicComponent() { return basicComponent; }
 
-    public HealthComponent getHealthComponent() {
-        return healthComponent;
-    }
+    public HealthComponent getHealthComponent() { return healthComponent; }
 
-    public int getMoveRange() {
-        return basicComponent.maxMoveRange();
-    }
+    public int getMoveRange() { return basicComponent.maxMoveRange(); }
 
-    public int getAttackRange() {
-        return basicComponent.maxAttackRange();
-    }
+    public int getAttackRange() { return basicComponent.maxAttackRange(); }
 
-    public int getAttackValue() {
-        return basicComponent.attackEffect();
-    }
+    public int getAttackValue() { return basicComponent.attackEffect(); }
 
-    public int getDefenceValue() {
-        return basicComponent.defenceEffect();
-    }
+    public int getDefenceValue() { return basicComponent.defenceEffect(); }
 
     public void setHealthValue( int health ) {
         this.health = health;
@@ -127,9 +97,7 @@ public class FireUnit {
         healthComponent.setHealthStatus( this );
     }
 
-    public int getHealthValue() {
-        return health;
-    }
+    public int getHealthValue() { return health; }
 
     public FireUnit deepClone() throws IOException, ClassNotFoundException {
         ByteArrayOutputStream bao = new ByteArrayOutputStream();
@@ -137,7 +105,7 @@ public class FireUnit {
         oos.writeObject( this );
         ByteArrayInputStream bis = new ByteArrayInputStream( bao.toByteArray() );
         ObjectInputStream ois = new ObjectInputStream( bis );
-        FireUnit fu = (FireUnit) ois.readObject();
+        FireUnit fu = ( FireUnit )ois.readObject();
         fu.setBasicComponent( this.basicComponent );
         // TODO: toString 检测
         return fu;
@@ -147,16 +115,14 @@ public class FireUnit {
     public boolean equals( Object obj ) {
         boolean ret = false;
         if( obj instanceof FireUnit ) {
-            FireUnit fireUnit = (FireUnit) obj;
+            FireUnit fireUnit = ( FireUnit )obj;
             if( getHashCode().equals( fireUnit.getHashCode() ) ) ret = true;
         }
         return ret;
     }
 
     @Override
-    public int hashCode() {
-        return 0;
-    }
+    public int hashCode() { return 0; }
 
     @Override
     public String toString() {

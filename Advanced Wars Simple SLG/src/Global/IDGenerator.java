@@ -4,9 +4,11 @@ public class IDGenerator {
     private int number;
     private static IDGenerator idGenerator = null;
 
-    private IDGenerator() { number = 1; }
+    private IDGenerator() {
+        number = 1;
+    }
 
-    public IDGenerator getInstance() {
+    public static IDGenerator getInstance() {
         if( idGenerator == null ) {
             synchronized( IDGenerator.class ) {
                 if( idGenerator == null ) {
