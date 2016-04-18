@@ -4,6 +4,9 @@ import ConnectionPool.PoolManager;
 import FactoryOfFireUnit.FactoryOfFireUnit;
 import FireUnit.FireUnit;
 import Global.Position;
+import Memeto.LastAction;
+import Memeto.Memento;
+import Memeto.MementoCaretaker;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 import org.w3c.dom.Document;
@@ -14,6 +17,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Battlefield {
     private String fireUnits[][] = null;
@@ -27,8 +32,13 @@ public class Battlefield {
     private int tileWidth, tileHeight, numOfTileset;
     private Tileset tilesets[] = null;
     private int canvas[][] = null;
+    private List<Position> moveList, aimList;
+    private List<Integer> aim;
 
     private Battlefield( String name ) {
+        moveList = new LinkedList<>();
+        aimList = new LinkedList<>();
+        aim = new LinkedList<>();
         poolManager = PoolManager.getInstance();
         queryXML( name );
     }
@@ -58,11 +68,29 @@ public class Battlefield {
 
     public void move( Position from, Position to ) {
         int x1 = from.getX(), y1 = from.getY(), x2 = to.getX(), y2 = to.getY();
+        FireUnit fu = PoolManager.getInstance().get( fireUnits[x1][y1] );
+        fu.setPosition( to );
         fireUnits[x2][y2] = fireUnits[x1][y1];
         fireUnits[x1][y1] = "0";
         canvas[x2][y2] = canvas[x1][y1];
         canvas[x1][y1] = 76;
         setMoveStatus( x1, y1, false );
+        LastAction lastAction = new LastAction( "move", fu, from );
+        MementoCaretaker.getInstance().save( new Memento( lastAction ) );
+    }
+
+    public void battle( Position p1, Position p2 ) {
+        int x1 = p1.getX(), y1 = p1.getY(), x2 = p2.getX(), y2 = p2.getY();
+        FireUnit fu1 = PoolManager.getInstance().get( fireUnits[x1][y1] );
+        FireUnit fu2 = PoolManager.getInstance().get( fireUnits[x2][y2] );
+    }
+
+    public void restore() {
+        LastAction lastAction = MementoCaretaker.getInstance().restore().getLastAction();
+        String state = lastAction.getState();
+        if( state.equals( "move" ) ) {
+            move( lastAction.getFireUnit2().getPosition(), lastAction.getFireUnit1().getPosition() );
+        }
     }
 
     public String getFireUnitID( int x, int y ) { return fireUnits[x][y]; }
@@ -76,7 +104,7 @@ public class Battlefield {
     public boolean canAttack( int x, int y ) { return canAction[x][y]; }
 
     // TODO: check和前端显示衔接
-    public void display( GraphicsContext gc ) {
+    public void drawCanvas( GraphicsContext gc ) {
         for( int x = 0; x < height; ++x ) {
             for( int y = 0; y < width; ++y ) {
                 int pos = getLayer( canvas[x][y] );
@@ -187,5 +215,67 @@ public class Battlefield {
     private void addFireUnit( String troopName, String category, Position position ) {
         FireUnit fireUnit = FactoryOfFireUnit.getInstance().produceFireUnit( troopName, category, position );
         poolManager.add( fireUnit, true );
+    }
+
+    private void getMovableRange( Position position ) {
+        int dx[] = { -1, 0, 1, 0 }, dy[] = { 0, 1, 0, -1 };
+        int range = poolManager.get( fireUnits[position.getX()][position.getY()] ).getMoveRange();
+        moveList.clear();
+        moveList.add( position );
+        for( int i = 0; i < moveList.size(); ++i ) {
+            Position tp = moveList.get( i );
+            --range;
+            for( int j = 0; j < 4; ++j ) {
+                int tx = tp.getX() + dx[j], ty = tp.getY() + dy[j];
+                if( 0 <= tx && tx <= height && 0 <= ty && ty <= width &&
+                        !fireUnits[tx][ty].equals( "0" ) && range > 0 ) {
+                    Position newp = new Position( tx, ty );
+                    moveList.add( newp );
+                }
+            }
+        }
+        moveList.remove( 0 );
+    }
+
+    public void drawMovableRange( Position position, boolean flag ) {
+        if( flag ) getMovableRange( position );
+        for( Position pos : moveList ) {
+            int tx = pos.getX(), ty = pos.getY();
+            canvas[tx][ty] = flag ? 94 : 76;
+        }
+        if( !flag ) moveList.clear();
+    }
+
+    private void getAttackableRange( Position position, String troopName ) {
+        int dx[] = { -1, 0, 1, 0 }, dy[] = { 0, 1, 0, -1 };
+        int range = poolManager.get( fireUnits[position.getX()][position.getY()] ).getAttackRange();
+        aimList.clear(); aim.clear(); moveList.clear();
+        moveList.add( position );
+        for( int i = 0; i < moveList.size(); ++i ) {
+            Position tp = moveList.get( i );
+            --range;
+            for( int j = 0; j < 4; ++j ) {
+                int tx = tp.getX() + dx[j], ty = tp.getY() + dy[j];
+                if( 0 <= tx && tx <= height && 0 <= ty && ty <= width &&
+                        !fireUnits[tx][ty].equals( "0" ) && range > 0 ) {
+                    Position newp = new Position( tx, ty );
+                    moveList.add( newp );
+                    if( poolManager.get( fireUnits[tx][ty] ).getTroopName().equals( troopName ) ) {
+                        aim.add( canvas[tx][ty] );
+                        aimList.add( newp );
+                    }
+                }
+            }
+        }
+    }
+
+    public void drawAttackableRange( Position position, boolean flag, String troopName ) {
+        if( flag ) getAttackableRange( position, troopName );
+        for( int i = 0; i < moveList.size(); ++i ) {
+            Position pos = moveList.get( i );
+            int tx = pos.getX(), ty = pos.getY();
+            canvas[tx][ty] = flag ? 95 : aim.get( i );
+        }
+        if( !flag ) { moveList.clear(); aim.clear(); aimList.clear(); }
     }
 }

@@ -1,18 +1,17 @@
 package Memeto;
 
 import FireUnit.FireUnit;
+import Global.Position;
 
-/**
- * Created by Ruosen on 2016/4/16.
- */
 public class LastAction {
     private String state = null;
     private FireUnit fireUnit1, fireUnit2;
 
-    public LastAction( String state, FireUnit fireUnit1 ) {
+    public LastAction( String state, FireUnit fireUnit1, Position position ) {
         this.state = state;
         this.fireUnit1 = fireUnit1;
-        this.fireUnit2 = null;
+        this.fireUnit2 = fireUnit1;
+        this.fireUnit2.setPosition( position );
     }
 
     public LastAction( String state, FireUnit fireUnit1, FireUnit fireUnit2 ) {
