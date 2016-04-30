@@ -1,100 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Canvas/Hint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Menu/ControlMenu.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/TextObject.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu/TextObject.java" afterPath="$PROJECT_DIR$/src/Global/TextObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Tileset.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Tileset.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/Main.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$1.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$Status.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$Status.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/WTimer$OnTimerListener.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/WTimer$OnTimerListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/WTimer.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/WTimer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolManager.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackAttrOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackAttrOfFireUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponentDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponentDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Cannon.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Cannon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/GeneralDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/GeneralDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/IFV.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/IFV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/MechineGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/MechineGun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/RocketGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/RocketGun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/ShoulderMissiles.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/ShoulderMissiles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/SubMechineGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/SubMechineGun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Tank.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Tank.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/WeaknessDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/WeaknessDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByCannon.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByCannon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByGun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByRocket.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByRocket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/ConcreteBasicComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/ConcreteBasicComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceByArmour.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceByArmour.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceBySoldier.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceBySoldier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfArmourUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfArmourUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfBasicComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfBasicComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfLongRangeUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfLongRangeUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfSoldierUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfSoldierUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByVehicle.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByVehicle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByWalk.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByWalk.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/FireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/FireUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Death.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Death.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Healthy.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Healthy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Injured.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Injured.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/BaseDraw.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/BaseDraw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/Position.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/Position.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Memeto/LastAction.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Memeto/LastAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Memeto/MementoCaretaker.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Memeto/MementoCaretaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ActionMenu.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ActionMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/PropertyMenu.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/PropertyMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Observer/AllyControlCenter.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Observer/AllyControlCenter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" afterPath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Tileset.java" afterPath="$PROJECT_DIR$/src/Battlefield/Tileset.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/Main.java" afterPath="$PROJECT_DIR$/src/Canvas/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" afterPath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/WTimer.java" afterPath="$PROJECT_DIR$/src/Canvas/WTimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConnectionPool/PoolManager.java" afterPath="$PROJECT_DIR$/src/ConnectionPool/PoolManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/BaseDraw.java" afterPath="$PROJECT_DIR$/src/Global/BaseDraw.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Position.java" afterPath="$PROJECT_DIR$/src/Global/Position.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/LastAction.java" afterPath="$PROJECT_DIR$/src/Memeto/LastAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/Memento.java" afterPath="$PROJECT_DIR$/src/Memeto/Memento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" afterPath="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu/ActionMenu.java" afterPath="$PROJECT_DIR$/src/Menu/ActionMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu/PropertyMenu.java" afterPath="$PROJECT_DIR$/src/Menu/PropertyMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" afterPath="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODOList" afterPath="$PROJECT_DIR$/TODOList" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -185,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Battlefield.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Battlefield.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-438">
@@ -223,6 +132,16 @@
                 <element signature="method#drawAssaultableRange#0;class#Battlefield#0" expanded="false" />
                 <marker date="1462028970648" expanded="true" signature="11535:11539" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TODOList" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TODOList">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -266,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/Text/Text.java" />
         <option value="$PROJECT_DIR$/src/Global/Text.java" />
         <option value="$PROJECT_DIR$/src/Global/IDraw.java" />
-        <option value="$PROJECT_DIR$/TODOList" />
         <option value="$PROJECT_DIR$/src/Canvas/Main.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" />
@@ -309,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/Menu/ControlMenu.java" />
         <option value="$PROJECT_DIR$/src/Menu/ActionMenu.java" />
         <option value="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
+        <option value="$PROJECT_DIR$/TODOList" />
       </list>
     </option>
   </component>
@@ -1048,7 +967,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1462016567716" duration="1035000" />
-      <workItem from="1462019718331" duration="9284000" />
+      <workItem from="1462019718331" duration="9579000" />
     </task>
     <task id="LOCAL-00001" summary="更改项目为JavaFX项目">
       <created>1460810001147</created>
@@ -1085,11 +1004,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460976184463</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏">
+      <created>1462029147951</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1462029147951</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11621000" />
+    <option name="totallyTimeSpent" value="11916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1102,7 +1028,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1860" height="1098" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29424307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1186,7 +1112,9 @@
     <MESSAGE value="1. 利用Tiles地图编辑器将地图生成为XML配置文件&#10;2. 调整了工程整体架构" />
     <MESSAGE value="1. 重构地图&#10;2. 取消地图上的工厂&#10;3. 更改工厂具体作用&#10;4. 完成部分TODOList" />
     <MESSAGE value="1. 添加TODOList&#10;2. 完善地图模块&#10;3. 更改架构，将战斗和移动操作并入地图模块中" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 添加TODOList&#10;2. 完善地图模块&#10;3. 更改架构，将战斗和移动操作并入地图模块中" />
+    <MESSAGE value="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1199,13 +1127,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TODOList">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -1779,6 +1700,14 @@
             <element signature="method#drawAssaultableRange#0;class#Battlefield#0" expanded="false" />
             <marker date="1462028970648" expanded="true" signature="11535:11539" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODOList">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
