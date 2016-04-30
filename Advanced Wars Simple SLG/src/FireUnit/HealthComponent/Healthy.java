@@ -10,7 +10,7 @@ public class Healthy implements HealthComponent, Serializable {
     private String healthStatus = "健康";
 
     public void setHealthStatus( FireUnit fireUnit ) {
-        fireUnit.setAttackComponent( new GeneralDecorator( new AttackAttrOfFireUnit() ) );
+        fireUnit.setAttackComponent( new GeneralDecorator( fireUnit.getAttackComponent() ) );
     }
 
     public String getHealthStatus() {

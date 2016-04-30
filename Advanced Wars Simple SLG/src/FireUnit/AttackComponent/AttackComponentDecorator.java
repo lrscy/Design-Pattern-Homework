@@ -31,6 +31,6 @@ public class AttackComponentDecorator extends AttackComponent implements Seriali
     }
 
     public String getHashCode() {
-        return hashCode + attackComponent.getWeapon().getHashCode();
+        return attackComponent.getWeapon().getHashCode() + hashCode;
     }
 }

@@ -81,8 +81,7 @@ public class Battlefield extends BaseDraw {
 
     public String roundTurn() {
         ++roundNow;
-        if( roundNow >= numOfTileset ) roundNow -= numOfTileset;
-        System.out.println( roundNow + " " + numOfTileset );
+        if( roundNow >= troopNames.length ) roundNow -= troopNames.length;
         String troopName = troopNames[roundNow];
         for( int i = 0; i < height; ++i ) {
             Arrays.fill( canMove[i], false );
@@ -198,7 +197,6 @@ public class Battlefield extends BaseDraw {
         if( memento == null ) return;
         LastAction lastAction = memento.getLastAction();
         String state = lastAction.getState();
-        System.out.println( state );
         if( state.equals( "move" ) ) {
             moveList.clear();
             moveList.add( lastAction.getFireUnit2().getPosition() );

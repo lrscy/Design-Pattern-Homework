@@ -7,7 +7,12 @@ abstract public class AllyControlCenter {
 
     public void join( Observer obs ) { fireUnits.add( obs ); }
 
-    public void quit( Observer obs ) { fireUnits.remove( obs ); }
+    public void quit( Observer obs ) {
+        for( Observer o : fireUnits ) {
+            if( o.getID().equals( obs.getID() ) && obs.equals( o ) )
+                fireUnits.remove( obs );
+        }
+    }
 
     abstract public void notifyObservers( String id );
 }

@@ -30,9 +30,9 @@ public class FireUnit implements Observer, Serializable {
         this.id = id;
         this.troopName = troopName;
         setPosition( position );
-        setHealthValue( health );
         this.attackComponent = attackComponent;
         this.basicComponent = basicComponent;
+        setHealthValue( health );
         unitName = basicComponent.getName();
         weaponName = attackComponent.getName();
     }

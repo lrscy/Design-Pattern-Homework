@@ -1,24 +1,25 @@
 package ConnectionPool;
 
 import FireUnit.FireUnit;
+import Global.Iterator.Aggregate;
+import Global.Iterator.ConcreteAggregate;
+import Global.Iterator.Iterator;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class PoolManager {
     private static PoolManager poolManager = null;
-    private ArrayList<PoolItem> list = null;
+    private Aggregate list = null;
 
     public void debug() {
-        System.out.println( list.size() );
-        for( PoolItem pi : list ) {
+        Iterator it = list.iterator();
+        while( it.hasNext() ) {
+            PoolItem pi = ( PoolItem )it.next();
             System.out.println( pi.id + " --- " + pi.isUsed + "\n" + pi.fireUnit );
         }
     }
 
-    private PoolManager() {
-        list = new ArrayList<>();
-    }
+    private PoolManager() { list = new ConcreteAggregate(); }
 
     public static PoolManager getInstance() {
         if( poolManager == null ) {
@@ -33,7 +34,9 @@ public class PoolManager {
 
     public synchronized void add( FireUnit fireUnit, boolean flag )
             throws IOException, ClassNotFoundException {
-        for( PoolItem pi : list ) {
+        Iterator it = list.iterator();
+        while( it.hasNext() ) {
+            PoolItem pi = ( PoolItem )it.next();
             if( fireUnit.equals( pi.fireUnit ) ) {
                 if( !pi.isUsed ) {
                     pi.isUsed = flag;
@@ -52,7 +55,9 @@ public class PoolManager {
     }
 
     public synchronized FireUnit get( String id ) {
-        for( PoolItem pi : list ) {
+        Iterator it = list.iterator();
+        while( it.hasNext() ) {
+            PoolItem pi = ( PoolItem )it.next();
             String str = pi.id;
             if( str.equals( id ) && pi.isUsed ) {
                 return pi.fireUnit;
@@ -62,7 +67,9 @@ public class PoolManager {
     }
 
     public synchronized void release( String id ) {
-        for( PoolItem pi : list ) {
+        Iterator it = list.iterator();
+        while( it.hasNext() ) {
+            PoolItem pi = ( PoolItem )it.next();
             if( pi.id.equals( id ) ) {
                 pi.isUsed = false;
                 pi.id = "0";
