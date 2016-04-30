@@ -201,6 +201,7 @@ public class Battlefield extends BaseDraw {
             moveList.clear();
             moveList.add( lastAction.getFireUnit2().getPosition() );
             move( lastAction.getFireUnit1().getPosition(), lastAction.getFireUnit2().getPosition() );
+            // TODO: 状态修改
         } else {
             FireUnit fu1 = lastAction.getFireUnit1();
             FireUnit fu2 = lastAction.getFireUnit2();
@@ -217,7 +218,9 @@ public class Battlefield extends BaseDraw {
                 fu1.setHealthValue( health1 );
                 fu2.setHealthValue( health2 );
             }
+            canAction[x1][y1] = true;
         }
+        MementoCaretaker.getInstance().save( null );
     }
 
     public FireUnit getFireUnit( Position pos ) {
