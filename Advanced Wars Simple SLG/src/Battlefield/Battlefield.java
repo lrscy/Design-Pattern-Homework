@@ -1,5 +1,6 @@
 package Battlefield;
 
+import Canvas.Hint;
 import ConnectionPool.PoolManager;
 import FactoryOfFireUnit.FactoryOfFireUnit;
 import FireUnit.FireUnit;
@@ -8,7 +9,8 @@ import Global.Position;
 import Memeto.LastAction;
 import Memeto.Memento;
 import Memeto.MementoCaretaker;
-import javafx.geometry.Pos;
+import Observer.AllyControlCenter;
+import Observer.ConcreteAllyControlCenter;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 import org.w3c.dom.Document;
@@ -20,7 +22,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -37,10 +38,11 @@ public class Battlefield extends BaseDraw {
     private int canvas[][] = null;
     private List<Position> moveList, aimList;
     private List<Integer> aim, dis;
-    private String troopNames[];
-    private int troopNumbers[];
+    private String troopNames[] = null;
+    private int troopNumbers[] = null;
     private int roundNow = -1;
     private boolean moving, actioning;
+    private AllyControlCenter acc[] = null;
 
     public void debug() {
         for( int i = 0; i < height; ++i ) {
@@ -80,6 +82,7 @@ public class Battlefield extends BaseDraw {
     public String roundTurn() {
         ++roundNow;
         if( roundNow >= numOfTileset ) roundNow -= numOfTileset;
+        System.out.println( roundNow + " " + numOfTileset );
         String troopName = troopNames[roundNow];
         for( int i = 0; i < height; ++i ) {
             Arrays.fill( canMove[i], false );
@@ -95,19 +98,29 @@ public class Battlefield extends BaseDraw {
         int cnt = 0;
         String win = null;
         for( int i = 0; i < troopNumbers.length; ++i ) {
-            if( troopNumbers[i] > 0 ) { ++cnt; win = troopNames[i]; }
+            if( troopNumbers[i] > 0 ) {
+                ++cnt;
+                win = troopNames[i];
+            }
         }
         if( cnt == 1 ) return win;
+        MementoCaretaker.getInstance().save( null );
         return null;
     }
 
     public String getCurrentTroopName() { return troopNames[roundNow]; }
 
-    public void move( Position from, Position to ) {
+    public void move( Position from, Position to )
+            throws IOException, ClassNotFoundException {
         int x1 = from.getX(), y1 = from.getY(), x2 = to.getX(), y2 = to.getY();
         boolean flag = false;
-        for( Position pos : moveList ) if( to.equals( pos ) ) { flag = true; break; }
-        if( !flag ) return ;
+        for( Position pos : moveList ) {
+            if( to.equals( pos ) ) {
+                flag = true;
+                break;
+            }
+        }
+        if( !flag ) return;
         FireUnit fu = PoolManager.getInstance().get( fireUnits[x1][y1] );
         fu.setPosition( to );
         fireUnits[x2][y2] = fireUnits[x1][y1];
@@ -120,30 +133,52 @@ public class Battlefield extends BaseDraw {
         setActionStatus( from, false );
         LastAction lastAction = new LastAction( "move", fu, from );
         MementoCaretaker.getInstance().save( new Memento( lastAction ) );
-        moveList.clear(); dis.clear();
+        moveList.clear();
+        dis.clear();
     }
 
     public void battle( Position p1, Position p2 )
             throws IOException, ClassNotFoundException {
         int x1 = p1.getX(), y1 = p1.getY(), x2 = p2.getX(), y2 = p2.getY();
         boolean flag = false;
-        for( Position pos : aimList ) if( p2.equals( pos ) ) { flag = true; break; }
-        if( !flag ) return ;
+        for( Position pos : aimList ) {
+            if( p2.equals( pos ) ) {
+                flag = true;
+                break;
+            }
+        }
+        if( !flag ) return;
         FireUnit fu1, fu2;
         fu1 = PoolManager.getInstance().get( fireUnits[x1][y1] );
         fu2 = PoolManager.getInstance().get( fireUnits[x2][y2] );
         setActionStatus( p1, false );
-        LastAction lastAction = new LastAction( "battle", fu1.deepClone(), fu2.deepClone() );
+        LastAction lastAction = new LastAction( "battle", fu1, fu2 );
+        MementoCaretaker.getInstance().save( new Memento( lastAction ) );
         int damage1 = fu2.getAttackValue() - fu1.getDefenceValue();
         int damage2 = fu1.getAttackValue() - fu2.getDefenceValue();
         fu1.setHealthValue( Math.max( fu1.getHealthValue() - damage1, 0 ) );
         fu2.setHealthValue( Math.max( fu2.getHealthValue() - damage2, 0 ) );
-        MementoCaretaker.getInstance().save( new Memento( lastAction ) );
-        moveList.clear(); aim.clear(); dis.clear(); aimList.clear();
+        notice( fu1, damage1 );
+        notice( fu2, damage2 );
+        moveList.clear();
+        aim.clear();
+        dis.clear();
+        aimList.clear();
+    }
+
+    private void notice( FireUnit fu, int damage ) {
+        if( damage > 0 ) {
+            int p = 0;
+            for( String str : troopNames ) {
+                if( fu.getTroopName().equals( str ) ) break;
+                ++p;
+            }
+            fu.beAttacked( acc[p] );
+        }
     }
 
     public void removeFireUnit( FireUnit fu ) {
-        String name = fu.getID(), tn = fu.getTroopName();
+        String tn = fu.getTroopName();
         Position pos = fu.getPosition();
         setMoveStatus( pos, false );
         setActionStatus( pos, false );
@@ -152,24 +187,32 @@ public class Battlefield extends BaseDraw {
             if( tn.equals( str ) ) break;
             ++p;
         }
+        acc[p].quit( fu );
         --troopNumbers[p];
         canvas[pos.getX()][pos.getY()] = 76;
         fireUnits[pos.getX()][pos.getY()] = "0";
     }
 
-    public void restore() {
-        LastAction lastAction = MementoCaretaker.getInstance().restore().getLastAction();
+    public void restore() throws IOException, ClassNotFoundException {
+        Memento memento = MementoCaretaker.getInstance().restore();
+        if( memento == null ) return;
+        LastAction lastAction = memento.getLastAction();
         String state = lastAction.getState();
+        System.out.println( state );
         if( state.equals( "move" ) ) {
-            move( lastAction.getFireUnit2().getPosition(), lastAction.getFireUnit1().getPosition() );
+            moveList.clear();
+            moveList.add( lastAction.getFireUnit2().getPosition() );
+            move( lastAction.getFireUnit1().getPosition(), lastAction.getFireUnit2().getPosition() );
         } else {
             FireUnit fu1 = lastAction.getFireUnit1();
             FireUnit fu2 = lastAction.getFireUnit2();
             int x1 = fu1.getPosition().getX(), y1 = fu1.getPosition().getY();
             int x2 = fu2.getPosition().getX(), y2 = fu2.getPosition().getY();
             int health1 = fu1.getHealthValue(), health2 = fu2.getHealthValue();
-            if( fireUnits[x1][y1].equals( "0" ) || fireUnits[x2][y2].equals( "0" ) ) {
-                // TODO: 提示恢复失败
+            if( fireUnits[x1][y1].equals( "0" ) ) {
+                Hint.getInstance().setText( "己方部队已死亡" );
+            } else if( fireUnits[x2][y2].equals( "0" ) ) {
+                Hint.getInstance().setText( "敌方部队已死亡" );
             } else {
                 fu1 = PoolManager.getInstance().get( fireUnits[x1][y1] );
                 fu2 = PoolManager.getInstance().get( fireUnits[x2][y2] );
@@ -247,9 +290,11 @@ public class Battlefield extends BaseDraw {
             int numOfLayers = nodeListLayer.getLength();
             troopNames = new String[numOfLayers - 2];
             troopNumbers = new int[numOfLayers - 2];
+            acc = new ConcreteAllyControlCenter[numOfLayers - 2];
             Element terrainElement = ( Element )nodeListLayer.item( 0 );
             setTerrain( terrainElement );
             for( int i = 1; i < numOfLayers - 1; ++i ) {
+                acc[i - 1] = new ConcreteAllyControlCenter();
                 Element fireUnitElement = ( Element )nodeListLayer.item( i );
                 setFireUnits( i - 1, fireUnitElement );
             }
@@ -298,8 +343,7 @@ public class Battlefield extends BaseDraw {
                 int tmp = Integer.parseInt( str2[j] );
                 if( tmp != 0 ) {
                     canvas[i][j] = tmp;
-                    ++troopNumbers[No];
-                    addFireUnit( troopName, str2[j], new Position( i, j ) );
+                    addFireUnit( No, str2[j], new Position( i, j ) );
                 }
             }
         }
@@ -317,9 +361,11 @@ public class Battlefield extends BaseDraw {
         }
     }
 
-    private void addFireUnit( String troopName, String category, Position position )
+    private void addFireUnit( int No, String category, Position position )
             throws IOException, ClassNotFoundException {
-        FireUnit fireUnit = FactoryOfFireUnit.getInstance().produceFireUnit( troopName, category, position );
+        FireUnit fireUnit = FactoryOfFireUnit.getInstance().produceFireUnit( troopNames[No], category, position );
+        ++troopNumbers[No];
+        acc[No].join( fireUnit );
         poolManager.add( fireUnit, true );
         fireUnits[position.getX()][position.getY()] = fireUnit.getID();
     }
@@ -327,8 +373,10 @@ public class Battlefield extends BaseDraw {
     private void getMovableRange( Position position ) {
         int dx[] = { -1, 0, 1, 0 }, dy[] = { 0, 1, 0, -1 };
         int range = poolManager.get( fireUnits[position.getX()][position.getY()] ).getMoveRange();
-        moveList.clear(); dis.clear();
-        moveList.add( position ); dis.add( range );
+        moveList.clear();
+        dis.clear();
+        moveList.add( position );
+        dis.add( range );
         for( int i = 0; i < moveList.size(); ++i ) {
             Position tp = moveList.get( i );
             for( int j = 0; j < 4; ++j ) {
@@ -341,7 +389,8 @@ public class Battlefield extends BaseDraw {
                 }
             }
         }
-        moveList.remove( 0 ); dis.remove( 0 );
+        moveList.remove( 0 );
+        dis.remove( 0 );
     }
 
     public void drawMovableRange( Position position, boolean flag ) {
@@ -356,8 +405,12 @@ public class Battlefield extends BaseDraw {
     private void getAssaultableRange( Position position, String troopName ) {
         int dx[] = { -1, 0, 1, 0 }, dy[] = { 0, 1, 0, -1 };
         int range = poolManager.get( fireUnits[position.getX()][position.getY()] ).getAttackRange();
-        aimList.clear(); aim.clear(); dis.clear(); moveList.clear();
-        moveList.add( position ); dis.add( range );
+        aimList.clear();
+        aim.clear();
+        dis.clear();
+        moveList.clear();
+        moveList.add( position );
+        dis.add( range );
         for( int i = 0; i < moveList.size(); ++i ) {
             Position tp = moveList.get( i );
             for( int j = 0; j < 4; ++j ) {

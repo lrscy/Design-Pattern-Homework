@@ -15,5 +15,7 @@ public class Death implements HealthComponent, Serializable {
         PoolManager.getInstance().release( fireUnit.getID() );
     }
 
-    public String getHealthStatus() { return healthStatus; }
+    public String getHealthStatus() {
+        return healthStatus;
+    }
 }

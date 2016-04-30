@@ -3,13 +3,20 @@ package Global;
 import javafx.scene.canvas.GraphicsContext;
 
 public abstract class BaseDraw {
-    protected int width, height;
-    protected Position position = new Position( 0, 0 );
+    public int width, height;
+    public Position position = new Position( 0, 0 );
+
     abstract public void draw( GraphicsContext gc );
 
-    public void setPosition( int x, int y ) { position.setX( x ); position.setY( y ); }
+    public void setPosition( int x, int y ) {
+        position.setX( x );
+        position.setY( y );
+    }
 
-    public void setPosition( Position pos ) { position.setX( pos.getX() ); position.setY( pos.getY() ); }
+    public void setPosition( Position pos ) {
+        position.setX( pos.getX() );
+        position.setY( pos.getY() );
+    }
 
     public void setX( int x ) { position.setX( x ); }
 
@@ -25,7 +32,9 @@ public abstract class BaseDraw {
 
     public void setWidth( int width ) { this.width = width; }
 
-    public int getWidth() { return width; }
+    public int getWidth() {
+        return width;
+    }
 
     public boolean isIn( int x, int y ) {
         return ( getX() <= x && x <= getX() + getWidth() &&

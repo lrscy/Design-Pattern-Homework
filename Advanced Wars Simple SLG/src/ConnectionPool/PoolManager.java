@@ -4,7 +4,6 @@ import FireUnit.FireUnit;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class PoolManager {
     private static PoolManager poolManager = null;
@@ -17,7 +16,9 @@ public class PoolManager {
         }
     }
 
-    private PoolManager() { list = new ArrayList<>(); }
+    private PoolManager() {
+        list = new ArrayList<>();
+    }
 
     public static PoolManager getInstance() {
         if( poolManager == null ) {

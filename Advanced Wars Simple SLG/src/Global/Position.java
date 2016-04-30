@@ -28,7 +28,5 @@ public class Position implements Serializable {
         return ( x == pos.getX() && y == pos.getY() );
     }
 
-    public String toString() {
-        return x + " " + y;
-    }
+    public String toString() { return x + " " + y; }
 }

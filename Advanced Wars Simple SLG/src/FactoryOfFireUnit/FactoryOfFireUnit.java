@@ -10,7 +10,8 @@ import Global.Position;
 public class FactoryOfFireUnit {
     private static FactoryOfFireUnit factoryOfFireUnit = null;
 
-    private FactoryOfFireUnit() {}
+    private FactoryOfFireUnit() {
+    }
 
     public static FactoryOfFireUnit getInstance() {
         if( factoryOfFireUnit == null ) {

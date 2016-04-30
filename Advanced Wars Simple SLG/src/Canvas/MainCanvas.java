@@ -4,6 +4,7 @@ import Battlefield.Battlefield;
 import FireUnit.FireUnit;
 import Global.Position;
 import Menu.ActionMenu;
+import Menu.ControlMenu;
 import Menu.PropertyMenu;
 import javafx.application.Platform;
 import javafx.scene.canvas.Canvas;
@@ -14,7 +15,7 @@ import javafx.scene.paint.Color;
 import java.io.IOException;
 
 class MainCanvas extends Canvas {
-    private enum Status { NONE, SHOW_MENU, SHOW_PROPERTY, MOVE, ATTACK, END }
+    private enum Status {NONE, SHOW_MENU, SHOW_PROPERTY, MOVE, ATTACK, END}
 
     private Status nowStatus = Status.NONE;
 
@@ -22,6 +23,8 @@ class MainCanvas extends Canvas {
     private Battlefield battlefield;
     private ActionMenu actionMenu;
     private PropertyMenu propertyMenu;
+    private ControlMenu controlMenu;
+    private Hint hint;
     private int tileWidth = 32, tileHeight = 32;
 
     private boolean isRunning = true;
@@ -48,7 +51,7 @@ class MainCanvas extends Canvas {
         } );
         thread.start();
 
-        actionMenu = new ActionMenu( new String[] { "移动", "攻击", "待命" }, 50, 90 );
+        actionMenu = new ActionMenu( new String[]{ "移动", "攻击", "待命" }, 50, 90 );
         actionMenu.setOnMenuItemClickListener( index -> {
             switch( index ) {
                 case 0:
@@ -71,13 +74,37 @@ class MainCanvas extends Canvas {
             }
         } );
 
-        propertyMenu = new PropertyMenu( 150, 150 );
+        propertyMenu = new PropertyMenu( 130, 140 );
+
+        controlMenu = new ControlMenu( new String[]{ "撤回操作", "结束操作", "结束游戏" }, 100, 90 );
+        controlMenu.setPosition( 0, 17 );
+        controlMenu.setOnMenuItemClickListener( index -> {
+            switch( index ) {
+                case 0:
+                    try {
+                        battlefield.restore();
+                    } catch( IOException | ClassNotFoundException e ) {
+                        e.printStackTrace();
+                    }
+                    break;
+                case 1:
+                    battlefield.roundTurn();
+                    break;
+            }
+        } );
+
+        hint = Hint.getInstance();
+        hint.setSize( battlefield.getWidth() * 32, 50 );
+        hint.setPosition( battlefield.getHeight() - 1, 0 );
+        hint.setText( "就绪" );
 
         setOnMouseClicked( e -> {
             if( e.getButton() == MouseButton.PRIMARY ) {
                 int x = ( int )( e.getY() / tileWidth );
                 int y = ( int )( e.getX() / tileHeight );
                 Position pos = new Position( x, y );
+                controlMenu.onMousePressed( e );
+                hint.setText( "就绪" );
                 switch( nowStatus ) {
                     case NONE:
                         FireUnit fu = battlefield.getFireUnit( pos );
@@ -103,7 +130,11 @@ class MainCanvas extends Canvas {
                         break;
                     case MOVE:
                         battlefield.drawMovableRange( lastPosition, false );
-                        battlefield.move( lastPosition, pos );
+                        try {
+                            battlefield.move( lastPosition, pos );
+                        } catch( IOException | ClassNotFoundException e1 ) {
+                            e1.printStackTrace();
+                        }
                         nowStatus = Status.NONE;
                         break;
                     case ATTACK:
@@ -127,6 +158,8 @@ class MainCanvas extends Canvas {
 
     private void draw() {
         battlefield.draw( gc );
+        controlMenu.draw( gc );
+        hint.draw( gc );
         switch( nowStatus ) {
             case SHOW_MENU:
                 actionMenu.draw( gc );

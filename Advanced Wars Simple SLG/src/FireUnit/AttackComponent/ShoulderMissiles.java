@@ -7,9 +7,15 @@ public class ShoulderMissiles implements WeaponOfFireUnit, Serializable {
     private String weaponName = "肩扛式火箭弹";
     private int damageEnhance = 10;
 
-    public String getName() { return weaponName; }
+    public String getName() {
+        return weaponName;
+    }
 
-    public int attackEnhance( int basicAttackDamage ) { return basicAttackDamage + damageEnhance; }
+    public int attackEnhance( int basicAttackDamage ) {
+        return basicAttackDamage + damageEnhance;
+    }
 
-    public String getHashCode() { return hashCode; }
+    public String getHashCode() {
+        return hashCode;
+    }
 }

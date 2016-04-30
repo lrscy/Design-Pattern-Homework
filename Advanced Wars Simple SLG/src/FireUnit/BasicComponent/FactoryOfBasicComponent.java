@@ -7,7 +7,9 @@ public class FactoryOfBasicComponent implements Serializable {
     private static FactoryOfBasicComponent factoryOfBasicComponent = null;
     private HashMap<String, BasicComponent> fireUnits = null;
 
-    private FactoryOfBasicComponent() { if( fireUnits == null ) fireUnits = new HashMap<>(); }
+    private FactoryOfBasicComponent() {
+        if( fireUnits == null ) fireUnits = new HashMap<>();
+    }
 
     public static FactoryOfBasicComponent getInstance() {
         if( factoryOfBasicComponent == null ) {

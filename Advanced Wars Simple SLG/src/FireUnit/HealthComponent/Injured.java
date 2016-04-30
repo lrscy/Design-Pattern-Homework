@@ -12,5 +12,7 @@ public class Injured implements HealthComponent, Serializable {
         fireUnit.setAttackComponent( new WeaknessDecorator( fireUnit.getAttackComponent() ) );
     }
 
-    public String getHealthStatus() { return healthStatus; }
+    public String getHealthStatus() {
+        return healthStatus;
+    }
 }

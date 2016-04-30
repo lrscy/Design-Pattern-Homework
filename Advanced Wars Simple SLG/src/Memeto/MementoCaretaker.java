@@ -2,7 +2,7 @@ package Memeto;
 
 public class MementoCaretaker {
     private static MementoCaretaker mementoCaretaker;
-    private Memento memento;
+    private Memento memento = null;
 
     public static MementoCaretaker getInstance() {
         if( mementoCaretaker == null ) {

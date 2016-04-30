@@ -1,5 +1,6 @@
 package FireUnit;
 
+import Canvas.Hint;
 import FireUnit.AttackComponent.AttackComponent;
 import FireUnit.BasicComponent.BasicComponent;
 import FireUnit.HealthComponent.Death;
@@ -7,8 +8,8 @@ import FireUnit.HealthComponent.HealthComponent;
 import FireUnit.HealthComponent.Healthy;
 import FireUnit.HealthComponent.Injured;
 import Global.Position;
-import Observer.Observer;
 import Observer.AllyControlCenter;
+import Observer.Observer;
 
 import java.io.*;
 
@@ -135,8 +136,7 @@ public class FireUnit implements Observer, Serializable {
 
     public void beAttacked( AllyControlCenter acc ) { acc.notifyObservers( id ); }
 
-    // TODO:提醒显示
     public void help() {
-        ;
+        Hint.getInstance().setText( troopName + unitName + "部队受伤！坐标( " + position + " )" );
     }
 }

@@ -21,13 +21,21 @@ public class ConcreteBasicComponent extends BasicComponent {
         this.wayOfDefence = abstractFactoryOfFireUnit.CreateWayOfDefence();
     }
 
-    public int maxMoveRange() { return wayOfMove.maxMoveRange(); }
+    public int maxMoveRange() {
+        return wayOfMove.maxMoveRange();
+    }
 
-    public int maxAttackRange() { return wayOfAttack.maxAttackRange(); }
+    public int maxAttackRange() {
+        return wayOfAttack.maxAttackRange();
+    }
 
-    public int attackEffect() { return wayOfAttack.attackEffect(); }
+    public int attackEffect() {
+        return wayOfAttack.attackEffect();
+    }
 
-    public int defenceEffect() { return wayOfDefence.defenceEffect(); }
+    public int defenceEffect() {
+        return wayOfDefence.defenceEffect();
+    }
 
     public String getHashCode() {
         if( hashCode == null ) {

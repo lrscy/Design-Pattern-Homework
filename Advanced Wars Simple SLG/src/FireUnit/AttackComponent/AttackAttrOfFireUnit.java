@@ -13,14 +13,25 @@ public class AttackAttrOfFireUnit extends AttackComponent implements Serializabl
         return weaponName;
     }
 
-    public void setAttackDamage( int attackDamages ) { this.attackDamage = attackDamages; }
+    public void setAttackDamage( int attackDamages ) {
+        this.attackDamage = attackDamages;
+    }
 
-    public void setWeapon( WeaponOfFireUnit weapon ) { this.weapon = weapon; weaponName = weapon.getName(); }
+    public void setWeapon( WeaponOfFireUnit weapon ) {
+        this.weapon = weapon;
+        weaponName = weapon.getName();
+    }
 
-    public WeaponOfFireUnit getWeapon() { return weapon; }
+    public WeaponOfFireUnit getWeapon() {
+        return weapon;
+    }
 
-    public int getAttackDamage() { return weapon.attackEnhance( attackDamage ); }
+    public int getAttackDamage() {
+        return weapon.attackEnhance( attackDamage );
+    }
 
-    public String getHashCode() { return hashCode + weapon.getHashCode(); }
+    public String getHashCode() {
+        return hashCode + weapon.getHashCode();
+    }
 }
 

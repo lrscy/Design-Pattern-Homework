@@ -1,6 +1,5 @@
-package Menu;
+package Global;
 
-import Global.BaseDraw;
 import com.sun.javafx.tk.FontMetrics;
 import com.sun.javafx.tk.Toolkit;
 import javafx.scene.canvas.GraphicsContext;
@@ -11,12 +10,9 @@ import javafx.scene.text.Font;
 public class TextObject extends BaseDraw {
     private String text;
     private Font font = Font.getDefault();
-    private double fontSize = Font.getDefault().getSize();
     private Paint color = Color.BLACK;
 
     public TextObject() {}
-
-    public TextObject( String text ) { this.text = text; }
 
     public void draw( GraphicsContext gc ) {
         gc.save();
@@ -28,12 +24,12 @@ public class TextObject extends BaseDraw {
 
     public int getWidth() {
         FontMetrics fm = Toolkit.getToolkit().getFontLoader().getFontMetrics( font );
-        return (int)fm.computeStringWidth( text );
+        return ( int )fm.computeStringWidth( text );
     }
 
     public int getHeight() {
         FontMetrics fm = Toolkit.getToolkit().getFontLoader().getFontMetrics( font );
-        return (int)fm.getLineHeight();
+        return ( int )fm.getLineHeight();
     }
 
     public void setText( String text ) { this.text = text; }
@@ -48,8 +44,6 @@ public class TextObject extends BaseDraw {
 
     public Paint getColor() { return color; }
 
-    public void setFontSize( double fontSize ) {
-        this.fontSize = fontSize;
-        this.font = new Font( font.getFamily(), fontSize );
-    }
+    public void setFontSize( double fontSize ) { this.font = new Font( font.getFamily(), fontSize ); }
+
 }

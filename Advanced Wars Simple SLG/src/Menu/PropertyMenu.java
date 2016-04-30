@@ -2,6 +2,7 @@ package Menu;
 
 import FireUnit.FireUnit;
 import Global.BaseDraw;
+import Global.TextObject;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
@@ -9,7 +10,6 @@ import javafx.scene.paint.Paint;
 public class PropertyMenu extends BaseDraw {
     private TextObject[] textObjects;
     private Paint color = Color.BLACK;
-    private int spaceLine = 5;
 
     public PropertyMenu( int width, int height ) {
         this.width = width;
@@ -38,11 +38,12 @@ public class PropertyMenu extends BaseDraw {
         gc.save();
         gc.setStroke( color );
         gc.setGlobalAlpha( 0.8f );
-        gc.fillRect( position.getX() * 32, position.getY() * 32, width, height );
+        gc.fillRect( position.getY() * 32, position.getX() * 32, width, height );
         if( textObjects != null ) {
             for( int i = 0; i < textObjects.length; i++ ) {
-                textObjects[i].setX( ( getWidth() - textObjects[i].getWidth() ) / 2 + getX() * 32 );
-                textObjects[i].setY( getY() * 32 + spaceLine * ( i + 1 ) + textObjects[i].getHeight() * ( i + 1 ) );
+                textObjects[i].setX( ( getWidth() - textObjects[i].getWidth() ) / 2 + getY() * 32 );
+                int spaceLine = 5;
+                textObjects[i].setY( getX() * 32 + spaceLine * ( i + 1 ) + textObjects[i].getHeight() * ( i + 1 ) );
                 textObjects[i].draw( gc );
             }
         }

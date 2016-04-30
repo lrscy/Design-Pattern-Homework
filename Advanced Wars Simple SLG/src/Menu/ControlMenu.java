@@ -7,13 +7,13 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 
-public class ActionMenu extends BaseDraw {
+public class ControlMenu extends BaseDraw {
     private TextObject[] textObjects;
     private Paint color = Color.BLACK;
 
     private OnMenuItemClickListener onMenuItemClickListener;
 
-    public ActionMenu( String[] strs, int width, int height ) {
+    public ControlMenu( String[] strs, int width, int height ) {
         setWidth( width );
         setHeight( height );
         textObjects = new TextObject[strs.length];
@@ -39,9 +39,9 @@ public class ActionMenu extends BaseDraw {
         gc.save();
         gc.setGlobalAlpha( 0.8f );
         gc.setStroke( color );
-        gc.fillRect( position.getY() * 32 + 32, position.getX() * 32, width, height );
+        gc.fillRect( position.getY() * 32, position.getX() * 32, width, height );
         for( int i = 0; i < textObjects.length; ++i ) {
-            textObjects[i].setX( getY() * 32 + 32 + ( getWidth() - textObjects[i].getWidth() ) / 2 );
+            textObjects[i].setX( getY() * 32 + ( getWidth() - textObjects[i].getWidth() ) / 2 );
             int spaceLine = 5;
             textObjects[i].setY( getX() * 32 + spaceLine * ( i + 1 ) + textObjects[i].getHeight() * ( i + 1 ) );
             textObjects[i].draw( gc );

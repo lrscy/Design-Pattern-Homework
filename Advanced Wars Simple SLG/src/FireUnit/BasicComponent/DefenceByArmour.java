@@ -4,7 +4,11 @@ public class DefenceByArmour implements WayOfDefence {
     private String hashCode = "1";
     private int reduceDamage = 20;
 
-    public int defenceEffect() { return reduceDamage; }
+    public int defenceEffect() {
+        return reduceDamage;
+    }
 
-    public String getHashCode() { return hashCode; }
+    public String getHashCode() {
+        return hashCode;
+    }
 }
