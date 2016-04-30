@@ -31,7 +31,7 @@ public class AttackAttrOfFireUnit extends AttackComponent implements Serializabl
     }
 
     public String getHashCode() {
-        return hashCode + weapon.getHashCode();
+        return weapon.getHashCode() + hashCode;
     }
 }
 

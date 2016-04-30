@@ -90,6 +90,9 @@ class MainCanvas extends Canvas {
                 case 1:
                     battlefield.roundTurn();
                     break;
+                case 2:
+                    System.exit( 0 );
+                    break;
             }
         } );
 

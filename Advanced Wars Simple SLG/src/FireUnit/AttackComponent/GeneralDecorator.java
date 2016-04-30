@@ -15,6 +15,6 @@ public class GeneralDecorator extends AttackComponentDecorator implements Serial
     }
 
     public String getHashCode() {
-        return hashCode + super.getHashCode().substring( 2 );
+        return super.getHashCode().substring( 0, 1 ) + hashCode;
     }
 }
