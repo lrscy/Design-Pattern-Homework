@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-public class Cannon implements WeaponOfFireUnit {
+import java.io.Serializable;
+
+public class Cannon implements WeaponOfFireUnit, Serializable {
     private String hashCode = "5";
     private String weaponName = "远程火炮";
     private int damageEnhance = 0;

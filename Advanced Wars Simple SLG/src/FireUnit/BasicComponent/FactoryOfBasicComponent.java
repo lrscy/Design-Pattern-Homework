@@ -1,8 +1,9 @@
 package FireUnit.BasicComponent;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
-public class FactoryOfBasicComponent {
+public class FactoryOfBasicComponent implements Serializable {
     private static FactoryOfBasicComponent factoryOfBasicComponent = null;
     private HashMap<String, BasicComponent> fireUnits = null;
 
@@ -19,14 +20,13 @@ public class FactoryOfBasicComponent {
         return factoryOfBasicComponent;
     }
 
-    // TODO: Check 反射机制那里有可能出错
     public BasicComponent getBasicComponent( String unit ) {
         BasicComponent tmpB = fireUnits.get( unit );
         AbstractFactoryOfFireUnit tmpA = null;
         if( tmpB == null ) {
             tmpB = new ConcreteBasicComponent();
             try {
-                Class c = Class.forName( unit );
+                Class c = Class.forName( "FireUnit.BasicComponent." + unit );
                 tmpA = ( AbstractFactoryOfFireUnit )c.newInstance();
             } catch( Exception e ) {
                 System.out.println( "无法找到该类" );

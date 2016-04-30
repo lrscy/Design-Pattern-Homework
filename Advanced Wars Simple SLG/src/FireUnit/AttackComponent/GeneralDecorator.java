@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-public class GeneralDecorator extends AttackComponentDecorator {
+import java.io.Serializable;
+
+public class GeneralDecorator extends AttackComponentDecorator implements Serializable {
     private String hashCode = "2";
     private double factor = 2;
 

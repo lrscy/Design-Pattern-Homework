@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-abstract public class AttackComponent {
+import java.io.Serializable;
+
+abstract public class AttackComponent implements Serializable {
     abstract public String getName();
 
     abstract public void setAttackDamage( int attackDamage );

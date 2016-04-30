@@ -4,7 +4,9 @@ import FireUnit.AttackComponent.AttackAttrOfFireUnit;
 import FireUnit.AttackComponent.GeneralDecorator;
 import FireUnit.FireUnit;
 
-public class Healthy implements HealthComponent {
+import java.io.Serializable;
+
+public class Healthy implements HealthComponent, Serializable {
     private String healthStatus = "健康";
 
     public void setHealthStatus( FireUnit fireUnit ) {

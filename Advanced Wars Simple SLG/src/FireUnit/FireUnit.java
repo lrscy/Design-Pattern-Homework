@@ -7,20 +7,22 @@ import FireUnit.HealthComponent.HealthComponent;
 import FireUnit.HealthComponent.Healthy;
 import FireUnit.HealthComponent.Injured;
 import Global.Position;
+import Observer.Observer;
+import Observer.AllyControlCenter;
 
 import java.io.*;
 
-public class FireUnit {
-    private String id;
-    private String troopName;
+public class FireUnit implements Observer, Serializable {
+    private String id = null;
+    private String troopName = null;
     private String unitName = null;
     private String weaponName = null;
     private String hashCode = null;
-    private Position position;
+    private Position position = null;
     private int health;
-    private AttackComponent attackComponent;
-    private HealthComponent healthComponent;
-    private transient BasicComponent basicComponent;
+    private AttackComponent attackComponent = null;
+    private HealthComponent healthComponent = null;
+    private transient BasicComponent basicComponent = null;
 
     public FireUnit( String id, String troopName, Position position, int health,
                      AttackComponent attackComponent, BasicComponent basicComponent ) {
@@ -39,6 +41,16 @@ public class FireUnit {
         this.basicComponent = basicComponent;
         troopName = basicComponent.getName();
         weaponName = attackComponent.getName();
+    }
+
+    public void attrCopy( FireUnit fu ) {
+        id = fu.getID();
+        troopName = fu.getTroopName();
+        unitName = fu.getUnitName();
+        weaponName = fu.getWeaponName();
+        position = fu.getPosition();
+        health = fu.getHealthValue();
+        hashCode = fu.getHashCode();
     }
 
     public String getID() { return id; }
@@ -62,11 +74,6 @@ public class FireUnit {
         return hashCode;
     }
 
-    public void setPosition( int x, int y ) {
-        position.setX( x );
-        position.setY( y );
-    }
-
     public void setPosition( Position position ) { this.position = position; }
 
     public Position getPosition() { return position; }
@@ -75,11 +82,7 @@ public class FireUnit {
 
     public AttackComponent getAttackComponent() { return attackComponent; }
 
-    public void setBasicComponent( BasicComponent basicComponent ) { this.basicComponent = basicComponent; }
-
-    public BasicComponent getBasicComponent() { return basicComponent; }
-
-    public HealthComponent getHealthComponent() { return healthComponent; }
+    private void setBasicComponent( BasicComponent basicComponent ) { this.basicComponent = basicComponent; }
 
     public int getMoveRange() { return basicComponent.maxMoveRange(); }
 
@@ -92,7 +95,7 @@ public class FireUnit {
     public void setHealthValue( int health ) {
         this.health = health;
         if( health >= 60 ) healthComponent = new Healthy();
-        else if( health >= 0 ) healthComponent = new Injured();
+        else if( health > 0 ) healthComponent = new Injured();
         else healthComponent = new Death();
         healthComponent.setHealthStatus( this );
     }
@@ -103,11 +106,12 @@ public class FireUnit {
         ByteArrayOutputStream bao = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream( bao );
         oos.writeObject( this );
+        oos.close();
         ByteArrayInputStream bis = new ByteArrayInputStream( bao.toByteArray() );
         ObjectInputStream ois = new ObjectInputStream( bis );
         FireUnit fu = ( FireUnit )ois.readObject();
+        ois.close();
         fu.setBasicComponent( this.basicComponent );
-        // TODO: toString 检测
         return fu;
     }
 
@@ -126,6 +130,13 @@ public class FireUnit {
 
     @Override
     public String toString() {
-        return troopName + "\n兵种：" + unitName + "\n武器：" + weaponName + "\n生命值：" + Integer.toString( health );
+        return id + " " + troopName + "\n兵种：" + unitName + "\n武器：" + weaponName + "\n生命值：" + Integer.toString( health );
+    }
+
+    public void beAttacked( AllyControlCenter acc ) { acc.notifyObservers( id ); }
+
+    // TODO:提醒显示
+    public void help() {
+        ;
     }
 }

@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-public class IFV implements WeaponOfFireUnit {
+import java.io.Serializable;
+
+public class IFV implements WeaponOfFireUnit, Serializable {
     private String hashCode = "3";
     private String weaponName = "步兵战车";
     private int damageEnhance = 0;

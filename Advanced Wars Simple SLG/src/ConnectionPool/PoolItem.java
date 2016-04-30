@@ -2,13 +2,17 @@ package ConnectionPool;
 
 import FireUnit.FireUnit;
 
-public class PoolItem {
-    public boolean isUsed;
-    public String id;
-    public FireUnit fireUnit;
+import java.io.IOException;
 
-    public PoolItem( FireUnit fireUnit, boolean flag ) {
-        this.fireUnit = fireUnit;
+class PoolItem {
+    boolean isUsed;
+    String id;
+    FireUnit fireUnit;
+
+    PoolItem( FireUnit fireUnit, boolean flag )
+            throws IOException, ClassNotFoundException {
+        this.fireUnit = fireUnit.deepClone();
+        this.id = this.fireUnit.getID();
         isUsed = flag;
     }
 }

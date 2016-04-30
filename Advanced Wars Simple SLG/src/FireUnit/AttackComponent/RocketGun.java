@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-public class RocketGun implements WeaponOfFireUnit {
+import java.io.Serializable;
+
+public class RocketGun implements WeaponOfFireUnit, Serializable {
     private String hashCode = "6";
     private String weaponName = "火箭炮";
     private int damageEnhance = 20;

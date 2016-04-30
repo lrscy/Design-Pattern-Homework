@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-public class ShoulderMissiles implements WeaponOfFireUnit {
+import java.io.Serializable;
+
+public class ShoulderMissiles implements WeaponOfFireUnit, Serializable {
     private String hashCode = "2";
     private String weaponName = "肩扛式火箭弹";
     private int damageEnhance = 10;

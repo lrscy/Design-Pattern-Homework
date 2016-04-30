@@ -1,7 +1,7 @@
 package FireUnit.BasicComponent;
 
 public class FactoryOfLongRangeUnit implements AbstractFactoryOfFireUnit {
-    private String unitName = "步兵";
+    private String unitName = "远程部队";
 
     public String getName() { return unitName; }
 

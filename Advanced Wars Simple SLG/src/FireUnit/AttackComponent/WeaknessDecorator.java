@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-public class WeaknessDecorator extends AttackComponentDecorator {
+import java.io.Serializable;
+
+public class WeaknessDecorator extends AttackComponentDecorator implements Serializable {
     private String hashCode = "3";
     private double factor = 0.5;
 

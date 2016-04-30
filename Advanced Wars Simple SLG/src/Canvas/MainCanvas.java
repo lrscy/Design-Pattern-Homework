@@ -1,0 +1,142 @@
+package Canvas;
+
+import Battlefield.Battlefield;
+import FireUnit.FireUnit;
+import Global.Position;
+import Menu.ActionMenu;
+import Menu.PropertyMenu;
+import javafx.application.Platform;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.input.MouseButton;
+import javafx.scene.paint.Color;
+
+import java.io.IOException;
+
+class MainCanvas extends Canvas {
+    private enum Status { NONE, SHOW_MENU, SHOW_PROPERTY, MOVE, ATTACK, END }
+
+    private Status nowStatus = Status.NONE;
+
+    private GraphicsContext gc;
+    private Battlefield battlefield;
+    private ActionMenu actionMenu;
+    private PropertyMenu propertyMenu;
+    private int tileWidth = 32, tileHeight = 32;
+
+    private boolean isRunning = true;
+    private long sleep = 100;
+    private Position lastPosition;
+
+    MainCanvas( int width, int height ) {
+        super( width, height );
+        String field = "Battlefield_01";
+        gc = getGraphicsContext2D();
+        battlefield = Battlefield.getInstance();
+        battlefield.setBattlefield( field );
+        battlefield.roundTurn();
+
+        Thread thread = new Thread( () -> {
+            while( isRunning ) {
+                Platform.runLater( this::draw );
+                try {
+                    Thread.sleep( sleep );
+                } catch( InterruptedException e ) {
+                    e.printStackTrace();
+                }
+            }
+        } );
+        thread.start();
+
+        actionMenu = new ActionMenu( new String[] { "移动", "攻击", "待命" }, 50, 90 );
+        actionMenu.setOnMenuItemClickListener( index -> {
+            switch( index ) {
+                case 0:
+                    if( battlefield.canSelected( lastPosition ) ) {
+                        battlefield.drawMovableRange( lastPosition, true );
+                        nowStatus = Status.MOVE;
+                    } else nowStatus = Status.NONE;
+                    break;
+                case 1:
+                    if( battlefield.canAttack( lastPosition ) ) {
+                        battlefield.drawAssaultableRange( lastPosition, true );
+                        nowStatus = Status.ATTACK;
+                    } else nowStatus = Status.NONE;
+                    break;
+                case 2:
+                    battlefield.setMoveStatus( lastPosition, false );
+                    battlefield.setActionStatus( lastPosition, false );
+                    nowStatus = Status.NONE;
+                    break;
+            }
+        } );
+
+        propertyMenu = new PropertyMenu( 150, 150 );
+
+        setOnMouseClicked( e -> {
+            if( e.getButton() == MouseButton.PRIMARY ) {
+                int x = ( int )( e.getY() / tileWidth );
+                int y = ( int )( e.getX() / tileHeight );
+                Position pos = new Position( x, y );
+                switch( nowStatus ) {
+                    case NONE:
+                        FireUnit fu = battlefield.getFireUnit( pos );
+                        if( fu == null ) break;
+                        propertyMenu.initFireUnit( fu );
+                        if( fu.getTroopName().equals( battlefield.getCurrentTroopName() ) ) {
+                            actionMenu.setPosition( pos );
+                            actionMenu.getTextObjects()[0].setColor(
+                                    battlefield.canSelected( pos ) ? Color.WHITE : Color.DARKGRAY );
+                            actionMenu.getTextObjects()[1].setColor(
+                                    battlefield.canAttack( pos ) ? Color.WHITE : Color.DARKGRAY );
+                            actionMenu.getTextObjects()[2].setColor(
+                                    ( battlefield.canSelected( pos ) || battlefield.canAttack( pos ) ) ?
+                                            Color.WHITE : Color.DARKGRAY );
+                            lastPosition = new Position( pos );
+                            nowStatus = Status.SHOW_MENU;
+                        } else {
+                            nowStatus = Status.SHOW_PROPERTY;
+                        }
+                        break;
+                    case SHOW_MENU:
+                        actionMenu.onMousePressed( e );
+                        break;
+                    case MOVE:
+                        battlefield.drawMovableRange( lastPosition, false );
+                        battlefield.move( lastPosition, pos );
+                        nowStatus = Status.NONE;
+                        break;
+                    case ATTACK:
+                        battlefield.drawAssaultableRange( lastPosition, false );
+                        try {
+                            battlefield.battle( lastPosition, pos );
+                        } catch( IOException | ClassNotFoundException e1 ) {
+                            e1.printStackTrace();
+                        }
+                        nowStatus = Status.NONE;
+                        break;
+                }
+            } else if( e.getButton() == MouseButton.SECONDARY ) {
+                nowStatus = Status.NONE;
+                if( battlefield.getMovingStatus() ) battlefield.drawMovableRange( lastPosition, false );
+                if( battlefield.getActiongStatus() ) battlefield.drawAssaultableRange( lastPosition, false );
+                lastPosition = null;
+            }
+        } );
+    }
+
+    private void draw() {
+        battlefield.draw( gc );
+        switch( nowStatus ) {
+            case SHOW_MENU:
+                actionMenu.draw( gc );
+                propertyMenu.draw( gc );
+                break;
+            case SHOW_PROPERTY:
+                propertyMenu.draw( gc );
+                break;
+            case END:
+                break;
+        }
+    }
+}

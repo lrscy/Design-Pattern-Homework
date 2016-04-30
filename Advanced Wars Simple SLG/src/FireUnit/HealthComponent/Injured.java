@@ -3,7 +3,9 @@ package FireUnit.HealthComponent;
 import FireUnit.AttackComponent.WeaknessDecorator;
 import FireUnit.FireUnit;
 
-public class Injured implements HealthComponent {
+import java.io.Serializable;
+
+public class Injured implements HealthComponent, Serializable {
     private String healthStatus = "受伤";
 
     public void setHealthStatus( FireUnit fireUnit ) {

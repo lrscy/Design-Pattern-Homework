@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-public class AttackAttrOfFireUnit extends AttackComponent {
+import java.io.Serializable;
+
+public class AttackAttrOfFireUnit extends AttackComponent implements Serializable {
     private String hashCode = "0";
     private String weaponName = null;
     private int attackDamage;
@@ -13,7 +15,7 @@ public class AttackAttrOfFireUnit extends AttackComponent {
 
     public void setAttackDamage( int attackDamages ) { this.attackDamage = attackDamages; }
 
-    public void setWeapon( WeaponOfFireUnit weapon ) { this.weapon = weapon; }
+    public void setWeapon( WeaponOfFireUnit weapon ) { this.weapon = weapon; weaponName = weapon.getName(); }
 
     public WeaponOfFireUnit getWeapon() { return weapon; }
 

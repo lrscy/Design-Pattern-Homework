@@ -1,6 +1,8 @@
 package FireUnit.AttackComponent;
 
-public class Tank implements WeaponOfFireUnit {
+import java.io.Serializable;
+
+public class Tank implements WeaponOfFireUnit, Serializable {
     private String hashCode = "4";
     private String weaponName = "坦克";
     private int damageEnhance = 15;
