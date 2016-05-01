@@ -7,14 +7,17 @@ public class Tank implements WeaponOfFireUnit, Serializable {
     private String weaponName = "坦克";
     private int damageEnhance = 15;
 
+    @Override
     public String getName() {
         return weaponName;
     }
 
+    @Override
     public int attackEnhance( int basicAttackDamage ) {
         return basicAttackDamage + damageEnhance;
     }
 
+    @Override
     public String getHashCode() {
         return hashCode;
     }

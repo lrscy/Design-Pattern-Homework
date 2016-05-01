@@ -10,10 +10,12 @@ public class GeneralDecorator extends AttackComponentDecorator implements Serial
         super( attackComponent );
     }
 
+    @Override
     public int getAttackDamage() {
         return ( int )( super.getAttackDamage() * factor );
     }
 
+    @Override
     public String getHashCode() {
         return super.getHashCode().substring( 0, 1 ) + hashCode;
     }

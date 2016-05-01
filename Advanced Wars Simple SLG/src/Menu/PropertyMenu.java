@@ -34,6 +34,7 @@ public class PropertyMenu extends BaseDraw {
         textObject.setFontSize( 16 );
     }
 
+    @Override
     public void draw( GraphicsContext gc ) {
         gc.save();
         gc.setStroke( color );

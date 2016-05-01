@@ -54,6 +54,7 @@ public class FireUnit implements Observer, Serializable {
         hashCode = fu.getHashCode();
     }
 
+    @Override
     public String getID() { return id; }
 
     public String getTroopName() { return troopName; }
@@ -134,8 +135,10 @@ public class FireUnit implements Observer, Serializable {
         return id + " " + troopName + "\n兵种：" + unitName + "\n武器：" + weaponName + "\n生命值：" + Integer.toString( health );
     }
 
+    @Override
     public void beAttacked( AllyControlCenter acc ) { acc.notifyObservers( id ); }
 
+    @Override
     public void help() {
         Hint.getInstance().setText( troopName + unitName + "部队受伤！坐标( " + position + " )" );
     }

@@ -14,6 +14,7 @@ public class TextObject extends BaseDraw {
 
     public TextObject() {}
 
+    @Override
     public void draw( GraphicsContext gc ) {
         gc.save();
         gc.setFont( font );
@@ -22,11 +23,13 @@ public class TextObject extends BaseDraw {
         gc.restore();
     }
 
+    @Override
     public int getWidth() {
         FontMetrics fm = Toolkit.getToolkit().getFontLoader().getFontMetrics( font );
         return ( int )fm.computeStringWidth( text );
     }
 
+    @Override
     public int getHeight() {
         FontMetrics fm = Toolkit.getToolkit().getFontLoader().getFontMetrics( font );
         return ( int )fm.getLineHeight();

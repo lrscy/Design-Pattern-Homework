@@ -25,6 +25,9 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ *
+ */
 public class Battlefield extends BaseDraw {
     private static Battlefield battlefield = null;
     private String fireUnits[][] = null;
@@ -239,6 +242,7 @@ public class Battlefield extends BaseDraw {
 
     public boolean canAttack( Position pos ) { return canAction[pos.getX()][pos.getY()]; }
 
+    @Override
     public void draw( GraphicsContext gc ) {
         gc.save();
         for( int x = 0; x < height; ++x ) {

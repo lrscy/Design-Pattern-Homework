@@ -34,6 +34,7 @@ public class Hint extends BaseDraw {
         this.height = height;
     }
 
+    @Override
     public void draw( GraphicsContext gc ) {
         gc.save();
         gc.setStroke( color );

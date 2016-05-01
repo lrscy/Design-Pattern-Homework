@@ -23,10 +23,12 @@ public class Position implements Serializable {
 
     public int getY() { return y; }
 
+    @Override
     public boolean equals( Object obj ) {
         Position pos = ( Position )obj;
         return ( x == pos.getX() && y == pos.getY() );
     }
 
+    @Override
     public String toString() { return x + " " + y; }
 }

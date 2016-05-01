@@ -35,6 +35,7 @@ public class ControlMenu extends BaseDraw {
         }
     }
 
+    @Override
     public void draw( GraphicsContext gc ) {
         gc.save();
         gc.setGlobalAlpha( 0.8f );
