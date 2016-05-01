@@ -106,8 +106,8 @@ class MainCanvas extends Canvas {
                 int x = ( int )( e.getY() / tileWidth );
                 int y = ( int )( e.getX() / tileHeight );
                 Position pos = new Position( x, y );
-                controlMenu.onMousePressed( e );
                 hint.setText( "就绪" );
+                controlMenu.onMousePressed( e );
                 switch( nowStatus ) {
                     case NONE:
                         FireUnit fu = battlefield.getFireUnit( pos );
