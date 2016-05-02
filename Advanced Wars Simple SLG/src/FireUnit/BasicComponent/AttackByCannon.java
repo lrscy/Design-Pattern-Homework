@@ -11,7 +11,7 @@ class AttackByCannon implements WayOfAttack {
 
     @Override
     public int attackEffect() {
-        return 40;
+        return 30;
     }
 
     @Override

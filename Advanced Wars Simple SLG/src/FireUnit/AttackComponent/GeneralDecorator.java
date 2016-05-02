@@ -11,9 +11,9 @@ public class GeneralDecorator extends AttackComponentDecorator implements Serial
     }
 
     @Override
-    public int getAttackDamage() {
+    public int getAttackDamage( int attackDamage ) {
         double factor = 2;
-        return ( int )( super.getAttackDamage() * factor );
+        return ( int )( super.getAttackDamage( attackDamage ) * factor );
     }
 
     @Override

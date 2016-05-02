@@ -23,6 +23,7 @@ public class FireUnit implements Observer, Serializable {
     private String weaponName = null;
     private String hashCode = null; // 通过哈希码判断元素相等
     private Position position = null;
+    private int attackDamage;
     private int health;
     private AttackComponent attackComponent = null;
     private HealthComponent healthComponent = null;
@@ -36,6 +37,7 @@ public class FireUnit implements Observer, Serializable {
         setPosition( position );
         this.attackComponent = attackComponent;
         this.basicComponent = basicComponent;
+        attackDamage = basicComponent.attackEffect();
         setHealthValue( health );
         unitName = basicComponent.getName();
         weaponName = attackComponent.getName();
@@ -98,7 +100,7 @@ public class FireUnit implements Observer, Serializable {
 
     public int getAttackRange() { return basicComponent.maxAttackRange(); }
 
-    public int getAttackValue() { return basicComponent.attackEffect(); }
+    public int getAttackValue() { return attackComponent.getAttackDamage( attackDamage ); }
 
     public int getDefenceValue() { return basicComponent.defenceEffect(); }
 

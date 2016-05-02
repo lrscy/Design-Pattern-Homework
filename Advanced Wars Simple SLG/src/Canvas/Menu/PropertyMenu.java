@@ -1,8 +1,8 @@
-package Menu;
+package Canvas.Menu;
 
 import FireUnit.FireUnit;
 import Global.BaseDraw;
-import Global.TextObject;
+import Canvas.TextObject;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;

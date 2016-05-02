@@ -1,5 +1,6 @@
-package Global;
+package Canvas;
 
+import Global.BaseDraw;
 import com.sun.javafx.tk.FontMetrics;
 import com.sun.javafx.tk.Toolkit;
 import javafx.scene.canvas.GraphicsContext;

@@ -7,18 +7,12 @@ import java.io.Serializable;
  */
 public class AttackAttrOfFireUnit extends AttackComponent implements Serializable {
     private String weaponName = null;
-    private int attackDamage;
     private WeaponOfFireUnit weapon;
 
     @Override
     public String getName() {
         if( weaponName == null ) weaponName = weapon.getName();
         return weaponName;
-    }
-
-    @Override
-    public void setAttackDamage( int attackDamages ) {
-        this.attackDamage = attackDamages;
     }
 
     @Override
@@ -33,7 +27,7 @@ public class AttackAttrOfFireUnit extends AttackComponent implements Serializabl
     }
 
     @Override
-    public int getAttackDamage() {
+    public int getAttackDamage( int attackDamage ) {
         return weapon.attackEnhance( attackDamage );
     }
 

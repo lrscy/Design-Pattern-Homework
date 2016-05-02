@@ -9,9 +9,9 @@ public class WeaknessDecorator extends AttackComponentDecorator implements Seria
     public WeaknessDecorator( AttackComponent attackComponent ) { super( attackComponent ); }
 
     @Override
-    public int getAttackDamage() {
+    public int getAttackDamage( int attackDamage ) {
         double factor = 0.5;
-        return ( int )( super.getAttackDamage() * factor ); }
+        return ( int )( super.getAttackDamage( attackDamage ) * factor ); }
 
     @Override
     public String getHashCode() {

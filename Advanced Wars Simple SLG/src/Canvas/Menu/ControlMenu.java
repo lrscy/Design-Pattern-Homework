@@ -1,22 +1,22 @@
-package Menu;
+package Canvas.Menu;
 
 import Global.BaseDraw;
-import Global.TextObject;
+import Canvas.TextObject;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 
 /**
- * Description: 动作菜单 在点击火力单元时出现在火力单元右侧
+ * Description: 游戏控制菜单
  */
-public class ActionMenu extends BaseDraw {
+public class ControlMenu extends BaseDraw {
     private TextObject[] textObjects;
     private Paint color = Color.BLACK;
 
     private OnMenuItemClickListener onMenuItemClickListener;
 
-    public ActionMenu( String[] strs, int width, int height ) {
+    public ControlMenu( String[] strs, int width, int height ) {
         setWidth( width );
         setHeight( height );
         textObjects = new TextObject[strs.length];
@@ -43,17 +43,15 @@ public class ActionMenu extends BaseDraw {
         gc.save();
         gc.setGlobalAlpha( 0.8f );
         gc.setStroke( color );
-        gc.fillRect( position.getY() * 32 + 32, position.getX() * 32, width, height );
+        gc.fillRect( position.getY() * 32, position.getX() * 32, width, height );
         for( int i = 0; i < textObjects.length; ++i ) {
-            textObjects[i].setX( getY() * 32 + 32 + ( getWidth() - textObjects[i].getWidth() ) / 2 );
+            textObjects[i].setX( getY() * 32 + ( getWidth() - textObjects[i].getWidth() ) / 2 );
             int spaceLine = 5;
             textObjects[i].setY( getX() * 32 + spaceLine * ( i + 1 ) + textObjects[i].getHeight() * ( i + 1 ) );
             textObjects[i].draw( gc );
         }
         gc.restore();
     }
-
-    public TextObject[] getTextObjects() { return textObjects; }
 
     public void setOnMenuItemClickListener( OnMenuItemClickListener onMenuItemClickListener ) {
         this.onMenuItemClickListener = onMenuItemClickListener;

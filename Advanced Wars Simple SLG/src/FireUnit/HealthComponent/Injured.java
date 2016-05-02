@@ -11,6 +11,7 @@ import java.io.Serializable;
 public class Injured implements HealthComponent, Serializable {
     @Override
     public void setHealthStatus( FireUnit fireUnit ) {
+        if( fireUnit.getAttackComponent() instanceof WeaknessDecorator ) return ;
         fireUnit.setAttackComponent( new WeaknessDecorator( fireUnit.getAttackComponent() ) );
     }
 

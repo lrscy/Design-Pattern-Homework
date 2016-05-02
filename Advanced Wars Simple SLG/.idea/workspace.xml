@@ -7,115 +7,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/WTimer$OnTimerListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/WTimer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Canvas/WTimer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UML/UML.asta.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Tileset.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Tileset.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/TextObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ActionMenu$OnMenuItemClickListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ActionMenu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ControlMenu$OnMenuItemClickListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ControlMenu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/PropertyMenu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../UML/UML类图.vsdx" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Global/TextObject.java" afterPath="$PROJECT_DIR$/src/Canvas/TextObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu/ActionMenu.java" afterPath="$PROJECT_DIR$/src/Canvas/Menu/ActionMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu/ControlMenu.java" afterPath="$PROJECT_DIR$/src/Canvas/Menu/ControlMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu/PropertyMenu.java" afterPath="$PROJECT_DIR$/src/Canvas/Menu/PropertyMenu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/Hint.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/Hint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$1.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$Status.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$Status.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolItem.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolManager.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackAttrOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackAttrOfFireUnit.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponentDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponentDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Cannon.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Cannon.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/GeneralDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/GeneralDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/IFV.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/IFV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/MechineGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/MechineGun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/RocketGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/RocketGun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/ShoulderMissiles.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/ShoulderMissiles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/SubMechineGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/SubMechineGun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Tank.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Tank.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/WeaknessDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/WeaknessDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByCannon.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByCannon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByGun.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByRocket.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByRocket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/BasicComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/BasicComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/ConcreteBasicComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/ConcreteBasicComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceByArmour.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceByArmour.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceBySoldier.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceBySoldier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfArmourUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfArmourUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfBasicComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfBasicComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfLongRangeUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfLongRangeUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfSoldierUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfSoldierUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByVehicle.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByVehicle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByWalk.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByWalk.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfAttack.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfAttack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfDefence.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfDefence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfMove.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfMove.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/FireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/FireUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Death.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Death.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Healthy.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Healthy.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Injured.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Injured.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/BaseDraw.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/BaseDraw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/IDGenerator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/IDGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/Position.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/Position.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Observer/AllyControlCenter.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Observer/AllyControlCenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/Thumbs.db" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-ALL-PACKAGE.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-ALL-PACKAGE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Battlefield.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Battlefield.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Canvas.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Canvas.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FactoryOfFireUnit.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FactoryOfFireUnit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-AttackComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-AttackComponent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-BasicComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-BasicComponent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-HealthComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-HealthComponent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Global.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Global.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Menu.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML.asta" afterPath="$PROJECT_DIR$/../UML/UML.asta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../项目文档/高级战争项目报告.docx" afterPath="$PROJECT_DIR$/../项目文档/高级战争项目报告.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" afterPath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Tileset.java" afterPath="$PROJECT_DIR$/src/Battlefield/Tileset.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/Hint.java" afterPath="$PROJECT_DIR$/src/Canvas/Hint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" afterPath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConnectionPool/PoolItem.java" afterPath="$PROJECT_DIR$/src/ConnectionPool/PoolItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConnectionPool/PoolManager.java" afterPath="$PROJECT_DIR$/src/ConnectionPool/PoolManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfAttack.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfAttack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfDefence.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfDefence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfMove.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfMove.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/BaseDraw.java" afterPath="$PROJECT_DIR$/src/Global/BaseDraw.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/IDGenerator.java" afterPath="$PROJECT_DIR$/src/Global/IDGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Iterator/Aggregate.java" afterPath="$PROJECT_DIR$/src/Global/Iterator/Aggregate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Iterator/ConcreteAggregate.java" afterPath="$PROJECT_DIR$/src/Global/Iterator/ConcreteAggregate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Iterator/ConcreteIterator.java" afterPath="$PROJECT_DIR$/src/Global/Iterator/ConcreteIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Iterator/Iterator.java" afterPath="$PROJECT_DIR$/src/Global/Iterator/Iterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Position.java" afterPath="$PROJECT_DIR$/src/Global/Position.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/TextObject.java" afterPath="$PROJECT_DIR$/src/Global/TextObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/LastAction.java" afterPath="$PROJECT_DIR$/src/Memeto/LastAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/Memento.java" afterPath="$PROJECT_DIR$/src/Memeto/Memento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" afterPath="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu/ActionMenu.java" afterPath="$PROJECT_DIR$/src/Menu/ActionMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu/ControlMenu.java" afterPath="$PROJECT_DIR$/src/Menu/ControlMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu/PropertyMenu.java" afterPath="$PROJECT_DIR$/src/Menu/PropertyMenu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" afterPath="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Observer/ConcreteAllyControlCenter.java" afterPath="$PROJECT_DIR$/src/Observer/ConcreteAllyControlCenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Observer/Observer.java" afterPath="$PROJECT_DIR$/src/Observer/Observer.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -183,18 +128,7 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -226,22 +160,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java" />
@@ -256,8 +178,6 @@
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfMove.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfDefence.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java" />
         <option value="$PROJECT_DIR$/src/Global/BaseDraw.java" />
         <option value="$PROJECT_DIR$/src/FactoryOfFireUnit/IDGenerator.java" />
@@ -274,9 +194,23 @@
         <option value="$PROJECT_DIR$/src/Menu/ActionMenu.java" />
         <option value="$PROJECT_DIR$/src/Menu/ControlMenu.java" />
         <option value="$PROJECT_DIR$/src/Menu/PropertyMenu.java" />
-        <option value="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" />
         <option value="$PROJECT_DIR$/src/Observer/ConcreteAllyControlCenter.java" />
         <option value="$PROJECT_DIR$/src/Observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" />
+        <option value="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" />
+        <option value="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" />
+        <option value="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
+        <option value="$PROJECT_DIR$/src/Canvas/TextObject.java" />
+        <option value="$PROJECT_DIR$/src/Canvas/Menu/ActionMenu.java" />
       </list>
     </option>
   </component>
@@ -332,9 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Production">
@@ -470,6 +401,9 @@
       <pane id="Scratches">
         <subPane />
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -485,7 +419,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1016,6 +950,9 @@
       <workItem from="1462110820090" duration="475000" />
       <workItem from="1462112234868" duration="5565000" />
       <workItem from="1462157925316" duration="7023000" />
+      <workItem from="1462194617902" duration="3047000" />
+      <workItem from="1462197886496" duration="357000" />
+      <workItem from="1462202192946" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="更改项目为JavaFX项目">
       <created>1460810001147</created>
@@ -1063,7 +1000,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43622000" />
+    <option name="totallyTimeSpent" value="47677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1080,25 +1017,21 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29424307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31343284" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15957446" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" x="392" y="80" width="365" height="1011" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15957446" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" x="392" y="80" width="365" height="1011" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7829978" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7827548" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1107,10 +1040,14 @@
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1136,7 +1073,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1145,303 +1082,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding>
-            <element signature="e#203#204#0" expanded="false" />
-            <element signature="e#232#233#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#465#466#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#471#472#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding>
-            <element signature="e#258#259#0" expanded="false" />
-            <element signature="e#298#299#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfDefence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1449,15 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2212">
-          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1465,15 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global/BaseDraw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,15 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global/TextObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1497,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1505,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1513,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1521,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1537,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1545,39 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu/ActionMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu/PropertyMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu/ControlMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,23 +1163,1013 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/AllyControlCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/AllyControlCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/FireUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4564">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global/BaseDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/Menu/ActionMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1544">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/Menu/ControlMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/Menu/PropertyMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/Hint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-716">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/TextObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="579.5963403880071" y="251.951171875">ConnectionPool</node>
+            <node x="377.0" y="692.951171875">com</node>
+            <node x="223.0" y="612.951171875">netscape</node>
+            <node x="439.0" y="612.951171875">oracle</node>
+            <node x="0.0" y="772.951171875">org</node>
+            <node x="729.1018518518517" y="501.951171875">Canvas</node>
+            <node x="371.5963403880071" y="251.951171875">Memeto</node>
+            <node x="176.0" y="772.951171875">sun</node>
+            <node x="709.9867724867725" y="11.951171875">Global</node>
+            <node x="0.0" y="612.951171875">META-INF</node>
+            <node x="351.0" y="772.951171875">jdk</node>
+            <node x="559.0" y="692.951171875">java</node>
+            <node x="191.0" y="692.951171875">javax</node>
+            <node x="20.0" y="11.951171875">Observer</node>
+            <node x="98.59634038800709" y="251.951171875">FactoryOfFireUnit</node>
+            <node x="385.09303350970015" y="166.951171875">FireUnit</node>
+            <node x="0.0" y="692.951171875">javafx</node>
+            <node x="639.3518518518517" y="366.951171875">Battlefield</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Canvas" target="Battlefield">
+              <point x="-58.125" y="-17.5" />
+              <point x="748.4768518518517" y="451.951171875" />
+              <point x="788.5185185185185" y="451.951171875" />
+              <point x="59.66666666666663" y="17.5" />
+            </edge>
+            <edge source="Battlefield" target="Global">
+              <point x="25.571428571428555" y="-17.5" />
+              <point x="754.4232804232804" y="326.951171875" />
+              <point x="812.0963403880071" y="326.951171875" />
+              <point x="812.0963403880071" y="146.951171875" />
+              <point x="769.0978835978835" y="146.951171875" />
+              <point x="-16.888888888888914" y="17.5" />
+            </edge>
+            <edge source="FactoryOfFireUnit" target="FireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="215.0963403880071" y="226.951171875" />
+              <point x="412.09303350970015" y="226.951171875" />
+              <point x="-54.0" y="17.5" />
+            </edge>
+            <edge source="Memeto" target="FireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="455.5963403880071" y="226.951171875" />
+              <point x="466.09303350970015" y="226.951171875" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit" target="Observer">
+              <point x="-40.50000000000006" y="-17.5" />
+              <point x="425.5930335097001" y="146.951171875" />
+              <point x="170.5" y="146.951171875" />
+              <point x="64.5" y="17.5" />
+            </edge>
+            <edge source="FireUnit" target="Global">
+              <point x="40.49999999999994" y="-17.5" />
+              <point x="506.5930335097001" y="146.951171875" />
+              <point x="752.2089947089946" y="146.951171875" />
+              <point x="-33.77777777777783" y="17.5" />
+            </edge>
+            <edge source="Battlefield" target="ConnectionPool">
+              <point x="0.0" y="-17.5" />
+              <point x="728.8518518518517" y="346.951171875" />
+              <point x="746.0963403880071" y="346.951171875" />
+              <point x="55.5" y="17.5" />
+            </edge>
+            <edge source="Canvas" target="Canvas">
+              <point x="-38.75" y="17.5" />
+              <point x="767.8518518518517" y="556.951171875" />
+              <point x="709.1018518518517" y="556.951171875" />
+              <point x="709.1018518518517" y="528.201171875" />
+              <point x="-77.5" y="8.75" />
+            </edge>
+            <edge source="Battlefield" target="Observer">
+              <point x="-51.14285714285711" y="-17.5" />
+              <point x="677.7089947089946" y="336.951171875" />
+              <point x="88.09634038800709" y="336.951171875" />
+              <point x="88.09634038800709" y="146.951171875" />
+              <point x="127.5" y="146.951171875" />
+              <point x="21.5" y="17.5" />
+            </edge>
+            <edge source="Memeto" target="Memeto">
+              <point x="-42.0" y="17.5" />
+              <point x="413.5963403880071" y="306.951171875" />
+              <point x="351.5963403880071" y="306.951171875" />
+              <point x="351.5963403880071" y="269.451171875" />
+              <point x="-84.0" y="-0.0" />
+            </edge>
+            <edge source="Canvas" target="Global">
+              <point x="19.375" y="-17.5" />
+              <point x="825.9768518518517" y="471.951171875" />
+              <point x="862.7391975308642" y="471.951171875" />
+              <point x="862.7391975308642" y="106.951171875" />
+              <point x="836.6534391534391" y="106.951171875" />
+              <point x="50.66666666666663" y="17.5" />
+            </edge>
+            <edge source="Battlefield" target="Battlefield">
+              <point x="0.0" y="17.5" />
+              <point x="728.8518518518517" y="431.951171875" />
+              <point x="609.3518518518517" y="431.951171875" />
+              <point x="609.3518518518517" y="375.701171875" />
+              <point x="-89.5" y="-8.75" />
+            </edge>
+            <edge source="Battlefield" target="Memeto">
+              <point x="-25.571428571428555" y="-17.5" />
+              <point x="703.2804232804233" y="326.951171875" />
+              <point x="497.5963403880071" y="326.951171875" />
+              <point x="42.0" y="17.5" />
+            </edge>
+            <edge source="Observer" target="Observer">
+              <point x="-64.5" y="17.5" />
+              <point x="41.5" y="66.951171875" />
+              <point x="0.0" y="66.951171875" />
+              <point x="0.0" y="29.451171875" />
+              <point x="-86.0" y="-0.0" />
+            </edge>
+            <edge source="ConnectionPool" target="ConnectionPool">
+              <point x="-55.5" y="17.5" />
+              <point x="635.0963403880071" y="306.951171875" />
+              <point x="559.5963403880071" y="306.951171875" />
+              <point x="559.5963403880071" y="269.451171875" />
+              <point x="-111.0" y="-0.0" />
+            </edge>
+            <edge source="ConnectionPool" target="FireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="690.5963403880071" y="226.951171875" />
+              <point x="520.0930335097" y="226.951171875" />
+              <point x="53.99999999999994" y="17.5" />
+            </edge>
+            <edge source="Global" target="Global">
+              <point x="-67.55555555555556" y="17.5" />
+              <point x="718.4312169312169" y="66.951171875" />
+              <point x="689.9867724867725" y="66.951171875" />
+              <point x="689.9867724867725" y="38.201171875" />
+              <point x="-76.0" y="8.75" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-68.0" y="211.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Battlefield">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Battlefield</OriginalElement>
+          <nodes>
+            <node x="13.0" y="0.0">Battlefield.Tileset</node>
+            <node x="0.0" y="85.0">Battlefield.Battlefield</node>
+            <node x="0.0" y="165.0">Battlefield.Battlefield_01</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Battlefield.Battlefield" target="Battlefield.Tileset">
+              <point x="28.75" y="-17.5" />
+              <point x="86.25" y="60.0" />
+              <point x="79.75" y="60.0" />
+              <point x="22.25" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-408.0" y="-93.0" />
+          <SelectedNodes>
+            <node>Battlefield.Tileset</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Canvas.Menu">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Canvas.Menu</OriginalElement>
+          <nodes>
+            <node x="0.0" y="160.0">Canvas.Menu.ActionMenu</node>
+            <node x="0.0" y="80.0">Canvas.Menu.ControlMenu</node>
+            <node x="0.0" y="0.0">Canvas.Menu.PropertyMenu</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-437.0" y="-96.0" />
+          <SelectedNodes>
+            <node>Canvas.Menu.ActionMenu</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Canvas">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Canvas</OriginalElement>
+          <nodes>
+            <node x="20.0625" y="85.0">Canvas.Menu</node>
+            <node x="85.00416666666666" y="180.0">Canvas.MainCanvas</node>
+            <node x="99.60416666666666" y="0.0">Canvas.TextObject</node>
+            <node x="187.0625" y="85.0">Canvas.Hint</node>
+            <node x="110.00416666666666" y="265.0">Canvas.Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Canvas.Menu" target="Canvas.Menu">
+              <point x="-49.0" y="17.5" />
+              <point x="44.5625" y="140.0" />
+              <point x="0.0625" y="140.0" />
+              <point x="0.0625" y="102.5" />
+              <point x="-73.5" y="-0.0" />
+            </edge>
+            <edge source="Canvas.Menu" target="Canvas.TextObject">
+              <point x="36.75" y="-17.5" />
+              <point x="130.3125" y="65.0" />
+              <point x="145.35416666666666" y="65.0" />
+              <point x="-15.25" y="17.5" />
+            </edge>
+            <edge source="Canvas.Main" target="Canvas.MainCanvas">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="Canvas.MainCanvas" target="Canvas.Hint">
+              <point x="42.33333333333334" y="-17.5" />
+              <point x="190.8375" y="160.0" />
+              <point x="223.0625" y="160.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="Canvas.Hint" target="Canvas.TextObject">
+              <point x="-18.0" y="-17.5" />
+              <point x="205.0625" y="65.0" />
+              <point x="175.85416666666666" y="65.0" />
+              <point x="15.25" y="17.5" />
+            </edge>
+            <edge source="Canvas.MainCanvas" target="Canvas.Menu">
+              <point x="-7.105427357601002E-15" y="-17.5" />
+              <point x="148.50416666666666" y="160.0" />
+              <point x="142.5625" y="160.0" />
+              <point x="49.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-380.0" y="-43.0" />
+          <SelectedNodes>
+            <node>Canvas.Menu</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ConnectionPool">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ConnectionPool</OriginalElement>
+          <nodes>
+            <node x="0.0" y="85.0">ConnectionPool.PoolManager</node>
+            <node x="16.0" y="0.0">ConnectionPool.PoolItem</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ConnectionPool.PoolManager" target="ConnectionPool.PoolItem">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-441.0" y="-133.0" />
+          <SelectedNodes>
+            <node>ConnectionPool.PoolManager</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/FactoryOfFireUnit">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FactoryOfFireUnit</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">FactoryOfFireUnit.FactoryOfFireUnit</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-426.0" y="-176.0" />
+          <SelectedNodes>
+            <node>FactoryOfFireUnit.FactoryOfFireUnit</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/FireUnit">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FireUnit</OriginalElement>
+          <nodes>
+            <node x="317.71666666666664" y="3.201171875">FireUnit.AttackComponent</node>
+            <node x="40.0" y="98.201171875">FireUnit.BasicComponent</node>
+            <node x="288.0" y="98.201171875">FireUnit.HealthComponent</node>
+            <node x="359.0" y="223.201171875">FireUnit.FireUnit</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="FireUnit.FireUnit" target="FireUnit.AttackComponent">
+              <point x="36.75" y="-17.5" />
+              <point x="444.75" y="203.201171875" />
+              <point x="538.5" y="203.201171875" />
+              <point x="538.5" y="78.201171875" />
+              <point x="516.8833333333333" y="78.201171875" />
+              <point x="79.66666666666669" y="17.5" />
+            </edge>
+            <edge source="FireUnit.HealthComponent" target="FireUnit.AttackComponent">
+              <point x="0.0" y="-17.5" />
+              <point x="408.0" y="78.201171875" />
+              <point x="437.21666666666664" y="78.201171875" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.FireUnit" target="FireUnit.BasicComponent">
+              <point x="-36.75" y="-17.5" />
+              <point x="371.25" y="203.201171875" />
+              <point x="239.5" y="203.201171875" />
+              <point x="85.5" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent" target="FireUnit.BasicComponent">
+              <point x="28.5" y="17.5" />
+              <point x="182.5" y="173.201171875" />
+              <point x="0.0" y="173.201171875" />
+              <point x="0.0" y="104.03450520833334" />
+              <point x="-114.0" y="-11.666666666666657" />
+            </edge>
+            <edge source="FireUnit.AttackComponent" target="FireUnit.AttackComponent">
+              <point x="-79.66666666666667" y="17.5" />
+              <point x="357.54999999999995" y="58.201171875" />
+              <point x="297.71666666666664" y="58.201171875" />
+              <point x="297.71666666666664" y="20.701171875" />
+              <point x="-119.5" y="-0.0" />
+            </edge>
+            <edge source="FireUnit.FireUnit" target="FireUnit.HealthComponent">
+              <point x="-12.25" y="-17.5" />
+              <point x="395.75" y="193.201171875" />
+              <point x="348.0" y="193.201171875" />
+              <point x="-60.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-232.0" y="-64.0" />
+          <SelectedNodes>
+            <node>FireUnit.AttackComponent</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/FireUnit.AttackComponent">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FireUnit.AttackComponent</OriginalElement>
+          <nodes>
+            <node x="207.0" y="170.0">FireUnit.AttackComponent.GeneralDecorator</node>
+            <node x="375.5" y="250.0">FireUnit.AttackComponent.WeaponOfFireUnit</node>
+            <node x="225.50000000000003" y="0.0">FireUnit.AttackComponent.AttackComponent</node>
+            <node x="199.0" y="345.0">FireUnit.AttackComponent.ShoulderMissiles</node>
+            <node x="564.0" y="345.0">FireUnit.AttackComponent.RocketGun</node>
+            <node x="800.0" y="345.0">FireUnit.AttackComponent.MechineGun</node>
+            <node x="705.0" y="345.0">FireUnit.AttackComponent.Tank</node>
+            <node x="116.0" y="345.0">FireUnit.AttackComponent.IFV</node>
+            <node x="337.5" y="85.0">FireUnit.AttackComponent.AttackAttrOfFireUnit</node>
+            <node x="0.0" y="170.0">FireUnit.AttackComponent.WeaknessDecorator</node>
+            <node x="68.5" y="85.0">FireUnit.AttackComponent.AttackComponentDecorator</node>
+            <node x="383.0" y="345.0">FireUnit.AttackComponent.SubMechineGun</node>
+            <node x="0.0" y="345.0">FireUnit.AttackComponent.Cannon</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="FireUnit.AttackComponent.IFV" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="147.5" y="315.0" />
+              <point x="413.2142857142858" y="315.0" />
+              <point x="-50.28571428571422" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.AttackAttrOfFireUnit" target="FireUnit.AttackComponent.AttackComponent">
+              <point x="5.6843418860808015E-14" y="-17.5" />
+              <point x="433.00000000000006" y="60.0" />
+              <point x="356.75" y="60.0" />
+              <point x="43.75" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.ShoulderMissiles" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="281.0" y="325.0" />
+              <point x="438.3571428571429" y="325.0" />
+              <point x="-25.14285714285711" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.Cannon" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="48.0" y="305.0" />
+              <point x="388.07142857142856" y="305.0" />
+              <point x="-75.42857142857144" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.RocketGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="624.5" y="325.0" />
+              <point x="488.6428571428572" y="325.0" />
+              <point x="25.142857142857224" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.WeaknessDecorator" target="FireUnit.AttackComponent.AttackComponentDecorator">
+              <point x="0.0" y="-17.5" />
+              <point x="93.5" y="145.0" />
+              <point x="130.75" y="145.0" />
+              <point x="-62.25" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.MechineGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="866.5" y="305.0" />
+              <point x="538.9285714285714" y="305.0" />
+              <point x="75.42857142857144" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.SubMechineGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.AttackComponentDecorator" target="FireUnit.AttackComponent.AttackComponent">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.GeneralDecorator" target="FireUnit.AttackComponent.AttackComponentDecorator">
+              <point x="0.0" y="-17.5" />
+              <point x="292.5" y="145.0" />
+              <point x="255.25" y="145.0" />
+              <point x="62.25" y="17.5" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.AttackAttrOfFireUnit" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.Tank" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="742.5" y="315.0" />
+              <point x="513.7857142857143" y="315.0" />
+              <point x="50.285714285714334" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-44.0" y="-3.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/FireUnit.BasicComponent">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FireUnit.BasicComponent</OriginalElement>
+          <nodes>
+            <node x="1643.7546296296298" y="0.0">FireUnit.BasicComponent.BasicComponent</node>
+            <node x="1473.0" y="125.0">FireUnit.BasicComponent.ConcreteBasicComponent</node>
+            <node x="912.0844907407409" y="0.0">FireUnit.BasicComponent.WayOfMove</node>
+            <node x="155.0" y="125.0">FireUnit.BasicComponent.AttackByGun</node>
+            <node x="1279.0" y="125.0">FireUnit.BasicComponent.DefenceByArmour</node>
+            <node x="1077.4363425925926" y="220.0">FireUnit.BasicComponent.FactoryOfArmourUnit</node>
+            <node x="309.0" y="125.0">FireUnit.BasicComponent.DefenceBySoldier</node>
+            <node x="499.00000000000006" y="125.0">FireUnit.BasicComponent.AttackByRocket</node>
+            <node x="1291.5" y="0.0">FireUnit.BasicComponent.WayOfDefence</node>
+            <node x="637.8113425925926" y="220.0">FireUnit.BasicComponent.FactoryOfLongRangeUnit</node>
+            <node x="675.0" y="125.0">FireUnit.BasicComponent.AbstractFactoryOfFireUnit</node>
+            <node x="1069.0844907407409" y="0.0">FireUnit.BasicComponent.WayOfAttack</node>
+            <node x="1564.9421296296298" y="220.0">FireUnit.BasicComponent.FactoryOfBasicComponent</node>
+            <node x="0.0" y="125.0">FireUnit.BasicComponent.MoveByWalk</node>
+            <node x="205.33449074074088" y="220.0">FireUnit.BasicComponent.FactoryOfSoldierUnit</node>
+            <node x="926.0" y="125.0">FireUnit.BasicComponent.MoveByVehicle</node>
+            <node x="1099.0" y="125.0">FireUnit.BasicComponent.AttackByCannon</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="FireUnit.BasicComponent.AttackByCannon" target="FireUnit.BasicComponent.WayOfAttack">
+              <point x="0.0" y="-17.5" />
+              <point x="1179.0" y="95.0" />
+              <point x="1154.0844907407409" y="95.0" />
+              <point x="17.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
+              <point x="-74.25" y="-17.5" />
+              <point x="1102.1863425925926" y="190.0" />
+              <point x="867.5" y="190.0" />
+              <point x="77.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.DefenceBySoldier">
+              <point x="24.25" y="-17.5" />
+              <point x="326.5844907407409" y="200.0" />
+              <point x="351.5" y="200.0" />
+              <point x="-42.5" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.DefenceByArmour" target="FireUnit.BasicComponent.WayOfDefence">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.DefenceBySoldier">
+              <point x="-84.375" y="-17.5" />
+              <point x="665.9363425925926" y="190.0" />
+              <point x="436.5" y="190.0" />
+              <point x="42.5" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.DefenceByArmour">
+              <point x="74.25" y="-17.5" />
+              <point x="1250.6863425925926" y="200.0" />
+              <point x="1366.0" y="200.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.AttackByRocket">
+              <point x="-28.125" y="-17.5" />
+              <point x="722.1863425925926" y="180.0" />
+              <point x="577.0" y="180.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.AttackByGun" target="FireUnit.BasicComponent.WayOfAttack">
+              <point x="0.0" y="-17.5" />
+              <point x="222.0" y="85.0" />
+              <point x="1086.0844907407409" y="85.0" />
+              <point x="-51.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.DefenceBySoldier" target="FireUnit.BasicComponent.WayOfDefence">
+              <point x="0.0" y="-17.5" />
+              <point x="394.0" y="105.0" />
+              <point x="1316.3333333333333" y="105.0" />
+              <point x="-49.66666666666674" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfMove">
+              <point x="-86.625" y="-17.5" />
+              <point x="1501.875" y="75.0" />
+              <point x="1021.2511574074075" y="75.0" />
+              <point x="43.66666666666663" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.MoveByVehicle">
+              <point x="84.375" y="-17.5" />
+              <point x="834.6863425925926" y="200.0" />
+              <point x="964.25" y="200.0" />
+              <point x="-38.25" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.MoveByVehicle">
+              <point x="-24.75" y="-17.5" />
+              <point x="1151.6863425925926" y="180.0" />
+              <point x="1040.75" y="180.0" />
+              <point x="38.25" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfDefence">
+              <point x="28.875" y="-17.5" />
+              <point x="1617.375" y="55.0" />
+              <point x="1415.6666666666667" y="55.0" />
+              <point x="49.66666666666674" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.MoveByVehicle" target="FireUnit.BasicComponent.WayOfMove">
+              <point x="0.0" y="-17.5" />
+              <point x="1002.5" y="75.0" />
+              <point x="977.5844907407409" y="75.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfAttack">
+              <point x="-28.875" y="-17.5" />
+              <point x="1559.625" y="65.0" />
+              <point x="1188.0844907407409" y="65.0" />
+              <point x="51.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.AttackByGun">
+              <point x="-24.25" y="-17.5" />
+              <point x="278.0844907407409" y="190.0" />
+              <point x="222.0" y="190.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
+              <point x="72.75" y="-17.5" />
+              <point x="375.0844907407409" y="200.0" />
+              <point x="713.5" y="200.0" />
+              <point x="-77.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.BasicComponent">
+              <point x="86.625" y="-17.5" />
+              <point x="1675.125" y="105.0" />
+              <point x="1684.7546296296298" y="105.0" />
+              <point x="-41.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
+              <point x="28.125" y="-17.5" />
+              <point x="778.4363425925926" y="200.0" />
+              <point x="790.5" y="200.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.AttackByCannon">
+              <point x="24.75" y="-17.5" />
+              <point x="1201.1863425925926" y="200.0" />
+              <point x="1179.0" y="200.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfBasicComponent" target="FireUnit.BasicComponent.BasicComponent">
+              <point x="58.75" y="-17.5" />
+              <point x="1741.1921296296298" y="200.0" />
+              <point x="1745.4421296296298" y="200.0" />
+              <point x="1745.4421296296298" y="105.0" />
+              <point x="1766.7546296296298" y="105.0" />
+              <point x="41.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.MoveByWalk">
+              <point x="-72.75" y="-17.5" />
+              <point x="229.58449074074088" y="200.0" />
+              <point x="67.5" y="200.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.AttackByRocket" target="FireUnit.BasicComponent.WayOfAttack">
+              <point x="0.0" y="-17.5" />
+              <point x="577.0" y="95.0" />
+              <point x="1120.0844907407409" y="95.0" />
+              <point x="-17.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfBasicComponent" target="FireUnit.BasicComponent.ConcreteBasicComponent">
+              <point x="-58.75" y="-17.5" />
+              <point x="1623.6921296296298" y="200.0" />
+              <point x="1588.5" y="200.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.MoveByWalk" target="FireUnit.BasicComponent.WayOfMove">
+              <point x="0.0" y="-17.5" />
+              <point x="67.5" y="75.0" />
+              <point x="933.9178240740742" y="75.0" />
+              <point x="-43.66666666666663" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8211159737417943" x="282.0" y="-108.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/FireUnit.HealthComponent">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FireUnit.HealthComponent</OriginalElement>
+          <nodes>
+            <node x="221.0" y="85.0">FireUnit.HealthComponent.Injured</node>
+            <node x="117.0" y="85.0">FireUnit.HealthComponent.Death</node>
+            <node x="71.0" y="0.0">FireUnit.HealthComponent.HealthComponent</node>
+            <node x="0.0" y="85.0">FireUnit.HealthComponent.Healthy</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="FireUnit.HealthComponent.Healthy" target="FireUnit.HealthComponent.HealthComponent">
+              <point x="0.0" y="-17.5" />
+              <point x="48.5" y="60.0" />
+              <point x="100.33333333333334" y="60.0" />
+              <point x="-58.66666666666666" y="17.5" />
+            </edge>
+            <edge source="FireUnit.HealthComponent.Injured" target="FireUnit.HealthComponent.HealthComponent">
+              <point x="0.0" y="-17.5" />
+              <point x="267.0" y="60.0" />
+              <point x="217.66666666666666" y="60.0" />
+              <point x="58.66666666666666" y="17.5" />
+            </edge>
+            <edge source="FireUnit.HealthComponent.Death" target="FireUnit.HealthComponent.HealthComponent">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-354.0" y="-133.0" />
+          <SelectedNodes>
+            <node>FireUnit.HealthComponent.Healthy</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Global">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Global</OriginalElement>
+          <nodes>
+            <node x="0.0" y="165.0">Global.IDGenerator</node>
+            <node x="0.0" y="85.0">Global.BaseDraw</node>
+            <node x="176.0" y="0.0">Global.Iterator</node>
+            <node x="5.5" y="0.0">Global.Position</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Global.BaseDraw" target="Global.Position">
+              <point x="27.75" y="-17.5" />
+              <point x="83.25" y="60.0" />
+              <point x="80.5" y="60.0" />
+              <point x="25.0" y="17.5" />
+            </edge>
+            <edge source="Global.Iterator" target="Global.Iterator">
+              <point x="0.0" y="17.5" />
+              <point x="256.0" y="55.0" />
+              <point x="156.0" y="55.0" />
+              <point x="156.0" y="17.5" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-342.0" y="-93.0" />
+          <SelectedNodes>
+            <node>Global.IDGenerator</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Global.Iterator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Global.Iterator</OriginalElement>
+          <nodes>
+            <node x="173.5" y="0.0">Global.Iterator.Iterator</node>
+            <node x="140.0" y="85.0">Global.Iterator.ConcreteIterator</node>
+            <node x="0.0" y="85.0">Global.Iterator.Aggregate</node>
+            <node x="47.25" y="170.0">Global.Iterator.ConcreteAggregate</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Global.Iterator.ConcreteIterator" target="Global.Iterator.Iterator">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="Global.Iterator.ConcreteAggregate" target="Global.Iterator.Aggregate">
+              <point x="-46.75" y="-17.5" />
+              <point x="94.0" y="145.0" />
+              <point x="60.0" y="145.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="Global.Iterator.ConcreteAggregate" target="Global.Iterator.ConcreteIterator">
+              <point x="46.75" y="-17.5" />
+              <point x="187.5" y="145.0" />
+              <point x="221.5" y="145.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-359.0" y="-91.0" />
+          <SelectedNodes>
+            <node>Global.Iterator.ConcreteIterator</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Memeto">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Memeto</OriginalElement>
+          <nodes>
+            <node x="35.0" y="85.0">Memeto.Memento</node>
+            <node x="32.5" y="0.0">Memeto.LastAction</node>
+            <node x="0.0" y="170.0">Memeto.MementoCaretaker</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Memeto.Memento" target="Memeto.LastAction">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="Memeto.MementoCaretaker" target="Memeto.Memento">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-419.0" y="-91.0" />
+          <SelectedNodes>
+            <node>Memeto.Memento</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Observer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Observer</OriginalElement>
+          <nodes>
+            <node x="33.5" y="85.0">Observer.AllyControlCenter</node>
+            <node x="65.5" y="0.0">Observer.Observer</node>
+            <node x="0.0" y="170.0">Observer.ConcreteAllyControlCenter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Observer.ConcreteAllyControlCenter" target="Observer.AllyControlCenter">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="Observer.AllyControlCenter" target="Observer.Observer">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="120.0" y="103.0" />
+          <SelectedNodes>
+            <node>Observer.ConcreteAllyControlCenter</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

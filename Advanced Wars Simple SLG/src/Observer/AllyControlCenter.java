@@ -12,8 +12,10 @@ abstract public class AllyControlCenter {
 
     public void quit( Observer obs ) {
         for( Observer o : fireUnits ) {
-            if( o.getID().equals( obs.getID() ) && obs.equals( o ) )
+            if( o.getID().equals( obs.getID() )  && obs.equals( o ) ) {
                 fireUnits.remove( obs );
+                break;
+            }
         }
     }
 

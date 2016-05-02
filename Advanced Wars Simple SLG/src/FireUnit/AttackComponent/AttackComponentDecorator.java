@@ -19,11 +19,6 @@ class AttackComponentDecorator extends AttackComponent implements Serializable {
     }
 
     @Override
-    public void setAttackDamage( int attackDamages ) {
-        attackComponent.setAttackDamage( attackDamages );
-    }
-
-    @Override
     public void setWeapon( WeaponOfFireUnit weapon ) {
         attackComponent.setWeapon( weapon );
     }
@@ -34,8 +29,8 @@ class AttackComponentDecorator extends AttackComponent implements Serializable {
     }
 
     @Override
-    public int getAttackDamage() {
-        return attackComponent.getAttackDamage();
+    public int getAttackDamage( int attackDamage ) {
+        return attackComponent.getAttackDamage( attackDamage );
     }
 
     @Override

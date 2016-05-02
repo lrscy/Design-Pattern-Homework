@@ -8,13 +8,11 @@ import java.io.Serializable;
 abstract public class AttackComponent implements Serializable {
     abstract public String getName();
 
-    abstract public void setAttackDamage( int attackDamage );
-
     abstract public void setWeapon( WeaponOfFireUnit weapon );
 
     abstract public WeaponOfFireUnit getWeapon();
 
-    abstract public int getAttackDamage();
+    abstract public int getAttackDamage( int attackDamage );
 
     abstract public String getHashCode();
 }

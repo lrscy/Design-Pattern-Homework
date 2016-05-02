@@ -11,6 +11,7 @@ import java.io.Serializable;
 public class Healthy implements HealthComponent, Serializable {
     @Override
     public void setHealthStatus( FireUnit fireUnit ) {
+        if( fireUnit.getAttackComponent() instanceof GeneralDecorator ) return ;
         fireUnit.setAttackComponent( new GeneralDecorator( fireUnit.getAttackComponent() ) );
     }
 
