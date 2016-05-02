@@ -2,8 +2,11 @@ package Global;
 
 import javafx.scene.canvas.GraphicsContext;
 
+/**
+ * Description: 基础绘画接口
+ */
 public abstract class BaseDraw {
-    public int width, height;
+    protected int width, height;
     public Position position = new Position( 0, 0 );
 
     abstract public void draw( GraphicsContext gc );
@@ -32,9 +35,7 @@ public abstract class BaseDraw {
 
     public void setWidth( int width ) { this.width = width; }
 
-    public int getWidth() {
-        return width;
-    }
+    public int getWidth() { return width; }
 
     public boolean isIn( int x, int y ) {
         return ( getX() <= x && x <= getX() + getWidth() &&

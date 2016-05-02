@@ -1,9 +1,12 @@
 package Observer;
 
+/**
+ * Description: 抽象观察者
+ */
 public interface Observer {
-    public String getID();
+    String getID();
 
-    public void beAttacked( AllyControlCenter acc );
+    void beAttacked( AllyControlCenter acc );
 
-    public void help();
+    void help();
 }

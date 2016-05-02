@@ -2,11 +2,14 @@ package FireUnit.AttackComponent;
 
 import java.io.Serializable;
 
-public class AttackComponentDecorator extends AttackComponent implements Serializable {
-    private String hashCode = "1";
+/**
+ * Description: 攻击属性装饰者
+ */
+class AttackComponentDecorator extends AttackComponent implements Serializable {
+    // 被装饰的对象
     private AttackComponent attackComponent;
 
-    public AttackComponentDecorator( AttackComponent attackComponent ) {
+    AttackComponentDecorator( AttackComponent attackComponent ) {
         this.attackComponent = attackComponent;
     }
 
@@ -37,6 +40,7 @@ public class AttackComponentDecorator extends AttackComponent implements Seriali
 
     @Override
     public String getHashCode() {
+        String hashCode = "1";
         return attackComponent.getWeapon().getHashCode() + hashCode;
     }
 }

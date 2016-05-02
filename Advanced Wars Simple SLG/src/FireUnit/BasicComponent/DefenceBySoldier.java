@@ -1,16 +1,16 @@
 package FireUnit.BasicComponent;
 
-public class DefenceBySoldier implements WayOfDefence {
-    private String hashCode = "0";
-    private int reduceDamage = 10;
-
+/**
+ * Description: 基础防御类型为士兵
+ */
+class DefenceBySoldier implements WayOfDefence {
     @Override
     public int defenceEffect() {
-        return reduceDamage;
+        return 10;
     }
 
     @Override
     public String getHashCode() {
-        return hashCode;
+        return "0";
     }
 }

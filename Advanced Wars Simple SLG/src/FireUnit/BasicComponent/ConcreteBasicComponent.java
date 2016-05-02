@@ -1,6 +1,9 @@
 package FireUnit.BasicComponent;
 
-public class ConcreteBasicComponent extends BasicComponent {
+/**
+ * Description: 具体基础属性 具体享元 基础属性抽象工厂的客户端
+ */
+class ConcreteBasicComponent extends BasicComponent {
     private String hashCode = null;
     private String name = null;
     private WayOfMove wayOfMove = null;
@@ -12,7 +15,7 @@ public class ConcreteBasicComponent extends BasicComponent {
         return name;
     }
 
-    public ConcreteBasicComponent() {
+    ConcreteBasicComponent() {
     }
 
     @Override

@@ -1,5 +1,8 @@
 package Global;
 
+/**
+ * Description: 火力单元ID生成器
+ */
 public class IDGenerator {
     private int number;
     private static IDGenerator idGenerator = null;

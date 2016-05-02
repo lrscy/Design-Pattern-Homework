@@ -2,6 +2,9 @@ package FireUnit.AttackComponent;
 
 import java.io.Serializable;
 
+/**
+ * Description: 抽象攻击属性
+ */
 abstract public class AttackComponent implements Serializable {
     abstract public String getName();
 

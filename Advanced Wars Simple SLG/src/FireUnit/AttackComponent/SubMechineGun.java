@@ -2,23 +2,23 @@ package FireUnit.AttackComponent;
 
 import java.io.Serializable;
 
+/**
+ * Description: 冲锋枪武器属性
+ */
 public class SubMechineGun implements WeaponOfFireUnit, Serializable {
-    private String hashCode = "0";
-    private String weaponName = "冲锋枪";
-    private int damageEnhance = 0;
-
     @Override
     public String getName() {
-        return weaponName;
+        return "冲锋枪";
     }
 
     @Override
     public int attackEnhance( int basicAttackDamage ) {
+        int damageEnhance = 0;
         return basicAttackDamage + damageEnhance;
     }
 
     @Override
     public String getHashCode() {
-        return hashCode;
+        return "0";
     }
 }

@@ -1,11 +1,12 @@
 package FireUnit.BasicComponent;
 
+/**
+ * Description: 装甲兵基础属性产品簇
+ */
 public class FactoryOfArmourUnit implements AbstractFactoryOfFireUnit {
-    private String unitName = "装甲车";
-
     @Override
     public String getName() {
-        return unitName;
+        return "装甲车";
     }
 
     @Override

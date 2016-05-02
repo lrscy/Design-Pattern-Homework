@@ -1,5 +1,8 @@
 package Memeto;
 
+/**
+ * Description: 备忘录管理者
+ */
 public class MementoCaretaker {
     private static MementoCaretaker mementoCaretaker;
     private Memento memento = null;

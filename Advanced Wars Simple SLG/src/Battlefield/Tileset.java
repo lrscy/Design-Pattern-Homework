@@ -2,11 +2,14 @@ package Battlefield;
 
 import javafx.scene.image.Image;
 
+/**
+ * Description: 地图文件中的图片信息
+ */
 public class Tileset {
     private Image image;
     private String name;
     private int firestgid;
-    private int tilewidth, tileheight, tilecount;
+    private int tilewidth, tileheight;
     private int columns;
 
     public void setImage( Image image ) {
@@ -27,10 +30,6 @@ public class Tileset {
 
     public void setTileheight( String tileheight ) {
         this.tileheight = Integer.parseInt( tileheight );
-    }
-
-    public void setTilecount( String tilecount ) {
-        this.tilecount = Integer.parseInt( tilecount );
     }
 
     public void setColumns( String columns ) {
@@ -55,10 +54,6 @@ public class Tileset {
 
     public int getTileheight() {
         return tileheight;
-    }
-
-    public int getTilecount() {
-        return tilecount;
     }
 
     public int getColumns() {

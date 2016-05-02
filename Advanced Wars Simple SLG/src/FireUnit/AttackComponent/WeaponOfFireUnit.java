@@ -1,9 +1,12 @@
 package FireUnit.AttackComponent;
 
+/**
+ * Description: 武器策略
+ */
 public interface WeaponOfFireUnit {
-    public String getName();
+    String getName();
 
-    public int attackEnhance( int attackDamage );
+    int attackEnhance( int attackDamage );
 
-    public String getHashCode();
+    String getHashCode();
 }

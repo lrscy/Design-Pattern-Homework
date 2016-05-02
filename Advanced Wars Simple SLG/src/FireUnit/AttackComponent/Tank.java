@@ -2,23 +2,23 @@ package FireUnit.AttackComponent;
 
 import java.io.Serializable;
 
+/**
+ * Description: 坦克武器属性
+ */
 public class Tank implements WeaponOfFireUnit, Serializable {
-    private String hashCode = "4";
-    private String weaponName = "坦克";
-    private int damageEnhance = 15;
-
     @Override
     public String getName() {
-        return weaponName;
+        return "坦克";
     }
 
     @Override
     public int attackEnhance( int basicAttackDamage ) {
+        int damageEnhance = 15;
         return basicAttackDamage + damageEnhance;
     }
 
     @Override
     public String getHashCode() {
-        return hashCode;
+        return "4";
     }
 }

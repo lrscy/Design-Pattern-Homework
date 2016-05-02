@@ -6,6 +6,9 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 
+/**
+ * Description: 显示界面下方提示栏
+ */
 public class Hint extends BaseDraw {
     private TextObject textObject;
     private Paint color = Color.BLACK;

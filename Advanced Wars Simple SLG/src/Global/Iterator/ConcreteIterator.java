@@ -3,11 +3,14 @@ package Global.Iterator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConcreteIterator implements Iterator {
+/**
+ * Description: 具体迭代器
+ */
+class ConcreteIterator implements Iterator {
     private List list = new ArrayList();
     private int cursor = 0;
 
-    public ConcreteIterator( List list ) { this.list = list; }
+    ConcreteIterator( List list ) { this.list = list; }
 
     @Override
     public Object next() {

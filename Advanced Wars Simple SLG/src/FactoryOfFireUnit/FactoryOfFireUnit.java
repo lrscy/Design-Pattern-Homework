@@ -7,6 +7,9 @@ import FireUnit.FireUnit;
 import Global.IDGenerator;
 import Global.Position;
 
+/**
+ * Description: 火力单元工厂
+ */
 public class FactoryOfFireUnit {
     private static FactoryOfFireUnit factoryOfFireUnit = null;
 
@@ -24,8 +27,16 @@ public class FactoryOfFireUnit {
         return factoryOfFireUnit;
     }
 
+    /**
+     * Description: 依据需求返回相应的火力单元
+     * @param troopName 所属部队
+     * @param category  火力单元类别号
+     * @param position  该火力单元的位置
+     * @return  生成好的火力单元
+     */
     public FireUnit produceFireUnit( String troopName, String category, Position position ) {
-        FireUnit fu = null;
+        FireUnit fu;
+        // 获得全局统一的编号
         String id = IDGenerator.getInstance().getID();
         BasicComponent bc = null;
         AttackComponent ac = new AttackAttrOfFireUnit();
@@ -73,6 +84,7 @@ public class FactoryOfFireUnit {
                 ac.setAttackDamage( bc.attackEffect() );
                 break;
         }
+        // 最终生成火力单元
         fu = new FireUnit( id, troopName, position, 100, ac, bc );
         return fu;
     }

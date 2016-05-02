@@ -2,23 +2,23 @@ package FireUnit.AttackComponent;
 
 import java.io.Serializable;
 
+/**
+ * Description: 加农炮武器属性
+ */
 public class Cannon implements WeaponOfFireUnit, Serializable {
-    private String hashCode = "5";
-    private String weaponName = "远程火炮";
-    private int damageEnhance = 0;
-
     @Override
     public String getName() {
-        return weaponName;
+        return "远程火炮";
     }
 
     @Override
     public int attackEnhance( int basicAttackDamage ) {
+        int damageEnhance = 0;
         return basicAttackDamage + damageEnhance;
     }
 
     @Override
     public String getHashCode() {
-        return hashCode;
+        return "5";
     }
 }

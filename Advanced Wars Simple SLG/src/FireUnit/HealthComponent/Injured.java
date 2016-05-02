@@ -5,9 +5,10 @@ import FireUnit.FireUnit;
 
 import java.io.Serializable;
 
+/**
+ * Description: 受伤状态
+ */
 public class Injured implements HealthComponent, Serializable {
-    private String healthStatus = "受伤";
-
     @Override
     public void setHealthStatus( FireUnit fireUnit ) {
         fireUnit.setAttackComponent( new WeaknessDecorator( fireUnit.getAttackComponent() ) );
@@ -15,6 +16,6 @@ public class Injured implements HealthComponent, Serializable {
 
     @Override
     public String getHealthStatus() {
-        return healthStatus;
+        return "受伤";
     }
 }

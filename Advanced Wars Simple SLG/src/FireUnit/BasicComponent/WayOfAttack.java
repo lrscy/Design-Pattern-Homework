@@ -1,9 +1,12 @@
 package FireUnit.BasicComponent;
 
-public interface WayOfAttack {
-    public int maxAttackRange();
+/**
+ * Description: 攻击方式接口 抽象攻击方式
+ */
+interface WayOfAttack {
+    int maxAttackRange();
 
-    public int attackEffect();
+    int attackEffect();
 
-    public String getHashCode();
+    String getHashCode();
 }

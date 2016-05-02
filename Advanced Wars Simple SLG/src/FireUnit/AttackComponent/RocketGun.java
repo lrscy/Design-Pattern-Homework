@@ -2,23 +2,23 @@ package FireUnit.AttackComponent;
 
 import java.io.Serializable;
 
+/**
+ * Description: 火箭弹武器属性
+ */
 public class RocketGun implements WeaponOfFireUnit, Serializable {
-    private String hashCode = "6";
-    private String weaponName = "火箭炮";
-    private int damageEnhance = 20;
-
     @Override
     public String getName() {
-        return weaponName;
+        return "火箭炮";
     }
 
     @Override
     public int attackEnhance( int basicAttackDamage ) {
+        int damageEnhance = 20;
         return basicAttackDamage + damageEnhance;
     }
 
     @Override
     public String getHashCode() {
-        return hashCode;
+        return "6";
     }
 }

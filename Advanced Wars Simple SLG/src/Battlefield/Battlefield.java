@@ -27,7 +27,6 @@ import java.util.List;
 
 /**
  * Description: 地图类，记录地图中每个点的信息并进行移动及战斗动作的处理。
- * @author Ruosen
  */
 public class Battlefield extends BaseDraw {
     private static Battlefield battlefield = null;
@@ -397,7 +396,6 @@ public class Battlefield extends BaseDraw {
         tilesets[i].setName( tilesetElement.getAttribute( "name" ) );
         tilesets[i].setTilewidth( tilesetElement.getAttribute( "tilewidth" ) );
         tilesets[i].setTileheight( tilesetElement.getAttribute( "tileheight" ) );
-        tilesets[i].setTilecount( tilesetElement.getAttribute( "tilecount" ) );
         tilesets[i].setColumns( tilesetElement.getAttribute( "columns" ) );
         Element imageElement = ( Element )tilesetElement.getElementsByTagName( "image" ).item( 0 );
         String source = imageElement.getAttribute( "source" );

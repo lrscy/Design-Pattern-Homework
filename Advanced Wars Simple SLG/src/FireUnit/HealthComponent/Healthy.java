@@ -1,14 +1,14 @@
 package FireUnit.HealthComponent;
 
-import FireUnit.AttackComponent.AttackAttrOfFireUnit;
 import FireUnit.AttackComponent.GeneralDecorator;
 import FireUnit.FireUnit;
 
 import java.io.Serializable;
 
+/**
+ * Description: 健康状态
+ */
 public class Healthy implements HealthComponent, Serializable {
-    private String healthStatus = "健康";
-
     @Override
     public void setHealthStatus( FireUnit fireUnit ) {
         fireUnit.setAttackComponent( new GeneralDecorator( fireUnit.getAttackComponent() ) );
@@ -16,6 +16,6 @@ public class Healthy implements HealthComponent, Serializable {
 
     @Override
     public String getHealthStatus() {
-        return healthStatus;
+        return "健康";
     }
 }

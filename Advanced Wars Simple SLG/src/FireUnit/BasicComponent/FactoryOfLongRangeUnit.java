@@ -1,11 +1,12 @@
 package FireUnit.BasicComponent;
 
+/**
+ * Description: 远程火炮基础属性产品簇
+ */
 public class FactoryOfLongRangeUnit implements AbstractFactoryOfFireUnit {
-    private String unitName = "远程部队";
-
     @Override
     public String getName() {
-        return unitName;
+        return "远程部队";
     }
 
     @Override

@@ -7,7 +7,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/WTimer$OnTimerListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/WTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Canvas/WTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../UML/UML.asta.lock" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Tileset.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Tileset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/Hint.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/Hint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$1.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$Status.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas$Status.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolItem.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolManager.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/ConnectionPool/PoolManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackAttrOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackAttrOfFireUnit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponentDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponentDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Cannon.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Cannon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/GeneralDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/GeneralDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/IFV.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/IFV.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/MechineGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/MechineGun.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/RocketGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/RocketGun.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/ShoulderMissiles.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/ShoulderMissiles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/SubMechineGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/SubMechineGun.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Tank.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/Tank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/WeaknessDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/WeaknessDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByCannon.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByCannon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByGun.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByGun.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByRocket.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByRocket.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/BasicComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/BasicComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/ConcreteBasicComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/ConcreteBasicComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceByArmour.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceByArmour.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceBySoldier.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/DefenceBySoldier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfArmourUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfArmourUnit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfBasicComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfBasicComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfLongRangeUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfLongRangeUnit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfSoldierUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/FactoryOfSoldierUnit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByVehicle.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByVehicle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByWalk.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/MoveByWalk.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfAttack.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfAttack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfDefence.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfDefence.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfMove.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/WayOfMove.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/FireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/FireUnit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Death.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Death.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Healthy.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Healthy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Injured.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Injured.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/BaseDraw.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/BaseDraw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/IDGenerator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/IDGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/Position.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/Position.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" afterPath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Tileset.java" afterPath="$PROJECT_DIR$/src/Battlefield/Tileset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/Hint.java" afterPath="$PROJECT_DIR$/src/Canvas/Hint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" afterPath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConnectionPool/PoolItem.java" afterPath="$PROJECT_DIR$/src/ConnectionPool/PoolItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConnectionPool/PoolManager.java" afterPath="$PROJECT_DIR$/src/ConnectionPool/PoolManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfAttack.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfAttack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfDefence.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfDefence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfMove.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfMove.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/BaseDraw.java" afterPath="$PROJECT_DIR$/src/Global/BaseDraw.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/IDGenerator.java" afterPath="$PROJECT_DIR$/src/Global/IDGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Iterator/Aggregate.java" afterPath="$PROJECT_DIR$/src/Global/Iterator/Aggregate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Iterator/ConcreteAggregate.java" afterPath="$PROJECT_DIR$/src/Global/Iterator/ConcreteAggregate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Iterator/ConcreteIterator.java" afterPath="$PROJECT_DIR$/src/Global/Iterator/ConcreteIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Iterator/Iterator.java" afterPath="$PROJECT_DIR$/src/Global/Iterator/Iterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/Position.java" afterPath="$PROJECT_DIR$/src/Global/Position.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Global/TextObject.java" afterPath="$PROJECT_DIR$/src/Global/TextObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/LastAction.java" afterPath="$PROJECT_DIR$/src/Memeto/LastAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/Memento.java" afterPath="$PROJECT_DIR$/src/Memeto/Memento.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" afterPath="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu/ActionMenu.java" afterPath="$PROJECT_DIR$/src/Menu/ActionMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu/ControlMenu.java" afterPath="$PROJECT_DIR$/src/Menu/ControlMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu/PropertyMenu.java" afterPath="$PROJECT_DIR$/src/Menu/PropertyMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" afterPath="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Observer/ConcreteAllyControlCenter.java" afterPath="$PROJECT_DIR$/src/Observer/ConcreteAllyControlCenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Observer/Observer.java" afterPath="$PROJECT_DIR$/src/Observer/Observer.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,11 +184,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Battlefield.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9968">
-              <caret line="379" column="20" selection-start-line="379" selection-start-column="20" selection-end-line="379" selection-end-column="20" />
+            <state relative-caret-position="336">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,57 +226,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Menu/TextObject.java" />
-        <option value="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" />
-        <option value="$PROJECT_DIR$/src/Global/BaseDraw.java" />
-        <option value="$PROJECT_DIR$/src/Memeto/Memento.java" />
-        <option value="$PROJECT_DIR$/src/Memeto/LastAction.java" />
-        <option value="$PROJECT_DIR$/TODOList" />
-        <option value="$PROJECT_DIR$/src/Global/Iterator.java" />
-        <option value="$PROJECT_DIR$/src/Global/Iterator/Iterator.java" />
-        <option value="$PROJECT_DIR$/src/ConnectionPool/Aggregate.java" />
-        <option value="$PROJECT_DIR$/src/ConnectionPool/ConcreteAggregate.java" />
-        <option value="$PROJECT_DIR$/src/ConnectionPool/PoolManager.java" />
-        <option value="$PROJECT_DIR$/src/Global/Iterator/Aggregate.java" />
-        <option value="$PROJECT_DIR$/src/Global/Iterator/ConcreteIterator.java" />
-        <option value="$PROJECT_DIR$/src/Observer/Observer.java" />
-        <option value="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" />
-        <option value="$PROJECT_DIR$/src/Canvas/MainCanvas.java" />
-        <option value="$PROJECT_DIR$/src/Canvas/Hint.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfAttack.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfMove.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfDefence.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" />
-        <option value="$PROJECT_DIR$/src/Global/Iterator/ConcreteAggregate.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java" />
+        <option value="$PROJECT_DIR$/src/Global/BaseDraw.java" />
+        <option value="$PROJECT_DIR$/src/FactoryOfFireUnit/IDGenerator.java" />
+        <option value="$PROJECT_DIR$/src/Global/IDGenerator.java" />
         <option value="$PROJECT_DIR$/src/Global/Position.java" />
         <option value="$PROJECT_DIR$/src/Global/TextObject.java" />
+        <option value="$PROJECT_DIR$/src/Global/Iterator/Aggregate.java" />
+        <option value="$PROJECT_DIR$/src/Global/Iterator/ConcreteAggregate.java" />
+        <option value="$PROJECT_DIR$/src/Global/Iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/Global/Iterator/ConcreteIterator.java" />
+        <option value="$PROJECT_DIR$/src/Memeto/LastAction.java" />
+        <option value="$PROJECT_DIR$/src/Memeto/Memento.java" />
+        <option value="$PROJECT_DIR$/src/Memeto/MementoCaretaker.java" />
         <option value="$PROJECT_DIR$/src/Menu/ActionMenu.java" />
         <option value="$PROJECT_DIR$/src/Menu/ControlMenu.java" />
         <option value="$PROJECT_DIR$/src/Menu/PropertyMenu.java" />
+        <option value="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" />
         <option value="$PROJECT_DIR$/src/Observer/ConcreteAllyControlCenter.java" />
-        <option value="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
+        <option value="$PROJECT_DIR$/src/Observer/Observer.java" />
       </list>
     </option>
   </component>
@@ -192,7 +300,7 @@
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1860" />
-    <option name="height" value="1098" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -224,6 +332,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Production">
@@ -354,28 +465,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Battlefield" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
       <pane id="Scratches">
         <subPane />
@@ -925,6 +1015,7 @@
       <workItem from="1462088598782" duration="5116000" />
       <workItem from="1462110820090" duration="475000" />
       <workItem from="1462112234868" duration="5565000" />
+      <workItem from="1462157925316" duration="7023000" />
     </task>
     <task id="LOCAL-00001" summary="更改项目为JavaFX项目">
       <created>1460810001147</created>
@@ -972,7 +1063,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36599000" />
+    <option name="totallyTimeSpent" value="43622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -984,29 +1075,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1860" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1860" height="1092" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29424307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31434384" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26012793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31343284" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15957446" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" x="392" y="80" width="365" height="1011" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15957446" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" x="392" y="80" width="365" height="1011" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7829978" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7829978" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1019,45 +1111,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="PlantUML" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7829978" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29424307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31434384" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26012793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15939598" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" x="392" y="80" width="365" height="1011" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1090,238 +1145,160 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-          <folding>
-            <element signature="e#937#938#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/Cannon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/IFV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="112">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
+            <element signature="e#203#204#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java">
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="158">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="196">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#445#446#0" expanded="false" />
+            <element signature="e#471#472#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/ShoulderMissiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/Tank.java">
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/RocketGun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="224">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/MechineGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="326">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
-            <element signature="e#469#470#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#258#259#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="84">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="84">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="56">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="84">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#237#238#0" expanded="false" />
-            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="302">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceBySoldier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#377#378#0" expanded="false" />
-            <element signature="e#420#421#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfAttack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1329,114 +1306,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfArmourUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="56">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfSoldierUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java">
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfLongRangeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="56">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/FactoryOfBasicComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/DefenceByArmour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfDefence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/WayOfAttack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByWalk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Death.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="224">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global/Iterator/Aggregate.java">
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global/Iterator/ConcreteAggregate.java">
+    <entry file="file://$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global/Iterator/ConcreteIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global/Iterator/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="2212">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Global/IDGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="280">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Global/BaseDraw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        <state relative-caret-position="200">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Global/TextObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        <state relative-caret-position="1120">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Memeto/LastAction.java">
+    <entry file="file://$PROJECT_DIR$/src/Global/Iterator/Aggregate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="84">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Memeto/Memento.java">
+    <entry file="file://$PROJECT_DIR$/src/Global/Iterator/ConcreteAggregate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="476">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global/Iterator/ConcreteIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global/Iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1444,74 +1528,79 @@
     <entry file="file://$PROJECT_DIR$/src/Memeto/MementoCaretaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu/PropertyMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/Memeto/LastAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="424">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu/ControlMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/Memeto/Memento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="280">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu/ActionMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="424">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/FireUnit.java">
+    <entry file="file://$PROJECT_DIR$/src/Menu/PropertyMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
-          <folding>
-            <element signature="e#4865#4866#0" expanded="true" />
-            <element signature="e#4963#4964#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/Menu/ControlMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="1540">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Observer/ConcreteAllyControlCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="252">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Observer/AllyControlCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
+    <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9968">
-          <caret line="379" column="20" selection-start-line="379" selection-start-column="20" selection-end-line="379" selection-end-column="20" />
+        <state relative-caret-position="336">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

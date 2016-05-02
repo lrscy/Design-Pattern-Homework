@@ -1,9 +1,12 @@
 package Global.Iterator;
 
+/**
+ * Description: 抽象聚合接口
+ */
 public interface Aggregate {
-    public void add( Object obj );
+    void add( Object obj );
 
-    public void remove( Object obj );
+    void remove( Object obj );
 
-    public Iterator iterator();
+    Iterator iterator();
 }

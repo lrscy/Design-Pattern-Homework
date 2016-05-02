@@ -2,17 +2,20 @@ package FireUnit.AttackComponent;
 
 import java.io.Serializable;
 
+/**
+ * Description: 装饰属性 人手不足 攻击力减半
+ */
 public class WeaknessDecorator extends AttackComponentDecorator implements Serializable {
-    private String hashCode = "3";
-    private double factor = 0.5;
-
     public WeaknessDecorator( AttackComponent attackComponent ) { super( attackComponent ); }
 
     @Override
-    public int getAttackDamage() { return ( int )( super.getAttackDamage() * factor ); }
+    public int getAttackDamage() {
+        double factor = 0.5;
+        return ( int )( super.getAttackDamage() * factor ); }
 
     @Override
     public String getHashCode() {
+        String hashCode = "3";
         return super.getHashCode().substring( 0, 1 ) + hashCode;
     }
 }

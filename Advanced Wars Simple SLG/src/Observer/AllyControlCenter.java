@@ -2,6 +2,9 @@ package Observer;
 
 import java.util.ArrayList;
 
+/**
+ * Description: 抽象广播平台
+ */
 abstract public class AllyControlCenter {
     ArrayList<Observer> fireUnits = new ArrayList<>();
 

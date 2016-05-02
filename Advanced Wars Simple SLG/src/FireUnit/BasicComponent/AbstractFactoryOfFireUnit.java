@@ -1,11 +1,14 @@
 package FireUnit.BasicComponent;
 
-public interface AbstractFactoryOfFireUnit {
-    public String getName();
+/**
+ * Description: 基础属性抽象工厂
+ */
+interface AbstractFactoryOfFireUnit {
+    String getName();
 
-    public WayOfMove CreateWayOfMoving();
+    WayOfMove CreateWayOfMoving();
 
-    public WayOfAttack CreateWayOfAttack();
+    WayOfAttack CreateWayOfAttack();
 
-    public WayOfDefence CreateWayOfDefence();
+    WayOfDefence CreateWayOfDefence();
 }

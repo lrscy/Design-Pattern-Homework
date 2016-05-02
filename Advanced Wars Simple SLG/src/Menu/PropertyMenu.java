@@ -7,6 +7,9 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 
+/**
+ * Description: 属性菜单 显示火力单元的属性信息
+ */
 public class PropertyMenu extends BaseDraw {
     private TextObject[] textObjects;
     private Paint color = Color.BLACK;

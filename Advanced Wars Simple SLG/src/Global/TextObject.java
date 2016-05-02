@@ -7,6 +7,9 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.text.Font;
 
+/**
+ * Description: 基础显示元素
+ */
 public class TextObject extends BaseDraw {
     private String text;
     private Font font = Font.getDefault();
@@ -37,16 +40,7 @@ public class TextObject extends BaseDraw {
 
     public void setText( String text ) { this.text = text; }
 
-    public String getText() { return text; }
-
-    public void setFont( Font font ) { this.font = font; }
-
-    public Font getFont() { return font; }
-
     public void setColor( Paint color ) { this.color = color; }
 
-    public Paint getColor() { return color; }
-
     public void setFontSize( double fontSize ) { this.font = new Font( font.getFamily(), fontSize ); }
-
 }

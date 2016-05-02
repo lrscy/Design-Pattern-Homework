@@ -3,6 +3,9 @@ package Global.Iterator;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Description: 具体聚合类
+ */
 public class ConcreteAggregate implements Aggregate {
     private List<Object> list = new ArrayList<>();
 

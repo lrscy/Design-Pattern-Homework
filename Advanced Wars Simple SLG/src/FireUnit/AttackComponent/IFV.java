@@ -2,23 +2,24 @@ package FireUnit.AttackComponent;
 
 import java.io.Serializable;
 
+/**
+ * Description: 步兵战车武器属性
+ */
 public class IFV implements WeaponOfFireUnit, Serializable {
-    private String hashCode = "3";
-    private String weaponName = "步兵战车";
-    private int damageEnhance = 0;
 
     @Override
     public String getName() {
-        return weaponName;
+        return "步兵战车";
     }
 
     @Override
     public int attackEnhance( int basicAttackDamage ) {
+        int damageEnhance = 0;
         return basicAttackDamage + damageEnhance;
     }
 
     @Override
     public String getHashCode() {
-        return hashCode;
+        return "3";
     }
 }

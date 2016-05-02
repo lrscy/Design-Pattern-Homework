@@ -7,6 +7,9 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 
+/**
+ * Description: 游戏控制菜单
+ */
 public class ControlMenu extends BaseDraw {
     private TextObject[] textObjects;
     private Paint color = Color.BLACK;
@@ -50,17 +53,11 @@ public class ControlMenu extends BaseDraw {
         gc.restore();
     }
 
-    public TextObject[] getTextObjects() { return textObjects; }
-
-    public void setTextObjects( TextObject[] textObjects ) { this.textObjects = textObjects; }
-
-    public OnMenuItemClickListener getOnMenuItemClickListener() { return onMenuItemClickListener; }
-
     public void setOnMenuItemClickListener( OnMenuItemClickListener onMenuItemClickListener ) {
         this.onMenuItemClickListener = onMenuItemClickListener;
     }
 
     public interface OnMenuItemClickListener {
-        public void onMenuItemClick( int index );
+        void onMenuItemClick( int index );
     }
 }

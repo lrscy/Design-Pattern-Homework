@@ -2,8 +2,11 @@ package FireUnit.HealthComponent;
 
 import FireUnit.FireUnit;
 
+/**
+ * Description: 抽象健康状态
+ */
 public interface HealthComponent {
-    public void setHealthStatus( FireUnit fireUnit );
+    void setHealthStatus( FireUnit fireUnit );
 
-    public String getHealthStatus();
+    String getHealthStatus();
 }

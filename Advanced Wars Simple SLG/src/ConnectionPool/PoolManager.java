@@ -7,17 +7,12 @@ import Global.Iterator.Iterator;
 
 import java.io.IOException;
 
+/**
+ * Description: 对象池管理者
+ */
 public class PoolManager {
     private static PoolManager poolManager = null;
-    private Aggregate list = null;
-
-    public void debug() {
-        Iterator it = list.iterator();
-        while( it.hasNext() ) {
-            PoolItem pi = ( PoolItem )it.next();
-            System.out.println( pi.id + " --- " + pi.isUsed + "\n" + pi.fireUnit );
-        }
-    }
+    private Aggregate list = null;  // 自定义线性数据结构
 
     private PoolManager() { list = new ConcreteAggregate(); }
 
@@ -32,6 +27,13 @@ public class PoolManager {
         return poolManager;
     }
 
+    /**
+     * Description: 往对象池中添加元素
+     * @param fireUnit  需要添加的对象
+     * @param flag      该对象是否已经被激活
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
     public synchronized void add( FireUnit fireUnit, boolean flag )
             throws IOException, ClassNotFoundException {
         Iterator it = list.iterator();
@@ -70,6 +72,7 @@ public class PoolManager {
         Iterator it = list.iterator();
         while( it.hasNext() ) {
             PoolItem pi = ( PoolItem )it.next();
+            // 不删除该对象实体，只删除其使用标记，便于以后使用
             if( pi.id.equals( id ) ) {
                 pi.isUsed = false;
                 pi.id = "0";

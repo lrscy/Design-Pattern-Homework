@@ -1,7 +1,10 @@
 package Global.Iterator;
 
+/**
+ * Description: 抽象迭代器
+ */
 public interface Iterator {
-    public Object next();
+    Object next();
 
-    public boolean hasNext();
+    boolean hasNext();
 }

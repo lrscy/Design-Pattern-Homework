@@ -7,6 +7,9 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 
+/**
+ * Description: 动作菜单 在点击火力单元时出现在火力单元右侧
+ */
 public class ActionMenu extends BaseDraw {
     private TextObject[] textObjects;
     private Paint color = Color.BLACK;
@@ -52,15 +55,11 @@ public class ActionMenu extends BaseDraw {
 
     public TextObject[] getTextObjects() { return textObjects; }
 
-    public void setTextObjects( TextObject[] textObjects ) { this.textObjects = textObjects; }
-
-    public OnMenuItemClickListener getOnMenuItemClickListener() { return onMenuItemClickListener; }
-
     public void setOnMenuItemClickListener( OnMenuItemClickListener onMenuItemClickListener ) {
         this.onMenuItemClickListener = onMenuItemClickListener;
     }
 
     public interface OnMenuItemClickListener {
-        public void onMenuItemClick( int index );
+        void onMenuItemClick( int index );
     }
 }

@@ -1,22 +1,21 @@
 package FireUnit.BasicComponent;
 
-public class AttackByCannon implements WayOfAttack {
-    private String hashCode = "1";
-    private int attackDamage = 40;
-    private int attackRange = 2;
-
+/**
+ * Description: 基础攻击类型为火炮
+ */
+class AttackByCannon implements WayOfAttack {
     @Override
     public int maxAttackRange() {
-        return attackRange;
+        return 2;
     }
 
     @Override
     public int attackEffect() {
-        return attackDamage;
+        return 40;
     }
 
     @Override
     public String getHashCode() {
-        return hashCode;
+        return "1";
     }
 }

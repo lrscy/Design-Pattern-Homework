@@ -14,9 +14,12 @@ import javafx.scene.paint.Color;
 
 import java.io.IOException;
 
+/**
+ * Description: 主画布 负责整个游戏的业务逻辑 所有前端事物都经此传递分配给后端处理
+ */
 class MainCanvas extends Canvas {
+    // 游戏状态
     private enum Status {NONE, SHOW_MENU, SHOW_PROPERTY, MOVE, ATTACK, END}
-
     private Status nowStatus = Status.NONE;
 
     private GraphicsContext gc;
@@ -33,12 +36,13 @@ class MainCanvas extends Canvas {
 
     MainCanvas( int width, int height ) {
         super( width, height );
-        String field = "Battlefield_01";
+        String field = "Battlefield_01";    // 设置地图名称
         gc = getGraphicsContext2D();
         battlefield = Battlefield.getInstance();
         battlefield.setBattlefield( field );
         battlefield.roundTurn();
 
+        // 负责显示
         Thread thread = new Thread( () -> {
             while( isRunning ) {
                 Platform.runLater( this::draw );
@@ -103,6 +107,7 @@ class MainCanvas extends Canvas {
 
         setOnMouseClicked( e -> {
             if( e.getButton() == MouseButton.PRIMARY ) {
+                // 因为界面获得的坐标和程序内部使用坐标系不同，这里进行一次变换
                 int x = ( int )( e.getY() / tileWidth );
                 int y = ( int )( e.getX() / tileHeight );
                 Position pos = new Position( x, y );
@@ -113,6 +118,7 @@ class MainCanvas extends Canvas {
                         FireUnit fu = battlefield.getFireUnit( pos );
                         if( fu == null ) break;
                         propertyMenu.initFireUnit( fu );
+                        // 依据当前点状态确定三个元素的显示颜色及菜单显示位置
                         if( fu.getTroopName().equals( battlefield.getCurrentTroopName() ) ) {
                             actionMenu.setPosition( pos );
                             actionMenu.getTextObjects()[0].setColor(

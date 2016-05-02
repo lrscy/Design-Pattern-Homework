@@ -1,16 +1,16 @@
 package FireUnit.BasicComponent;
 
-public class MoveByVehicle implements WayOfMove {
-    private String hashCode = "1";
-    private int moveRange = 4;
-
+/**
+ * Description: 基础移动类型为车辆
+ */
+class MoveByVehicle implements WayOfMove {
     @Override
     public int maxMoveRange() {
-        return moveRange;
+        return 4;
     }
 
     @Override
     public String getHashCode() {
-        return hashCode;
+        return "1";
     }
 }

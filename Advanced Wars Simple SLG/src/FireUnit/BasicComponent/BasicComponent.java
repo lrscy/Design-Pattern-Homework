@@ -1,5 +1,8 @@
 package FireUnit.BasicComponent;
 
+/**
+ * Description: 基础属性接口 抽象享元
+ */
 abstract public class BasicComponent {
     abstract public String getName();
 
