@@ -7,60 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Global/TextObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ActionMenu$OnMenuItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ActionMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ControlMenu$OnMenuItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/ControlMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Menu/PropertyMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UML/UML类图.vsdx" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Global/TextObject.java" afterPath="$PROJECT_DIR$/src/Canvas/TextObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu/ActionMenu.java" afterPath="$PROJECT_DIR$/src/Canvas/Menu/ActionMenu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu/ControlMenu.java" afterPath="$PROJECT_DIR$/src/Canvas/Menu/ControlMenu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu/PropertyMenu.java" afterPath="$PROJECT_DIR$/src/Canvas/Menu/PropertyMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/Hint.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/Hint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackAttrOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackAttrOfFireUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponent.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponentDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/AttackComponentDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/GeneralDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/GeneralDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/WeaknessDecorator.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/AttackComponent/WeaknessDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByCannon.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByCannon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByRocket.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/BasicComponent/AttackByRocket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/FireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/FireUnit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Healthy.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Healthy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Injured.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FireUnit/HealthComponent/Injured.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Observer/AllyControlCenter.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Observer/AllyControlCenter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/Thumbs.db" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-ALL-PACKAGE.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-ALL-PACKAGE.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Battlefield.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Battlefield.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Canvas.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Canvas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FactoryOfFireUnit.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FactoryOfFireUnit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-AttackComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-AttackComponent.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-BasicComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-BasicComponent.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-HealthComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-HealthComponent.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Global.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Global.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Menu.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML.asta" afterPath="$PROJECT_DIR$/../UML/UML.asta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../项目文档/高级战争项目报告.docx" afterPath="$PROJECT_DIR$/../项目文档/高级战争项目报告.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/Hint.java" afterPath="$PROJECT_DIR$/src/Canvas/Hint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" afterPath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" afterPath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" afterPath="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByCannon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" afterPath="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByRocket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" afterPath="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" afterPath="$PROJECT_DIR$/src/Observer/AllyControlCenter.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,7 +82,28 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Battlefield.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainCanvas.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="115" column="36" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/SubMechineGun.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaponOfFireUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AbstractFactoryOfFireUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/BasicComponent/AttackByGun.java" />
@@ -202,15 +176,16 @@
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponent.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java" />
-        <option value="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackComponentDecorator.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/AttackComponent/AttackAttrOfFireUnit.java" />
-        <option value="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Healthy.java" />
         <option value="$PROJECT_DIR$/src/FireUnit/HealthComponent/Injured.java" />
-        <option value="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
         <option value="$PROJECT_DIR$/src/Canvas/TextObject.java" />
         <option value="$PROJECT_DIR$/src/Canvas/Menu/ActionMenu.java" />
+        <option value="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" />
+        <option value="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
+        <option value="$PROJECT_DIR$/src/Canvas/MainCanvas.java" />
+        <option value="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
       </list>
     </option>
   </component>
@@ -266,6 +241,137 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUnit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUnit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicComponent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FactoryOfFireUnit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Battlefield" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Production">
@@ -364,44 +470,7 @@
         </subPane>
         <subPane subId="Tests" />
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches">
-        <subPane />
-      </pane>
-      <pane id="PackagesPane">
         <subPane />
       </pane>
     </panes>
@@ -953,6 +1022,7 @@
       <workItem from="1462194617902" duration="3047000" />
       <workItem from="1462197886496" duration="357000" />
       <workItem from="1462202192946" duration="651000" />
+      <workItem from="1462241669077" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="更改项目为JavaFX项目">
       <created>1460810001147</created>
@@ -1000,7 +1070,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47677000" />
+    <option name="totallyTimeSpent" value="53551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1017,11 +1087,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29424307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31343284" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1031,6 +1103,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7827548" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1040,11 +1113,8 @@
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1082,20 +1152,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/MoveByVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/HealthComponent/HealthComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Global/IDGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1215,13 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/WeaknessDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1257,13 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/FireUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FireUnit/AttackComponent/GeneralDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1285,24 +1327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4564">
-          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Global/BaseDraw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -2170,6 +2198,54 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/FireUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="96" column="68" selection-start-line="96" selection-start-column="68" selection-end-line="96" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="115" column="36" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

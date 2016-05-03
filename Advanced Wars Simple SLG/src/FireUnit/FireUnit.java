@@ -94,6 +94,8 @@ public class FireUnit implements Observer, Serializable {
 
     public AttackComponent getAttackComponent() { return attackComponent; }
 
+    public BasicComponent getBasicComponent() { return basicComponent; }
+
     private void setBasicComponent( BasicComponent basicComponent ) { this.basicComponent = basicComponent; }
 
     public int getMoveRange() { return basicComponent.maxMoveRange(); }

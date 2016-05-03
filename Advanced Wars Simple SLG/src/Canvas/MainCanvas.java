@@ -33,10 +33,11 @@ class MainCanvas extends Canvas {
     private boolean isRunning = true;
     private long sleep = 100;
     private Position lastPosition;
+    private String winTeam;
 
     MainCanvas( int width, int height ) {
         super( width, height );
-        String field = "Battlefield_01";    // 设置地图名称
+        String field = "Battlefield_02";    // 设置地图名称
         gc = getGraphicsContext2D();
         battlefield = Battlefield.getInstance();
         battlefield.setBattlefield( field );
@@ -92,7 +93,8 @@ class MainCanvas extends Canvas {
                     }
                     break;
                 case 1:
-                    battlefield.roundTurn();
+                    winTeam = battlefield.roundTurn();
+                    if( winTeam != null ) nowStatus = Status.END;
                     break;
                 case 2:
                     System.exit( 0 );
@@ -155,11 +157,13 @@ class MainCanvas extends Canvas {
                         }
                         nowStatus = Status.NONE;
                         break;
+                    case END:
+                        break;
                 }
             } else if( e.getButton() == MouseButton.SECONDARY ) {
                 nowStatus = Status.NONE;
                 if( battlefield.getMovingStatus() ) battlefield.drawMovableRange( lastPosition, false );
-                if( battlefield.getActiongStatus() ) battlefield.drawAssaultableRange( lastPosition, false );
+                if( battlefield.getActionStatus() ) battlefield.drawAssaultableRange( lastPosition, false );
                 lastPosition = null;
             }
         } );
@@ -178,6 +182,7 @@ class MainCanvas extends Canvas {
                 propertyMenu.draw( gc );
                 break;
             case END:
+                Hint.getInstance().setText( winTeam + " win!" );
                 break;
         }
     }

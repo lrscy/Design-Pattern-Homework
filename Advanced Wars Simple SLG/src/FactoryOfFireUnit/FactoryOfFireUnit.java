@@ -35,7 +35,7 @@ public class FactoryOfFireUnit {
      * @return  生成好的火力单元
      */
     public FireUnit produceFireUnit( String troopName, String category, Position position ) {
-        FireUnit fu;
+        FireUnit fu = null;
         // 获得全局统一的编号
         String id = IDGenerator.getInstance().getID();
         BasicComponent bc = null;
@@ -75,9 +75,10 @@ public class FactoryOfFireUnit {
             case "26":
                 bc = FactoryOfBasicComponent.getInstance().getBasicComponent( "FactoryOfLongRangeUnit" );
                 ac.setWeapon( new RocketGun() );
+                break;
         }
         // 最终生成火力单元
-        fu = new FireUnit( id, troopName, position, 100, ac, bc );
+        if( bc != null ) fu = new FireUnit( id, troopName, position, 100, ac, bc );
         return fu;
     }
 }

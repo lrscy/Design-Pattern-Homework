@@ -3,6 +3,7 @@ package Battlefield;
 import Canvas.Hint;
 import ConnectionPool.PoolManager;
 import FactoryOfFireUnit.FactoryOfFireUnit;
+import FireUnit.BasicComponent.FactoryOfLongRangeUnit;
 import FireUnit.FireUnit;
 import Global.BaseDraw;
 import Global.Position;
@@ -54,6 +55,16 @@ public class Battlefield extends BaseDraw {
         aim = new LinkedList<>();
         dis = new LinkedList<>();
         poolManager = PoolManager.getInstance();
+        for( int i = 0; i < 40; ++i ) {
+            FireUnit fu = FactoryOfFireUnit.getInstance().produceFireUnit( "", Integer.toString( i ), new Position( 0, 0 ) );
+            if( fu != null ) {
+                try {
+                    PoolManager.getInstance().add( fu, false );
+                } catch( IOException | ClassNotFoundException e ) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
     public static Battlefield getInstance() {
@@ -71,7 +82,7 @@ public class Battlefield extends BaseDraw {
 
     public boolean getMovingStatus() { return moving; }
 
-    public boolean getActiongStatus() { return actioning; }
+    public boolean getActionStatus() { return actioning; }
 
     /**
      * Description: 回合转换
@@ -82,6 +93,7 @@ public class Battlefield extends BaseDraw {
         ++roundNow;
         if( roundNow >= troopNames.length ) roundNow -= troopNames.length;
 
+        Hint.getInstance().setText( troopNames[roundNow] + "回合" );
         // 激活可操作部队的所有火力单元
         String troopName = troopNames[roundNow];
         for( int i = 0; i < height; ++i ) {
@@ -184,6 +196,7 @@ public class Battlefield extends BaseDraw {
         MementoCaretaker.getInstance().save( new Memento( lastAction ) );
         int damage1 = fu2.getAttackValue() - fu1.getDefenceValue();
         int damage2 = fu1.getAttackValue() - fu2.getDefenceValue();
+        if( fu1.getBasicComponent().getHashCode().equals( "120" ) ) damage1 = 0;
         fu1.setHealthValue( Math.max( fu1.getHealthValue() - damage1, 0 ) );
         fu2.setHealthValue( Math.max( fu2.getHealthValue() - damage2, 0 ) );
 
