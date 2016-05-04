@@ -7,24 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/Thumbs.db" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Battlefield.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Battlefield.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Canvas.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Canvas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-ConnectionPool.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-ConnectionPool.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FactoryOfFireUnit.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FactoryOfFireUnit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-AttackComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-AttackComponent.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-BasicComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-BasicComponent.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-HealthComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-HealthComponent.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Global.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Global.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Memeto.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Memeto.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Menu.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../项目文档/高级战争项目报告.docx" afterPath="$PROJECT_DIR$/../项目文档/高级战争项目报告.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" afterPath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" afterPath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,28 +75,7 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainCanvas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2016">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Battlefield.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4700">
-              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,10 +178,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1860" />
-    <option name="height" value="1092" />
+    <option name="x" value="-8" />
+    <option name="y" value="2" />
+    <option name="width" value="1856" />
+    <option name="height" value="1086" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -349,6 +311,9 @@
         </subPane>
         <subPane subId="Tests" />
       </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="PackagesPane">
         <subPane />
       </pane>
@@ -421,9 +386,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -977,6 +939,8 @@
       <workItem from="1462241669077" duration="5874000" />
       <workItem from="1462251006662" duration="3384000" />
       <workItem from="1462280944141" duration="831000" />
+      <workItem from="1462343738515" duration="549000" />
+      <workItem from="1462323617015" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="更改项目为JavaFX项目">
       <created>1460810001147</created>
@@ -1024,7 +988,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57766000" />
+    <option name="totallyTimeSpent" value="58321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1036,28 +1000,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1860" height="1092" extended-state="0" />
+    <frame x="-8" y="2" width="1856" height="1086" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29424307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31343284" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15957446" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" x="392" y="80" width="365" height="1011" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15993266" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" x="392" y="80" width="365" height="1011" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7827548" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1067,8 +1028,11 @@
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26349893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2197,18 +2161,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
+    <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2016">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="28">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
+    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4700">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="756">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
           <folding />
         </state>
       </provider>
