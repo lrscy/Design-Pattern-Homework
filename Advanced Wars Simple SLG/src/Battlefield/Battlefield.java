@@ -56,7 +56,8 @@ public class Battlefield extends BaseDraw {
         dis = new LinkedList<>();
         poolManager = PoolManager.getInstance();
         for( int i = 0; i < 40; ++i ) {
-            FireUnit fu = FactoryOfFireUnit.getInstance().produceFireUnit( "", Integer.toString( i ), new Position( 0, 0 ) );
+            FireUnit fu = FactoryOfFireUnit.getInstance().
+                    produceFireUnit( "", Integer.toString( i ), new Position( 0, 0 ) );
             if( fu != null ) {
                 try {
                     PoolManager.getInstance().add( fu, false );

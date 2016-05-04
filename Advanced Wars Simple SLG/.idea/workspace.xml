@@ -7,14 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Version v0.2.0&#10;&#10;1. 完善游戏逻辑&#10;2. 修复人物移动消失bug&#10;3. 添加流程游戏控制菜单&#10;4. 添加提醒栏">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Battlefield/Battlefield.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/FactoryOfFireUnit/FactoryOfFireUnit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" afterPath="$PROJECT_DIR$/out/production/Advanced Wars Simple SLG/Canvas/MainCanvas.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/Thumbs.db" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Battlefield.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Battlefield.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Canvas.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Canvas.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-ConnectionPool.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-ConnectionPool.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FactoryOfFireUnit.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FactoryOfFireUnit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-AttackComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-AttackComponent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-BasicComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-BasicComponent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-HealthComponent.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit-HealthComponent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-FireUnit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Global.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Global.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Memeto.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Memeto.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Menu.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" afterPath="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../项目文档/高级战争项目报告.docx" afterPath="$PROJECT_DIR$/../项目文档/高级战争项目报告.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" afterPath="$PROJECT_DIR$/src/Battlefield/Battlefield.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" afterPath="$PROJECT_DIR$/src/Canvas/MainCanvas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" afterPath="$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" afterPath="$PROJECT_DIR$/src/FireUnit/FireUnit.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,22 +92,22 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Battlefield.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="MainCanvas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+            <state relative-caret-position="-2016">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainCanvas.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
+      <file leaf-file-name="Battlefield.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="115" column="36" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
+            <state relative-caret-position="-4700">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -241,137 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUnit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUnit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BasicComponent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FactoryOfFireUnit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Canvas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced Wars Simple SLG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Battlefield" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Production">
@@ -470,6 +349,79 @@
         </subPane>
         <subPane subId="Tests" />
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced Wars Simple SLG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Battlefield" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches">
         <subPane />
       </pane>
@@ -488,7 +440,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UML/UML-IDEA/UML-Observer.png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UML/UML-IDEA" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1023,6 +975,8 @@
       <workItem from="1462197886496" duration="357000" />
       <workItem from="1462202192946" duration="651000" />
       <workItem from="1462241669077" duration="5874000" />
+      <workItem from="1462251006662" duration="3384000" />
+      <workItem from="1462280944141" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="更改项目为JavaFX项目">
       <created>1460810001147</created>
@@ -1070,7 +1024,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53551000" />
+    <option name="totallyTimeSpent" value="57766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1369,771 +1323,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/">
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/FireUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="96" column="68" selection-start-line="96" selection-start-column="68" selection-end-line="96" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Observer">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement />
+          <OriginalElement>Observer</OriginalElement>
           <nodes>
-            <node x="579.5963403880071" y="251.951171875">ConnectionPool</node>
-            <node x="377.0" y="692.951171875">com</node>
-            <node x="223.0" y="612.951171875">netscape</node>
-            <node x="439.0" y="612.951171875">oracle</node>
-            <node x="0.0" y="772.951171875">org</node>
-            <node x="729.1018518518517" y="501.951171875">Canvas</node>
-            <node x="371.5963403880071" y="251.951171875">Memeto</node>
-            <node x="176.0" y="772.951171875">sun</node>
-            <node x="709.9867724867725" y="11.951171875">Global</node>
-            <node x="0.0" y="612.951171875">META-INF</node>
-            <node x="351.0" y="772.951171875">jdk</node>
-            <node x="559.0" y="692.951171875">java</node>
-            <node x="191.0" y="692.951171875">javax</node>
-            <node x="20.0" y="11.951171875">Observer</node>
-            <node x="98.59634038800709" y="251.951171875">FactoryOfFireUnit</node>
-            <node x="385.09303350970015" y="166.951171875">FireUnit</node>
-            <node x="0.0" y="692.951171875">javafx</node>
-            <node x="639.3518518518517" y="366.951171875">Battlefield</node>
+            <node x="12.0" y="164.0">Observer.AllyControlCenter</node>
+            <node x="0.0" y="0.0">Observer.Observer</node>
+            <node x="48.0" y="354.0">Observer.ConcreteAllyControlCenter</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="Canvas" target="Battlefield">
-              <point x="-58.125" y="-17.5" />
-              <point x="748.4768518518517" y="451.951171875" />
-              <point x="788.5185185185185" y="451.951171875" />
-              <point x="59.66666666666663" y="17.5" />
+            <edge source="Observer.ConcreteAllyControlCenter" target="Observer.AllyControlCenter">
+              <point x="0.0" y="-30.5" />
+              <point x="0.0" y="70.0" />
             </edge>
-            <edge source="Battlefield" target="Global">
-              <point x="25.571428571428555" y="-17.5" />
-              <point x="754.4232804232804" y="326.951171875" />
-              <point x="812.0963403880071" y="326.951171875" />
-              <point x="812.0963403880071" y="146.951171875" />
-              <point x="769.0978835978835" y="146.951171875" />
-              <point x="-16.888888888888914" y="17.5" />
-            </edge>
-            <edge source="FactoryOfFireUnit" target="FireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="215.0963403880071" y="226.951171875" />
-              <point x="412.09303350970015" y="226.951171875" />
-              <point x="-54.0" y="17.5" />
-            </edge>
-            <edge source="Memeto" target="FireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="455.5963403880071" y="226.951171875" />
-              <point x="466.09303350970015" y="226.951171875" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit" target="Observer">
-              <point x="-40.50000000000006" y="-17.5" />
-              <point x="425.5930335097001" y="146.951171875" />
-              <point x="170.5" y="146.951171875" />
-              <point x="64.5" y="17.5" />
-            </edge>
-            <edge source="FireUnit" target="Global">
-              <point x="40.49999999999994" y="-17.5" />
-              <point x="506.5930335097001" y="146.951171875" />
-              <point x="752.2089947089946" y="146.951171875" />
-              <point x="-33.77777777777783" y="17.5" />
-            </edge>
-            <edge source="Battlefield" target="ConnectionPool">
-              <point x="0.0" y="-17.5" />
-              <point x="728.8518518518517" y="346.951171875" />
-              <point x="746.0963403880071" y="346.951171875" />
-              <point x="55.5" y="17.5" />
-            </edge>
-            <edge source="Canvas" target="Canvas">
-              <point x="-38.75" y="17.5" />
-              <point x="767.8518518518517" y="556.951171875" />
-              <point x="709.1018518518517" y="556.951171875" />
-              <point x="709.1018518518517" y="528.201171875" />
-              <point x="-77.5" y="8.75" />
-            </edge>
-            <edge source="Battlefield" target="Observer">
-              <point x="-51.14285714285711" y="-17.5" />
-              <point x="677.7089947089946" y="336.951171875" />
-              <point x="88.09634038800709" y="336.951171875" />
-              <point x="88.09634038800709" y="146.951171875" />
-              <point x="127.5" y="146.951171875" />
-              <point x="21.5" y="17.5" />
-            </edge>
-            <edge source="Memeto" target="Memeto">
-              <point x="-42.0" y="17.5" />
-              <point x="413.5963403880071" y="306.951171875" />
-              <point x="351.5963403880071" y="306.951171875" />
-              <point x="351.5963403880071" y="269.451171875" />
-              <point x="-84.0" y="-0.0" />
-            </edge>
-            <edge source="Canvas" target="Global">
-              <point x="19.375" y="-17.5" />
-              <point x="825.9768518518517" y="471.951171875" />
-              <point x="862.7391975308642" y="471.951171875" />
-              <point x="862.7391975308642" y="106.951171875" />
-              <point x="836.6534391534391" y="106.951171875" />
-              <point x="50.66666666666663" y="17.5" />
-            </edge>
-            <edge source="Battlefield" target="Battlefield">
-              <point x="0.0" y="17.5" />
-              <point x="728.8518518518517" y="431.951171875" />
-              <point x="609.3518518518517" y="431.951171875" />
-              <point x="609.3518518518517" y="375.701171875" />
-              <point x="-89.5" y="-8.75" />
-            </edge>
-            <edge source="Battlefield" target="Memeto">
-              <point x="-25.571428571428555" y="-17.5" />
-              <point x="703.2804232804233" y="326.951171875" />
-              <point x="497.5963403880071" y="326.951171875" />
-              <point x="42.0" y="17.5" />
-            </edge>
-            <edge source="Observer" target="Observer">
-              <point x="-64.5" y="17.5" />
-              <point x="41.5" y="66.951171875" />
-              <point x="0.0" y="66.951171875" />
-              <point x="0.0" y="29.451171875" />
-              <point x="-86.0" y="-0.0" />
-            </edge>
-            <edge source="ConnectionPool" target="ConnectionPool">
-              <point x="-55.5" y="17.5" />
-              <point x="635.0963403880071" y="306.951171875" />
-              <point x="559.5963403880071" y="306.951171875" />
-              <point x="559.5963403880071" y="269.451171875" />
-              <point x="-111.0" y="-0.0" />
-            </edge>
-            <edge source="ConnectionPool" target="FireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="690.5963403880071" y="226.951171875" />
-              <point x="520.0930335097" y="226.951171875" />
-              <point x="53.99999999999994" y="17.5" />
-            </edge>
-            <edge source="Global" target="Global">
-              <point x="-67.55555555555556" y="17.5" />
-              <point x="718.4312169312169" y="66.951171875" />
-              <point x="689.9867724867725" y="66.951171875" />
-              <point x="689.9867724867725" y="38.201171875" />
-              <point x="-76.0" y="8.75" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-68.0" y="211.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Battlefield">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Battlefield</OriginalElement>
-          <nodes>
-            <node x="13.0" y="0.0">Battlefield.Tileset</node>
-            <node x="0.0" y="85.0">Battlefield.Battlefield</node>
-            <node x="0.0" y="165.0">Battlefield.Battlefield_01</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Battlefield.Battlefield" target="Battlefield.Tileset">
-              <point x="28.75" y="-17.5" />
-              <point x="86.25" y="60.0" />
-              <point x="79.75" y="60.0" />
-              <point x="22.25" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-408.0" y="-93.0" />
-          <SelectedNodes>
-            <node>Battlefield.Tileset</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Canvas.Menu">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Canvas.Menu</OriginalElement>
-          <nodes>
-            <node x="0.0" y="160.0">Canvas.Menu.ActionMenu</node>
-            <node x="0.0" y="80.0">Canvas.Menu.ControlMenu</node>
-            <node x="0.0" y="0.0">Canvas.Menu.PropertyMenu</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-437.0" y="-96.0" />
-          <SelectedNodes>
-            <node>Canvas.Menu.ActionMenu</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Canvas">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Canvas</OriginalElement>
-          <nodes>
-            <node x="20.0625" y="85.0">Canvas.Menu</node>
-            <node x="85.00416666666666" y="180.0">Canvas.MainCanvas</node>
-            <node x="99.60416666666666" y="0.0">Canvas.TextObject</node>
-            <node x="187.0625" y="85.0">Canvas.Hint</node>
-            <node x="110.00416666666666" y="265.0">Canvas.Main</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Canvas.Menu" target="Canvas.Menu">
-              <point x="-49.0" y="17.5" />
-              <point x="44.5625" y="140.0" />
-              <point x="0.0625" y="140.0" />
-              <point x="0.0625" y="102.5" />
-              <point x="-73.5" y="-0.0" />
-            </edge>
-            <edge source="Canvas.Menu" target="Canvas.TextObject">
-              <point x="36.75" y="-17.5" />
-              <point x="130.3125" y="65.0" />
-              <point x="145.35416666666666" y="65.0" />
-              <point x="-15.25" y="17.5" />
-            </edge>
-            <edge source="Canvas.Main" target="Canvas.MainCanvas">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="Canvas.MainCanvas" target="Canvas.Hint">
-              <point x="42.33333333333334" y="-17.5" />
-              <point x="190.8375" y="160.0" />
-              <point x="223.0625" y="160.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="Canvas.Hint" target="Canvas.TextObject">
-              <point x="-18.0" y="-17.5" />
-              <point x="205.0625" y="65.0" />
-              <point x="175.85416666666666" y="65.0" />
-              <point x="15.25" y="17.5" />
-            </edge>
-            <edge source="Canvas.MainCanvas" target="Canvas.Menu">
-              <point x="-7.105427357601002E-15" y="-17.5" />
-              <point x="148.50416666666666" y="160.0" />
-              <point x="142.5625" y="160.0" />
-              <point x="49.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-380.0" y="-43.0" />
-          <SelectedNodes>
-            <node>Canvas.Menu</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/ConnectionPool">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>ConnectionPool</OriginalElement>
-          <nodes>
-            <node x="0.0" y="85.0">ConnectionPool.PoolManager</node>
-            <node x="16.0" y="0.0">ConnectionPool.PoolItem</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="ConnectionPool.PoolManager" target="ConnectionPool.PoolItem">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-441.0" y="-133.0" />
-          <SelectedNodes>
-            <node>ConnectionPool.PoolManager</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/FactoryOfFireUnit">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>FactoryOfFireUnit</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">FactoryOfFireUnit.FactoryOfFireUnit</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-426.0" y="-176.0" />
-          <SelectedNodes>
-            <node>FactoryOfFireUnit.FactoryOfFireUnit</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/FireUnit">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>FireUnit</OriginalElement>
-          <nodes>
-            <node x="317.71666666666664" y="3.201171875">FireUnit.AttackComponent</node>
-            <node x="40.0" y="98.201171875">FireUnit.BasicComponent</node>
-            <node x="288.0" y="98.201171875">FireUnit.HealthComponent</node>
-            <node x="359.0" y="223.201171875">FireUnit.FireUnit</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="FireUnit.FireUnit" target="FireUnit.AttackComponent">
-              <point x="36.75" y="-17.5" />
-              <point x="444.75" y="203.201171875" />
-              <point x="538.5" y="203.201171875" />
-              <point x="538.5" y="78.201171875" />
-              <point x="516.8833333333333" y="78.201171875" />
-              <point x="79.66666666666669" y="17.5" />
-            </edge>
-            <edge source="FireUnit.HealthComponent" target="FireUnit.AttackComponent">
-              <point x="0.0" y="-17.5" />
-              <point x="408.0" y="78.201171875" />
-              <point x="437.21666666666664" y="78.201171875" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.FireUnit" target="FireUnit.BasicComponent">
-              <point x="-36.75" y="-17.5" />
-              <point x="371.25" y="203.201171875" />
-              <point x="239.5" y="203.201171875" />
-              <point x="85.5" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent" target="FireUnit.BasicComponent">
-              <point x="28.5" y="17.5" />
-              <point x="182.5" y="173.201171875" />
-              <point x="0.0" y="173.201171875" />
-              <point x="0.0" y="104.03450520833334" />
-              <point x="-114.0" y="-11.666666666666657" />
-            </edge>
-            <edge source="FireUnit.AttackComponent" target="FireUnit.AttackComponent">
-              <point x="-79.66666666666667" y="17.5" />
-              <point x="357.54999999999995" y="58.201171875" />
-              <point x="297.71666666666664" y="58.201171875" />
-              <point x="297.71666666666664" y="20.701171875" />
-              <point x="-119.5" y="-0.0" />
-            </edge>
-            <edge source="FireUnit.FireUnit" target="FireUnit.HealthComponent">
-              <point x="-12.25" y="-17.5" />
-              <point x="395.75" y="193.201171875" />
-              <point x="348.0" y="193.201171875" />
-              <point x="-60.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-232.0" y="-64.0" />
-          <SelectedNodes>
-            <node>FireUnit.AttackComponent</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/FireUnit.AttackComponent">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>FireUnit.AttackComponent</OriginalElement>
-          <nodes>
-            <node x="207.0" y="170.0">FireUnit.AttackComponent.GeneralDecorator</node>
-            <node x="375.5" y="250.0">FireUnit.AttackComponent.WeaponOfFireUnit</node>
-            <node x="225.50000000000003" y="0.0">FireUnit.AttackComponent.AttackComponent</node>
-            <node x="199.0" y="345.0">FireUnit.AttackComponent.ShoulderMissiles</node>
-            <node x="564.0" y="345.0">FireUnit.AttackComponent.RocketGun</node>
-            <node x="800.0" y="345.0">FireUnit.AttackComponent.MechineGun</node>
-            <node x="705.0" y="345.0">FireUnit.AttackComponent.Tank</node>
-            <node x="116.0" y="345.0">FireUnit.AttackComponent.IFV</node>
-            <node x="337.5" y="85.0">FireUnit.AttackComponent.AttackAttrOfFireUnit</node>
-            <node x="0.0" y="170.0">FireUnit.AttackComponent.WeaknessDecorator</node>
-            <node x="68.5" y="85.0">FireUnit.AttackComponent.AttackComponentDecorator</node>
-            <node x="383.0" y="345.0">FireUnit.AttackComponent.SubMechineGun</node>
-            <node x="0.0" y="345.0">FireUnit.AttackComponent.Cannon</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="FireUnit.AttackComponent.IFV" target="FireUnit.AttackComponent.WeaponOfFireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="147.5" y="315.0" />
-              <point x="413.2142857142858" y="315.0" />
-              <point x="-50.28571428571422" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.AttackAttrOfFireUnit" target="FireUnit.AttackComponent.AttackComponent">
-              <point x="5.6843418860808015E-14" y="-17.5" />
-              <point x="433.00000000000006" y="60.0" />
-              <point x="356.75" y="60.0" />
-              <point x="43.75" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.ShoulderMissiles" target="FireUnit.AttackComponent.WeaponOfFireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="281.0" y="325.0" />
-              <point x="438.3571428571429" y="325.0" />
-              <point x="-25.14285714285711" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.Cannon" target="FireUnit.AttackComponent.WeaponOfFireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="48.0" y="305.0" />
-              <point x="388.07142857142856" y="305.0" />
-              <point x="-75.42857142857144" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.RocketGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="624.5" y="325.0" />
-              <point x="488.6428571428572" y="325.0" />
-              <point x="25.142857142857224" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.WeaknessDecorator" target="FireUnit.AttackComponent.AttackComponentDecorator">
-              <point x="0.0" y="-17.5" />
-              <point x="93.5" y="145.0" />
-              <point x="130.75" y="145.0" />
-              <point x="-62.25" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.MechineGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="866.5" y="305.0" />
-              <point x="538.9285714285714" y="305.0" />
-              <point x="75.42857142857144" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.SubMechineGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.AttackComponentDecorator" target="FireUnit.AttackComponent.AttackComponent">
+            <edge source="Observer.AllyControlCenter" target="Observer.Observer">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="FireUnit.AttackComponent.GeneralDecorator" target="FireUnit.AttackComponent.AttackComponentDecorator">
-              <point x="0.0" y="-17.5" />
-              <point x="292.5" y="145.0" />
-              <point x="255.25" y="145.0" />
-              <point x="62.25" y="17.5" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.AttackAttrOfFireUnit" target="FireUnit.AttackComponent.WeaponOfFireUnit">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="FireUnit.AttackComponent.Tank" target="FireUnit.AttackComponent.WeaponOfFireUnit">
-              <point x="0.0" y="-17.5" />
-              <point x="742.5" y="315.0" />
-              <point x="513.7857142857143" y="315.0" />
-              <point x="50.285714285714334" y="17.5" />
-            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-44.0" y="-3.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/FireUnit.BasicComponent">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>FireUnit.BasicComponent</OriginalElement>
-          <nodes>
-            <node x="1643.7546296296298" y="0.0">FireUnit.BasicComponent.BasicComponent</node>
-            <node x="1473.0" y="125.0">FireUnit.BasicComponent.ConcreteBasicComponent</node>
-            <node x="912.0844907407409" y="0.0">FireUnit.BasicComponent.WayOfMove</node>
-            <node x="155.0" y="125.0">FireUnit.BasicComponent.AttackByGun</node>
-            <node x="1279.0" y="125.0">FireUnit.BasicComponent.DefenceByArmour</node>
-            <node x="1077.4363425925926" y="220.0">FireUnit.BasicComponent.FactoryOfArmourUnit</node>
-            <node x="309.0" y="125.0">FireUnit.BasicComponent.DefenceBySoldier</node>
-            <node x="499.00000000000006" y="125.0">FireUnit.BasicComponent.AttackByRocket</node>
-            <node x="1291.5" y="0.0">FireUnit.BasicComponent.WayOfDefence</node>
-            <node x="637.8113425925926" y="220.0">FireUnit.BasicComponent.FactoryOfLongRangeUnit</node>
-            <node x="675.0" y="125.0">FireUnit.BasicComponent.AbstractFactoryOfFireUnit</node>
-            <node x="1069.0844907407409" y="0.0">FireUnit.BasicComponent.WayOfAttack</node>
-            <node x="1564.9421296296298" y="220.0">FireUnit.BasicComponent.FactoryOfBasicComponent</node>
-            <node x="0.0" y="125.0">FireUnit.BasicComponent.MoveByWalk</node>
-            <node x="205.33449074074088" y="220.0">FireUnit.BasicComponent.FactoryOfSoldierUnit</node>
-            <node x="926.0" y="125.0">FireUnit.BasicComponent.MoveByVehicle</node>
-            <node x="1099.0" y="125.0">FireUnit.BasicComponent.AttackByCannon</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="FireUnit.BasicComponent.AttackByCannon" target="FireUnit.BasicComponent.WayOfAttack">
-              <point x="0.0" y="-17.5" />
-              <point x="1179.0" y="95.0" />
-              <point x="1154.0844907407409" y="95.0" />
-              <point x="17.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
-              <point x="-74.25" y="-17.5" />
-              <point x="1102.1863425925926" y="190.0" />
-              <point x="867.5" y="190.0" />
-              <point x="77.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.DefenceBySoldier">
-              <point x="24.25" y="-17.5" />
-              <point x="326.5844907407409" y="200.0" />
-              <point x="351.5" y="200.0" />
-              <point x="-42.5" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.DefenceByArmour" target="FireUnit.BasicComponent.WayOfDefence">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.DefenceBySoldier">
-              <point x="-84.375" y="-17.5" />
-              <point x="665.9363425925926" y="190.0" />
-              <point x="436.5" y="190.0" />
-              <point x="42.5" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.DefenceByArmour">
-              <point x="74.25" y="-17.5" />
-              <point x="1250.6863425925926" y="200.0" />
-              <point x="1366.0" y="200.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.AttackByRocket">
-              <point x="-28.125" y="-17.5" />
-              <point x="722.1863425925926" y="180.0" />
-              <point x="577.0" y="180.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.AttackByGun" target="FireUnit.BasicComponent.WayOfAttack">
-              <point x="0.0" y="-17.5" />
-              <point x="222.0" y="85.0" />
-              <point x="1086.0844907407409" y="85.0" />
-              <point x="-51.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.DefenceBySoldier" target="FireUnit.BasicComponent.WayOfDefence">
-              <point x="0.0" y="-17.5" />
-              <point x="394.0" y="105.0" />
-              <point x="1316.3333333333333" y="105.0" />
-              <point x="-49.66666666666674" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfMove">
-              <point x="-86.625" y="-17.5" />
-              <point x="1501.875" y="75.0" />
-              <point x="1021.2511574074075" y="75.0" />
-              <point x="43.66666666666663" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.MoveByVehicle">
-              <point x="84.375" y="-17.5" />
-              <point x="834.6863425925926" y="200.0" />
-              <point x="964.25" y="200.0" />
-              <point x="-38.25" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.MoveByVehicle">
-              <point x="-24.75" y="-17.5" />
-              <point x="1151.6863425925926" y="180.0" />
-              <point x="1040.75" y="180.0" />
-              <point x="38.25" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfDefence">
-              <point x="28.875" y="-17.5" />
-              <point x="1617.375" y="55.0" />
-              <point x="1415.6666666666667" y="55.0" />
-              <point x="49.66666666666674" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.MoveByVehicle" target="FireUnit.BasicComponent.WayOfMove">
-              <point x="0.0" y="-17.5" />
-              <point x="1002.5" y="75.0" />
-              <point x="977.5844907407409" y="75.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfAttack">
-              <point x="-28.875" y="-17.5" />
-              <point x="1559.625" y="65.0" />
-              <point x="1188.0844907407409" y="65.0" />
-              <point x="51.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.AttackByGun">
-              <point x="-24.25" y="-17.5" />
-              <point x="278.0844907407409" y="190.0" />
-              <point x="222.0" y="190.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
-              <point x="72.75" y="-17.5" />
-              <point x="375.0844907407409" y="200.0" />
-              <point x="713.5" y="200.0" />
-              <point x="-77.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.BasicComponent">
-              <point x="86.625" y="-17.5" />
-              <point x="1675.125" y="105.0" />
-              <point x="1684.7546296296298" y="105.0" />
-              <point x="-41.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
-              <point x="28.125" y="-17.5" />
-              <point x="778.4363425925926" y="200.0" />
-              <point x="790.5" y="200.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.AttackByCannon">
-              <point x="24.75" y="-17.5" />
-              <point x="1201.1863425925926" y="200.0" />
-              <point x="1179.0" y="200.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfBasicComponent" target="FireUnit.BasicComponent.BasicComponent">
-              <point x="58.75" y="-17.5" />
-              <point x="1741.1921296296298" y="200.0" />
-              <point x="1745.4421296296298" y="200.0" />
-              <point x="1745.4421296296298" y="105.0" />
-              <point x="1766.7546296296298" y="105.0" />
-              <point x="41.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.MoveByWalk">
-              <point x="-72.75" y="-17.5" />
-              <point x="229.58449074074088" y="200.0" />
-              <point x="67.5" y="200.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.AttackByRocket" target="FireUnit.BasicComponent.WayOfAttack">
-              <point x="0.0" y="-17.5" />
-              <point x="577.0" y="95.0" />
-              <point x="1120.0844907407409" y="95.0" />
-              <point x="-17.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.FactoryOfBasicComponent" target="FireUnit.BasicComponent.ConcreteBasicComponent">
-              <point x="-58.75" y="-17.5" />
-              <point x="1623.6921296296298" y="200.0" />
-              <point x="1588.5" y="200.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="FireUnit.BasicComponent.MoveByWalk" target="FireUnit.BasicComponent.WayOfMove">
-              <point x="0.0" y="-17.5" />
-              <point x="67.5" y="75.0" />
-              <point x="933.9178240740742" y="75.0" />
-              <point x="-43.66666666666663" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8211159737417943" x="282.0" y="-108.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/FireUnit.HealthComponent">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>FireUnit.HealthComponent</OriginalElement>
-          <nodes>
-            <node x="221.0" y="85.0">FireUnit.HealthComponent.Injured</node>
-            <node x="117.0" y="85.0">FireUnit.HealthComponent.Death</node>
-            <node x="71.0" y="0.0">FireUnit.HealthComponent.HealthComponent</node>
-            <node x="0.0" y="85.0">FireUnit.HealthComponent.Healthy</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="FireUnit.HealthComponent.Healthy" target="FireUnit.HealthComponent.HealthComponent">
-              <point x="0.0" y="-17.5" />
-              <point x="48.5" y="60.0" />
-              <point x="100.33333333333334" y="60.0" />
-              <point x="-58.66666666666666" y="17.5" />
-            </edge>
-            <edge source="FireUnit.HealthComponent.Injured" target="FireUnit.HealthComponent.HealthComponent">
-              <point x="0.0" y="-17.5" />
-              <point x="267.0" y="60.0" />
-              <point x="217.66666666666666" y="60.0" />
-              <point x="58.66666666666666" y="17.5" />
-            </edge>
-            <edge source="FireUnit.HealthComponent.Death" target="FireUnit.HealthComponent.HealthComponent">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-354.0" y="-133.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="183.0" y="208.0" />
           <SelectedNodes>
-            <node>FireUnit.HealthComponent.Healthy</node>
+            <node>Observer.ConcreteAllyControlCenter</node>
           </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Global">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Global</OriginalElement>
-          <nodes>
-            <node x="0.0" y="165.0">Global.IDGenerator</node>
-            <node x="0.0" y="85.0">Global.BaseDraw</node>
-            <node x="176.0" y="0.0">Global.Iterator</node>
-            <node x="5.5" y="0.0">Global.Position</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Global.BaseDraw" target="Global.Position">
-              <point x="27.75" y="-17.5" />
-              <point x="83.25" y="60.0" />
-              <point x="80.5" y="60.0" />
-              <point x="25.0" y="17.5" />
-            </edge>
-            <edge source="Global.Iterator" target="Global.Iterator">
-              <point x="0.0" y="17.5" />
-              <point x="256.0" y="55.0" />
-              <point x="156.0" y="55.0" />
-              <point x="156.0" y="17.5" />
-              <point x="-80.0" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-342.0" y="-93.0" />
-          <SelectedNodes>
-            <node>Global.IDGenerator</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Global.Iterator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Global.Iterator</OriginalElement>
-          <nodes>
-            <node x="173.5" y="0.0">Global.Iterator.Iterator</node>
-            <node x="140.0" y="85.0">Global.Iterator.ConcreteIterator</node>
-            <node x="0.0" y="85.0">Global.Iterator.Aggregate</node>
-            <node x="47.25" y="170.0">Global.Iterator.ConcreteAggregate</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Global.Iterator.ConcreteIterator" target="Global.Iterator.Iterator">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="Global.Iterator.ConcreteAggregate" target="Global.Iterator.Aggregate">
-              <point x="-46.75" y="-17.5" />
-              <point x="94.0" y="145.0" />
-              <point x="60.0" y="145.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="Global.Iterator.ConcreteAggregate" target="Global.Iterator.ConcreteIterator">
-              <point x="46.75" y="-17.5" />
-              <point x="187.5" y="145.0" />
-              <point x="221.5" y="145.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-359.0" y="-91.0" />
-          <SelectedNodes>
-            <node>Global.Iterator.ConcreteIterator</node>
-          </SelectedNodes>
-          <Categories />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
@@ -2145,57 +1387,258 @@
           <ID>JAVA</ID>
           <OriginalElement>Memeto</OriginalElement>
           <nodes>
-            <node x="35.0" y="85.0">Memeto.Memento</node>
-            <node x="32.5" y="0.0">Memeto.LastAction</node>
-            <node x="0.0" y="170.0">Memeto.MementoCaretaker</node>
+            <node x="92.0" y="216.0">Memeto.Memento</node>
+            <node x="10.0" y="0.0">Memeto.LastAction</node>
+            <node x="0.0" y="354.0">Memeto.MementoCaretaker</node>
           </nodes>
           <notes />
           <edges>
             <edge source="Memeto.Memento" target="Memeto.LastAction">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Memeto.MementoCaretaker" target="Memeto.Memento">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-419.0" y="-91.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="216.0" y="201.0" />
           <SelectedNodes>
             <node>Memeto.Memento</node>
           </SelectedNodes>
-          <Categories />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/Observer">
+    <entry file="uml://JAVA/Global">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>Observer</OriginalElement>
+          <OriginalElement>Global</OriginalElement>
           <nodes>
-            <node x="33.5" y="85.0">Observer.AllyControlCenter</node>
-            <node x="65.5" y="0.0">Observer.Observer</node>
-            <node x="0.0" y="170.0">Observer.ConcreteAllyControlCenter</node>
+            <node x="0.0" y="243.0">Global.BaseDraw</node>
+            <node x="391.0" y="0.0">Global.IDGenerator</node>
+            <node x="20.0" y="559.0">Global.Iterator</node>
+            <node x="25.5" y="0.0">Global.Position</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="Observer.ConcreteAllyControlCenter" target="Observer.AllyControlCenter">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
+            <edge source="Global.BaseDraw" target="Global.Position">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
-            <edge source="Observer.AllyControlCenter" target="Observer.Observer">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
+            <edge source="Global.Iterator" target="Global.Iterator">
+              <point x="0.0" y="0.0" />
+              <point x="100.0" y="531.5" />
+              <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="120.0" y="103.0" />
+          <settings layout="Hierarchic Group" zoom="0.9658914728682171" x="307.0" y="313.0" />
           <SelectedNodes>
-            <node>Observer.ConcreteAllyControlCenter</node>
+            <node>Global.BaseDraw</node>
           </SelectedNodes>
-          <Categories />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Battlefield">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Battlefield</OriginalElement>
+          <nodes>
+            <node x="432.5" y="0.0">Battlefield.Tileset</node>
+            <node x="0.0" y="241.0">Battlefield.Battlefield</node>
+            <node x="1161.0" y="0.0">Battlefield.Battlefield_01</node>
+            <node x="1410.0" y="0.0">Battlefield.Battlefield_02</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Battlefield.Battlefield" target="Battlefield.Tileset">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.41672240802675586" x="807.0" y="738.0" />
+          <SelectedNodes>
+            <node>Battlefield.Tileset</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Canvas.Menu">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Canvas.Menu</OriginalElement>
+          <nodes>
+            <node x="395.5" y="0.0">Canvas.Menu.ActionMenu</node>
+            <node x="0.0" y="0.0">Canvas.Menu.ControlMenu</node>
+            <node x="388.0" y="244.0">Canvas.Menu.ActionMenu.OnMenuItemClickListener</node>
+            <node x="43.5" y="244.0">Canvas.Menu.ControlMenu.OnMenuItemClickListener</node>
+            <node x="0.0" y="350.0">Canvas.Menu.PropertyMenu</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Canvas.Menu.ActionMenu" target="Canvas.Menu.ActionMenu.OnMenuItemClickListener">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Canvas.Menu.ControlMenu" target="Canvas.Menu.ControlMenu.OnMenuItemClickListener">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Canvas.Menu.ControlMenu.OnMenuItemClickListener" target="Canvas.Menu.ControlMenu">
+              <point x="-64.0" y="-30.5" />
+              <point x="107.5" y="219.0" />
+              <point x="85.75" y="219.0" />
+              <point x="-85.75" y="97.0" />
+            </edge>
+            <edge source="Canvas.Menu.ActionMenu.OnMenuItemClickListener" target="Canvas.Menu.ActionMenu">
+              <point x="-64.0" y="-30.5" />
+              <point x="452.0" y="219.0" />
+              <point x="455.75" y="219.0" />
+              <point x="-60.25" y="97.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="322.0" y="272.0" />
+          <SelectedNodes>
+            <node>Canvas.Menu.ActionMenu</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Canvas">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Canvas</OriginalElement>
+          <nodes>
+            <node x="20.0625" y="374.5">Canvas.Menu</node>
+            <node x="136.0625" y="565.0">Canvas.MainCanvas</node>
+            <node x="63.3125" y="0.0">Canvas.TextObject</node>
+            <node x="268.0625" y="1042.0">Canvas.Main</node>
+            <node x="187.0625" y="269.0">Canvas.Hint</node>
+            <node x="573.0625" y="296.5">Canvas.MainCanvas.Status</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Canvas.Menu" target="Canvas.Menu">
+              <point x="-49.0" y="17.5" />
+              <point x="44.5625" y="429.5" />
+              <point x="0.0625" y="429.5" />
+              <point x="0.0625" y="392.0" />
+              <point x="-73.5" y="-0.0" />
+            </edge>
+            <edge source="Canvas.Menu" target="Canvas.TextObject">
+              <point x="-36.75" y="-17.5" />
+              <point x="56.8125" y="244.0" />
+              <point x="98.0625" y="244.0" />
+              <point x="-104.25" y="109.5" />
+            </edge>
+            <edge source="Canvas.Main" target="Canvas.MainCanvas">
+              <point x="0.0" y="-43.5" />
+              <point x="0.0" y="213.5" />
+            </edge>
+            <edge source="Canvas.MainCanvas" target="Canvas.Hint">
+              <point x="0.0" y="-213.5" />
+              <point x="0.0" y="123.0" />
+            </edge>
+            <edge source="Canvas.MainCanvas" target="Canvas.MainCanvas.Status">
+              <point x="93.60000000000002" y="-213.5" />
+              <point x="463.6625" y="535.0" />
+              <point x="620.0625" y="535.0" />
+              <point x="-47.0" y="95.5" />
+            </edge>
+            <edge source="Canvas.Hint" target="Canvas.TextObject">
+              <point x="-91.5" y="-123.0" />
+              <point x="278.5625" y="244.0" />
+              <point x="237.0625" y="244.0" />
+              <point x="34.75" y="109.5" />
+            </edge>
+            <edge source="Canvas.MainCanvas" target="Canvas.Menu">
+              <point x="-93.60000000000002" y="-213.5" />
+              <point x="276.4625" y="535.0" />
+              <point x="142.5625" y="535.0" />
+              <point x="49.0" y="17.5" />
+            </edge>
+            <edge source="Canvas.MainCanvas.Status" target="Canvas.MainCanvas">
+              <point x="47.0" y="95.5" />
+              <point x="714.0625" y="545.0" />
+              <point x="557.2625" y="545.0" />
+              <point x="187.20000000000005" y="-213.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5422106179286336" x="381.0" y="565.0" />
+          <SelectedNodes>
+            <node>Canvas.Menu</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ConnectionPool">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ConnectionPool</OriginalElement>
+          <nodes>
+            <node x="" y="">ConnectionPool.PoolManager</node>
+            <node x="" y="">ConnectionPool.PoolItem</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="193.0" y="185.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
@@ -2203,48 +1646,569 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryOfFireUnit/FactoryOfFireUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
+        <state relative-caret-position="28">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/BasicComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
+    <entry file="uml://JAVA/FactoryOfFireUnit">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FactoryOfFireUnit</OriginalElement>
+          <nodes>
+            <node x="" y="">FactoryOfFireUnit.FactoryOfFireUnit</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="18.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/FireUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="96" column="68" selection-start-line="96" selection-start-column="68" selection-end-line="96" selection-end-column="68" />
-          <folding />
+    <entry file="uml://JAVA/FireUnit">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FireUnit</OriginalElement>
+          <nodes>
+            <node x="" y="">FireUnit.AttackComponent</node>
+            <node x="" y="">FireUnit.BasicComponent</node>
+            <node x="" y="">FireUnit.HealthComponent</node>
+            <node x="" y="">FireUnit.FireUnit</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6396303901437371" x="351.0" y="477.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireUnit/BasicComponent/ConcreteBasicComponent.java">
+    <entry file="uml://JAVA/FireUnit.AttackComponent">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FireUnit.AttackComponent</OriginalElement>
+          <nodes>
+            <node x="417.0" y="434.0">FireUnit.AttackComponent.GeneralDecorator</node>
+            <node x="837.0" y="594.0">FireUnit.AttackComponent.WeaponOfFireUnit</node>
+            <node x="558.0" y="768.0">FireUnit.AttackComponent.ShoulderMissiles</node>
+            <node x="440.5" y="0.0">FireUnit.AttackComponent.AttackComponent</node>
+            <node x="1116.0" y="768.0">FireUnit.AttackComponent.RocketGun</node>
+            <node x="1674.0" y="768.0">FireUnit.AttackComponent.MechineGun</node>
+            <node x="837.0" y="768.0">FireUnit.AttackComponent.IFV</node>
+            <node x="279.0" y="768.0">FireUnit.AttackComponent.Tank</node>
+            <node x="639.0" y="203.5">FireUnit.AttackComponent.AttackAttrOfFireUnit</node>
+            <node x="0.0" y="434.0">FireUnit.AttackComponent.WeaknessDecorator</node>
+            <node x="187.0" y="190.0">FireUnit.AttackComponent.AttackComponentDecorator</node>
+            <node x="1395.0" y="768.0">FireUnit.AttackComponent.SubMechineGun</node>
+            <node x="0.0" y="768.0">FireUnit.AttackComponent.Cannon</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="FireUnit.AttackComponent.AttackAttrOfFireUnit" target="FireUnit.AttackComponent.AttackComponent">
+              <point x="0.0" y="-83.5" />
+              <point x="785.0" y="165.0" />
+              <point x="670.75" y="165.0" />
+              <point x="76.75" y="70.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.IFV" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-57.0" />
+              <point x="0.0" y="57.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.ShoulderMissiles" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-57.0" />
+              <point x="687.5" y="748.0" />
+              <point x="929.5" y="748.0" />
+              <point x="-37.0" y="57.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.RocketGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-57.0" />
+              <point x="1245.5" y="748.0" />
+              <point x="1003.5" y="748.0" />
+              <point x="37.0" y="57.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.Cannon" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-57.0" />
+              <point x="129.5" y="728.0" />
+              <point x="855.5" y="728.0" />
+              <point x="-111.0" y="57.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.WeaknessDecorator" target="FireUnit.AttackComponent.AttackComponentDecorator">
+              <point x="0.0" y="-57.5" />
+              <point x="198.5" y="409.0" />
+              <point x="295.0" y="409.0" />
+              <point x="-108.0" y="97.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.MechineGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-57.0" />
+              <point x="1803.5" y="728.0" />
+              <point x="1077.5" y="728.0" />
+              <point x="111.0" y="57.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.SubMechineGun" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-57.0" />
+              <point x="1524.5" y="738.0" />
+              <point x="1040.5" y="738.0" />
+              <point x="74.0" y="57.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.GeneralDecorator" target="FireUnit.AttackComponent.AttackComponentDecorator">
+              <point x="0.0" y="-57.5" />
+              <point x="607.5" y="409.0" />
+              <point x="511.0" y="409.0" />
+              <point x="108.0" y="97.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.AttackComponentDecorator" target="FireUnit.AttackComponent.AttackComponent">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.AttackAttrOfFireUnit" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.AttackComponent.Tank" target="FireUnit.AttackComponent.WeaponOfFireUnit">
+              <point x="0.0" y="-57.0" />
+              <point x="408.5" y="738.0" />
+              <point x="892.5" y="738.0" />
+              <point x="-74.0" y="57.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6906873614190687" x="227.0" y="377.0" />
+          <SelectedNodes>
+            <node>FireUnit.AttackComponent.AttackComponentDecorator</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/FireUnit.HealthComponent">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FireUnit.HealthComponent</OriginalElement>
+          <nodes>
+            <node x="" y="">FireUnit.HealthComponent.Injured</node>
+            <node x="" y="">FireUnit.HealthComponent.Death</node>
+            <node x="" y="">FireUnit.HealthComponent.HealthComponent</node>
+            <node x="" y="">FireUnit.HealthComponent.Healthy</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="322.0" y="67.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/FireUnit.BasicComponent">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>FireUnit.BasicComponent</OriginalElement>
+          <nodes>
+            <node x="2490.3333333333335" y="0.0">FireUnit.BasicComponent.BasicComponent</node>
+            <node x="2248.375" y="308.0">FireUnit.BasicComponent.ConcreteBasicComponent</node>
+            <node x="1400.0416666666667" y="65.0">FireUnit.BasicComponent.WayOfMove</node>
+            <node x="254.0" y="426.0">FireUnit.BasicComponent.AttackByGun</node>
+            <node x="2012.375" y="439.0">FireUnit.BasicComponent.DefenceByArmour</node>
+            <node x="1651.4166666666667" y="731.5">FireUnit.BasicComponent.FactoryOfArmourUnit</node>
+            <node x="533.0" y="439.0">FireUnit.BasicComponent.DefenceBySoldier</node>
+            <node x="2012.375" y="65.0">FireUnit.BasicComponent.WayOfDefence</node>
+            <node x="769.0" y="426.0">FireUnit.BasicComponent.AttackByRocket</node>
+            <node x="976.7291666666667" y="731.5">FireUnit.BasicComponent.FactoryOfLongRangeUnit</node>
+            <node x="1048.0" y="413.0">FireUnit.BasicComponent.AbstractFactoryOfFireUnit</node>
+            <node x="1654.0416666666667" y="52.0">FireUnit.BasicComponent.WayOfAttack</node>
+            <node x="2409.7708333333335" y="718.0">FireUnit.BasicComponent.FactoryOfBasicComponent</node>
+            <node x="0.0" y="439.0">FireUnit.BasicComponent.MoveByWalk</node>
+            <node x="303.16666666666674" y="731.5">FireUnit.BasicComponent.FactoryOfSoldierUnit</node>
+            <node x="1447.0" y="439.0">FireUnit.BasicComponent.MoveByVehicle</node>
+            <node x="1733.375" y="426.0">FireUnit.BasicComponent.AttackByCannon</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="FireUnit.BasicComponent.AttackByCannon" target="FireUnit.BasicComponent.WayOfAttack">
+              <point x="0.0" y="-57.0" />
+              <point x="1862.875" y="278.0" />
+              <point x="1815.9166666666667" y="278.0" />
+              <point x="32.375" y="57.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
+              <point x="-142.125" y="-70.0" />
+              <point x="1698.7916666666667" y="688.0" />
+              <point x="1363.8333333333333" y="688.0" />
+              <point x="126.33333333333326" y="70.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.DefenceBySoldier">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.DefenceBySoldier">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.DefenceByArmour" target="FireUnit.BasicComponent.WayOfDefence">
+              <point x="0.0" y="-44.0" />
+              <point x="0.0" y="44.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.DefenceByArmour">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.AttackByRocket">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.AttackByGun" target="FireUnit.BasicComponent.WayOfAttack">
+              <point x="0.0" y="-57.0" />
+              <point x="383.5" y="268.0" />
+              <point x="1686.4166666666667" y="268.0" />
+              <point x="-97.125" y="57.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.DefenceBySoldier" target="FireUnit.BasicComponent.WayOfDefence">
+              <point x="0.0" y="-44.0" />
+              <point x="641.0" y="288.0" />
+              <point x="2048.375" y="288.0" />
+              <point x="-72.0" y="44.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfMove">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.MoveByVehicle">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.MoveByVehicle">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfDefence">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.MoveByVehicle" target="FireUnit.BasicComponent.WayOfMove">
+              <point x="0.0" y="-44.0" />
+              <point x="1564.0" y="258.0" />
+              <point x="1517.0416666666667" y="258.0" />
+              <point x="0.0" y="44.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.WayOfAttack">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.AttackByGun">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
+              <point x="142.125" y="-70.0" />
+              <point x="634.7916666666667" y="698.0" />
+              <point x="1111.1666666666667" y="698.0" />
+              <point x="-126.33333333333331" y="70.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.ConcreteBasicComponent" target="FireUnit.BasicComponent.BasicComponent">
+              <point x="151.125" y="-175.0" />
+              <point x="2601.0" y="288.0" />
+              <point x="2620.8333333333335" y="288.0" />
+              <point x="-130.5" y="109.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfArmourUnit" target="FireUnit.BasicComponent.AttackByCannon">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfLongRangeUnit" target="FireUnit.BasicComponent.AbstractFactoryOfFireUnit">
+              <point x="47.375" y="-70.0" />
+              <point x="1213.6041666666667" y="698.0" />
+              <point x="1237.5" y="698.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfSoldierUnit" target="FireUnit.BasicComponent.MoveByWalk">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfBasicComponent" target="FireUnit.BasicComponent.BasicComponent">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.FactoryOfBasicComponent" target="FireUnit.BasicComponent.ConcreteBasicComponent">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.AttackByRocket" target="FireUnit.BasicComponent.WayOfAttack">
+              <point x="0.0" y="-57.0" />
+              <point x="898.5" y="278.0" />
+              <point x="1751.1666666666667" y="278.0" />
+              <point x="-32.375" y="57.0" />
+            </edge>
+            <edge source="FireUnit.BasicComponent.MoveByWalk" target="FireUnit.BasicComponent.WayOfMove">
+              <point x="0.0" y="-44.0" />
+              <point x="117.0" y="258.0" />
+              <point x="1439.0416666666667" y="258.0" />
+              <point x="-78.0" y="44.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4948895483020112" x="475.0" y="298.0" />
+          <SelectedNodes>
+            <node>FireUnit.BasicComponent.ConcreteBasicComponent</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Global.Iterator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Global.Iterator</OriginalElement>
+          <nodes>
+            <node x="253.5" y="0.0">Global.Iterator.Iterator</node>
+            <node x="246.0" y="137.0">Global.Iterator.ConcreteIterator</node>
+            <node x="0.0" y="164.0">Global.Iterator.Aggregate</node>
+            <node x="105.75" y="354.0">Global.Iterator.ConcreteAggregate</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Global.Iterator.ConcreteIterator" target="Global.Iterator.Iterator">
+              <point x="0.0" y="-83.5" />
+              <point x="0.0" y="43.5" />
+            </edge>
+            <edge source="Global.Iterator.ConcreteAggregate" target="Global.Iterator.Aggregate">
+              <point x="-61.0" y="-70.0" />
+              <point x="166.75" y="329.0" />
+              <point x="113.0" y="329.0" />
+              <point x="0.0" y="56.5" />
+            </edge>
+            <edge source="Global.Iterator.ConcreteAggregate" target="Global.Iterator.ConcreteIterator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-291.0" y="176.0" />
+          <SelectedNodes>
+            <node>Global.Iterator.ConcreteIterator</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="579.596340388007" y="251.951171875">ConnectionPool</node>
+            <node x="377.0" y="692.951171875">com</node>
+            <node x="223.0" y="612.951171875">netscape</node>
+            <node x="439.0" y="612.951171875">oracle</node>
+            <node x="0.0" y="772.951171875">org</node>
+            <node x="729.1018518518517" y="501.951171875">Canvas</node>
+            <node x="371.596340388007" y="251.951171875">Memeto</node>
+            <node x="176.0" y="772.951171875">sun</node>
+            <node x="709.9867724867725" y="11.951171875">Global</node>
+            <node x="0.0" y="612.951171875">META-INF</node>
+            <node x="351.0" y="772.951171875">jdk</node>
+            <node x="559.0" y="692.951171875">java</node>
+            <node x="191.0" y="692.951171875">javax</node>
+            <node x="20.0" y="11.951171875">Observer</node>
+            <node x="98.59634038800709" y="251.951171875">FactoryOfFireUnit</node>
+            <node x="385.0930335097001" y="166.951171875">FireUnit</node>
+            <node x="0.0" y="692.951171875">javafx</node>
+            <node x="639.3518518518517" y="366.951171875">Battlefield</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Canvas" target="Battlefield">
+              <point x="-58.125" y="-17.5" />
+              <point x="748.4768518518517" y="451.951171875" />
+              <point x="788.5185185185185" y="451.951171875" />
+              <point x="59.66666666666666" y="17.5" />
+            </edge>
+            <edge source="Battlefield" target="Global">
+              <point x="25.571428571428584" y="-17.5" />
+              <point x="754.4232804232803" y="326.951171875" />
+              <point x="812.096340388007" y="326.951171875" />
+              <point x="812.096340388007" y="146.951171875" />
+              <point x="769.0978835978835" y="146.951171875" />
+              <point x="-16.888888888888886" y="17.5" />
+            </edge>
+            <edge source="FactoryOfFireUnit" target="FireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="215.0963403880071" y="226.951171875" />
+              <point x="412.0930335097001" y="226.951171875" />
+              <point x="-54.0" y="17.5" />
+            </edge>
+            <edge source="Memeto" target="FireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="455.596340388007" y="226.951171875" />
+              <point x="466.0930335097001" y="226.951171875" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="FireUnit" target="Observer">
+              <point x="-40.5" y="-17.5" />
+              <point x="425.5930335097001" y="146.951171875" />
+              <point x="170.5" y="146.951171875" />
+              <point x="64.5" y="17.5" />
+            </edge>
+            <edge source="FireUnit" target="Global">
+              <point x="40.5" y="-17.5" />
+              <point x="506.5930335097001" y="146.951171875" />
+              <point x="752.2089947089946" y="146.951171875" />
+              <point x="-33.77777777777777" y="17.5" />
+            </edge>
+            <edge source="Battlefield" target="ConnectionPool">
+              <point x="1.4210854715202004E-14" y="-17.5" />
+              <point x="728.8518518518517" y="346.951171875" />
+              <point x="746.096340388007" y="346.951171875" />
+              <point x="55.5" y="17.5" />
+            </edge>
+            <edge source="Canvas" target="Canvas">
+              <point x="-38.75" y="17.5" />
+              <point x="767.8518518518517" y="556.951171875" />
+              <point x="709.1018518518517" y="556.951171875" />
+              <point x="709.1018518518517" y="528.201171875" />
+              <point x="-77.5" y="8.75" />
+            </edge>
+            <edge source="Battlefield" target="Observer">
+              <point x="-76.71428571428572" y="-17.5" />
+              <point x="652.1375661375661" y="346.951171875" />
+              <point x="77.09634038800709" y="346.951171875" />
+              <point x="77.09634038800709" y="136.951171875" />
+              <point x="84.5" y="136.951171875" />
+              <point x="-21.5" y="17.5" />
+            </edge>
+            <edge source="Memeto" target="Memeto">
+              <point x="-42.0" y="17.5" />
+              <point x="413.596340388007" y="306.951171875" />
+              <point x="351.596340388007" y="306.951171875" />
+              <point x="351.596340388007" y="269.451171875" />
+              <point x="-84.0" y="-0.0" />
+            </edge>
+            <edge source="Canvas" target="Global">
+              <point x="-19.375" y="-17.5" />
+              <point x="787.2268518518517" y="461.951171875" />
+              <point x="851.7391975308642" y="461.951171875" />
+              <point x="851.7391975308642" y="116.951171875" />
+              <point x="819.7645502645502" y="116.951171875" />
+              <point x="33.77777777777777" y="17.5" />
+            </edge>
+            <edge source="Battlefield" target="Battlefield">
+              <point x="0.0" y="17.5" />
+              <point x="728.8518518518517" y="431.951171875" />
+              <point x="609.3518518518517" y="431.951171875" />
+              <point x="609.3518518518517" y="375.701171875" />
+              <point x="-89.5" y="-8.75" />
+            </edge>
+            <edge source="Battlefield" target="Memeto">
+              <point x="-25.571428571428555" y="-17.5" />
+              <point x="703.2804232804232" y="326.951171875" />
+              <point x="497.596340388007" y="326.951171875" />
+              <point x="42.0" y="17.5" />
+            </edge>
+            <edge source="Observer" target="Observer">
+              <point x="-64.5" y="17.5" />
+              <point x="41.5" y="66.951171875" />
+              <point x="0.0" y="66.951171875" />
+              <point x="0.0" y="29.451171875" />
+              <point x="-86.0" y="-0.0" />
+            </edge>
+            <edge source="ConnectionPool" target="ConnectionPool">
+              <point x="-55.5" y="17.5" />
+              <point x="635.096340388007" y="306.951171875" />
+              <point x="559.596340388007" y="306.951171875" />
+              <point x="559.596340388007" y="269.451171875" />
+              <point x="-111.0" y="-0.0" />
+            </edge>
+            <edge source="ConnectionPool" target="FireUnit">
+              <point x="0.0" y="-17.5" />
+              <point x="690.596340388007" y="226.951171875" />
+              <point x="520.0930335097" y="226.951171875" />
+              <point x="54.0" y="17.5" />
+            </edge>
+            <edge source="Global" target="Global">
+              <point x="-67.55555555555556" y="17.5" />
+              <point x="718.4312169312168" y="66.951171875" />
+              <point x="689.9867724867725" y="66.951171875" />
+              <point x="689.9867724867725" y="38.201171875" />
+              <point x="-76.0" y="8.75" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7524154589371981" x="445.0" y="404.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="-2016">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Battlefield/Battlefield.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Canvas/MainCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="115" column="36" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
+        <state relative-caret-position="-4700">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
           <folding />
         </state>
       </provider>

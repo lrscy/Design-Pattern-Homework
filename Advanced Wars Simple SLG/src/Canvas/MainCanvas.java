@@ -37,7 +37,7 @@ class MainCanvas extends Canvas {
 
     MainCanvas( int width, int height ) {
         super( width, height );
-        String field = "Battlefield_02";    // 设置地图名称
+        String field = "Battlefield_01";    // 设置地图名称
         gc = getGraphicsContext2D();
         battlefield = Battlefield.getInstance();
         battlefield.setBattlefield( field );
